@@ -1,0 +1,1932 @@
+
+<!DOCTYPE html>
+<!-- 
+ * 模板: index.hbs
+ * 样式: index.less
+ * 描述: 芒果TV首页
+ * 归属: imgotv-channel库
+ * 创建: Dora - 2016.07.15
+ * 修改: Dora - 2016.07.15
+-->
+
+<!-- PAGE_ID : 0 -->
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<title>芒果TV-看见好时光</title>
+<script>window.fsmonitor={pageStartTime:+new Date}</script>
+<link rel="dns-prefetch" href="//0img.mgtv.com">  
+<link rel="dns-prefetch" href="//1img.mgtv.com">
+<link rel="dns-prefetch" href="//2img.mgtv.com">
+<link rel="dns-prefetch" href="//3img.mgtv.com">
+<link rel="dns-prefetch" href="//4img.mgtv.com">
+<link rel="dns-prefetch" href="//img.hunantv.com">
+<link rel="dns-prefetch" href="//honey.hunantv.com">
+<link rel="dns-prefetch" href="//b.scorecardresearch.com">
+<meta name="keywords" content="">
+<meta name="description" content="">
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="renderer" content="webkit">
+<meta http-equiv="Cache-Control" content="no-siteapp">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="format-detection" content="telphone=no,email=no">
+<meta name="msapplication-tap-highlight" content="no">
+<meta name="apple-mobile-web-app-title" content="芒果TV">
+<link rel="apple-touch-icon-precomposed" sizes="180x180" href="http://img.hunantv.com/imgotv-channel/fe09aea6/pcweb-head/ios-fav.png"> 
+<meta name="msapplication-TileColor" content="#F06000">
+<meta name="msapplication-TileImage" content="http://img.hunantv.com/imgotv-channel/fe09aea6/pcweb-head/win-fav.png">
+<link rel="shortcut icon" href="http://img.hunantv.com/imgotv-channel/fe09aea6/pcweb-head/favicon.ico" type="image/x-icon">
+
+<script src="http://honey.hunantv.com/honey-2.0/honey.hunantv.imgo.js"></script>
+<script>honey.config({DEV:!1,VERSION:"fe09aea6",ROOT:"http://js.hunantv.com/imgotv-channel/fe09aea6/",PUBROOT:"http://honey.hunantv.com/honey-2.0/"})</script>
+<script>honey.ready("lib:jquery",function(){!function(){var e=window.navigator.userAgent.toLowerCase(),a=(e=/(chrome|firefox)[ \/]([\w.]+)/.exec(e)||/(iphone|ipad|ipod)(?:.*version)?[ \/]([\w.]+)/.exec(e)||/(android)(?:.*version)?[ \/]([\w.]+)/.exec(e)||/(webkit|opera)(?:.*version)?[ \/]([\w.]+)/.exec(e)||/(msie) ([\w.]+)/.exec(e)||/(trident).+rv:(\w.)+/.exec(e)||[])[1],i=parseFloat(e[2]);switch(a){case"msie":case"trident":a="ie",i=document.documentMode||i;break;case"firefox":a="firefox";break;case"webkit":a="safari"}var r="ua-"+a+" ua-"+a+i;$("html").addClass(r)}(),navigator.userAgent.match(/(iPad)/i)&&$("html").addClass("screen-ipad")})</script>
+<script>!function(){function e(e,n){return e.className.match(new RegExp("(\\s|^)"+n+"(\\s|$)"))}function n(n,s){e(n,s)||(n.className+=" "+s)}function s(n,s){if(e(n,s)){var c=new RegExp("(\\s|^)"+s+"(\\s|$)");n.className=n.className.replace(c," ").replace(/^\s+|\s+$/g,"")}}window.__response__=function(){var e=document.getElementsByTagName("html")[0];s(e,"screen-s"),s(e,"screen-m"),s(e,"screen-l");var c={"screen-s":[0,1180],"screen-m":[1180,1680],"screen-l":[1680]},r=window.innerWidth||document.documentElement.clientWidth||document.body.clientWidth,t="screen-l";for(var a in c){var i=c[a][0],l=c[a][1];if(r>=i&&r<l){t=a;break}if(1==c[a].length){t=a;break}}n(e,t)},__response__()}()</script>
+<script>honey.ready("lib:jquery",function(){var n=$(window);window.RESIZEINTERVAL=100;var i=function(){n.width(),$("html");__response__()};$(function(){i()}),n.bind("onResizeEx",i),window.USER=!1,$.getJSON("http://u.api.mgtv.com/user/get_login_user?callback=?",function(n){var i=$(document);200==~~n.code?(window.USER=n,i.trigger("HONEY-LOGIN-DONE")):i.trigger("HONEY-LOGIN-ERR")})})</script>
+<link rel="stylesheet" href="http://css.hunantv.com/imgotv-channel/fe09aea6/page/index/page-index.css" type="text/css">
+
+<script>window.PAGE_DATA={version:"5.0",type:"index",fstlvlId:0,cid:0},PAGE_DATA.slider_data=[],PAGE_DATA.picboard_data=[],PAGE_DATA.region=1,window.VIDEOINFO={type:"index"}</script>
+
+<script type="text/javascript">navigator.userAgent.match(/(iPhone|iPod|Android|Windows Phone|IEMobile|blackberry)/i)&&(window.location="http://m.mgtv.com/#/channel/home"+window.location.search+(window.location.search?"&":"?")+"ref="+encodeURIComponent(document.referrer))</script>
+<script>window.fsmonitor.headEndTime=+new Date-window.fsmonitor.pageStartTime</script>
+<link type="text/css" rel="stylesheet" href="http://css.hunantv.com/imgotv-channel/fe09aea6/index.css"></head>
+
+<!--show-headgg 控制背景大事件显示-->
+<body class="">
+
+<!--首页背景广告-->
+    <!--
+ * 模板: m-headgg.hbs
+ * 样式: m-headgg.less
+ * 描述: 芒果TV首页 - 首页背景广告
+ * 归属: imgotv-channel库
+ * 创建: Dora - 2016.07.21
+ * 修改: Dora - 2017.08.14
+ -->
+ <div class="m-headgg" data-ad="[object Object]">
+	<p class="headgg-bg" style="background:url(http://4img.hitv.com/preview/cms_icon/2017/09/20170929170338429.jpg) center top">
+	</p>
+	<div class="m-headgg-top">
+		<a href="http://www.mgtv.com/topic/119.html" target="_blank" class="alinkTop"></a>
+		<a href="javascript:void(0);" class="m-headgg-close">关闭</a>
+	</div>
+	<div class="m-headgg-side">
+		<a href="http://www.mgtv.com/topic/119.html" target="_blank" class="alinkL"></a>
+		<a href="http://www.mgtv.com/topic/119.html" target="_blank" class="alinkR"></a>
+	</div>
+</div>
+
+<!-- <div class="m-headgg" data-ad="[object Object]">
+	<p class="headgg-bg" style="background:url(http://4img.hitv.com/preview/cms_icon/2017/09/20170929170338429.jpg) center top;">
+		
+		<img src='../../image-demo/bggg.jpg' alt="" class="m-headgg-img"> 
+	</p>
+	<div class="m-headgg-top">
+		<a href="http://www.mgtv.com/topic/119.html" target="_blank" class="alinkTop"></a>
+		<a href="javascript:void(0);" class="m-headgg-close">关闭</a>
+	</div>
+	<div class="m-headgg-side">
+		<a href="http://www.mgtv.com/topic/119.html" target="_blank" class="alinkL"></a>
+		<a href="http://www.mgtv.com/topic/119.html" target="_blank" class="alinkR"></a>
+	</div>
+</div> -->
+
+<div class="m-container">
+
+    <!-- * 描述: 一级页头部 * 创建：moonjay - 2016.8.09 -->
+
+<!-- 鼠标上滚时且不在第一屏时触发c-header-fix -->
+<div class="c-header-lv1" id="honey-header">
+	<div class="c-header-nav">
+		<div class="wp">
+			<!-- 左侧 -->
+			<div class="c-header-left">
+				<!-- logo -->
+				<a class="c-header-logo" href="http://www.mgtv.com">芒果TV</a>
+				<!-- cms输出特定banner图片与地址 -->
+				<a class="c-header-banner" href="http://www.mgtv.com/h/318221.html?fpa&#x3D;se" target="_blank"><img src="http://2img.hitv.com/preview/cms_icon/2017/daohangtiao/20170929152113032.png" alt="" width="100%" height="100%"></a>
+				<!-- 频道 -->
+				<ul class="c-header-qcmenu">
+	<li><a class="c-header-obtn" href="http://www.mgtv.com">首页</a></li>
+	<li>
+		<a class="c-header-menutg" href="javascript:void(0)">频道<span class="arr"><i class="a1"></i><i class="a2"></i><i class="a3"></i><i class="a4"></i></span></a>
+	</li>
+</ul>
+			</div>
+			<!-- 右侧 -->
+			<div class="c-header-right c-header-panel">
+
+				<!-- 开通会员 -->
+<div class="c-header-panel-mod">
+	<a class="c-header-panel-floattg c-header-panel-link c-header-panel-buyvip" href="http://order.mgtv.com/pay/pc/index.html?clocation=5&ftype=14" target="_blank"><i class="c-header-icon c-header-panel-icon c-header-icon-buyvip"></i>开通会员</a>
+</div>
+
+				<!-- 关注 id - header-feed-->
+<div class="c-header-panel-mod">
+	<a class="c-header-panel-floattg c-header-panel-link" href="http://i.mgtv.com/sub" target="_blank"><i class="c-header-icon c-header-panel-icon c-header-icon-feed"></i>关注</a>
+</div>
+
+				
+				<!-- 消息  以下触发元素，给模块添加-active的class -->
+<div class="c-header-panel-mod" id="honey-header-msg">
+	<a class="c-header-panel-floattg c-header-panel-link" href="javascript:void(0)"><i class="c-header-icon c-header-panel-icon c-header-icon-msg"></i>消息<em></em></a>
+	<div class="c-header-panel-floatbox c-header-msg">
+	</div>
+</div>
+
+				<!-- 记录 -->
+<div class="c-header-panel-mod" id="honey-header-record">
+	<a class="c-header-panel-floattg c-header-panel-link" href="javascript:void(0)"><i class="c-header-icon c-header-panel-icon c-header-icon-record"></i>看过</a>
+	<div class="c-header-panel-floatbox c-header-record">
+		<p class="c-header-record-null" style="display:none">
+			<i class="u-icon"></i>
+			<span class="u-tips">您还没有观看任何视频</span>
+		</p>
+		<div class="c-header-record-box">
+			<div class="c-header-record-filter">
+				<i class="u-check"><i class="u-ok"></i></i>
+				<span class="u-tips">过滤短视频</span>
+			</div>
+			<div class="c-header-record-track"></div>
+			<ul class="c-header-record-list">
+			</ul>
+		</div>
+		<div class="c-header-record-more">
+			<a href="">查看全部</a>
+		</div>
+	</div>
+</div>
+
+
+				<!-- 下载 -->
+<div class="c-header-panel-mod" id="honey-header-download">
+	<a class="c-header-panel-floattg c-header-panel-link" href="javascript:void(0)"><i class="c-header-icon c-header-panel-icon c-header-icon-download"></i>下载</a>
+	<div class="c-header-panel-floatbox c-header-download">
+		<ul>
+			<li><a class="u-app" href="http://www.mgtv.com/app" target="_blank"><i class="c-header-icon c-header-icon-app"></i>移动客户端</a></li>
+			<li><a class="u-pc" href="http://www.mgtv.com/app/pc" target="_blank"><i class="c-header-icon c-header-icon-pc"></i>PC客户端</a></li>
+			<li class="u-last"><a class="u-plugin" href="http://www.mgtv.com/app/plugin.html" target="_blank"><i class="c-header-icon c-header-icon-plugin"></i>浏览器应用</a></li>
+		</ul>
+	</div>
+</div>
+				
+				<i class="c-header-panel-mod c-header-divding"></i>
+
+				<!-- 用户 -->
+<div class="c-header-panel-mod" style="margin-right:0" id="honey-header-user">
+	<!-- 未登录 -->
+	<!-- <a class="c-header-login c-header-panel-link" href="javascript:void(0);">登录</a>
+	<a class="c-header-register c-header-panel-link" href="javascript:void(0);">注册</a> -->
+	<!-- 已登录时 -->
+	<!-- <a class="c-header-avt" href="http://i.mgtv.com/my"><img src="http://img.hunantv.com/imgotv-member/user/avt.jpg" alt=""></a> -->
+
+	<div class="c-header-panel-floatbox c-header-user">
+		<div class="c-header-user-info">
+
+			<a class="u-avt" href="http://i.mgtv.com/my">
+				<img class="u-avt-pic" src="http://img.hunantv.com/imgotv-member/user/avt.jpg" alt="">
+				<!-- PC会员 -->
+				<i class="u-avt-vip u-avt-vip-pc"></i>
+				<!-- 全屏会员 -->
+				<i class="u-avt-vip u-avt-vip-all" style="display:block"></i>
+				<!-- 未激活 -->
+				<i class="u-avt-status u-avt-status-inactivated"></i>
+				<!-- 已禁用 -->
+				<i class="u-avt-status u-avt-status-disabled"></i>
+			</a>
+			
+			<a class="u-name" href="http://i.mgtv.com/my">用户名</a>
+
+			<span class="u-status">
+				<!-- 账号未激活 -->
+				<span class="u-status-inactivated" style="display:none">账号未激活</span>
+				<!-- 账号已禁用 -->
+				<span class="u-status-disabled" style="display:none">账号已禁用</span>
+				<!-- 全屏影视会员 -->
+				<span class="u-status-vipall" style="display:block">全屏影视会员，有效期至<em>2017-03-27</em><b>（使用中）</b></span>
+				<!-- PC会员 -->
+				<span class="u-status-vippc" style="display:none">PC移动影视会员，有效期至<em>2017-03-27</em></span>
+			</span>
+
+			<a class="u-vipbtn" href="">
+				开通会员
+				<!-- 立即续费 -->
+			</a>
+		</div>
+		<div class="c-header-user-box">
+			<table>
+				<tr>
+					<td><a class="u-homepage" href=""><i></i>主页</a></td>
+					<td><a class="u-setting" href=""><i></i>设置</a></td>
+				</tr>
+				<tr>
+					<td><a class="u-vipclub" href=""><i></i>VIP俱乐部</a></td>
+					<td><a class="u-ticket" href=""><i></i>卡券</a></td>
+				</tr>
+			</table>
+		</div>
+		<div class="c-header-user-panel">
+			<a class="u-upload" href=""><i></i>上传视频</a>
+			<a class="u-loginout" href="">退出</a>
+		</div>
+	</div>
+</div>
+
+			</div>
+			
+			<!-- 搜索 -->
+<!-- 当激活搜索时，添加.c-header-search-focus -->
+<div class="c-header-search">
+	<form class="c-header-search-form">
+	    <input class="c-header-search-text" type="text" name="k" autocomplete="off">
+		<a class="c-header-search-top" href="http://www.mgtv.com/top" target="_blank"></a>
+	    <input class="c-header-search-btn" type="submit" value="全网搜">
+	</form>
+</div>
+
+		</div>
+	</div>
+	<div class="c-header-menu">
+		<div class="wp">
+			<div class="c-header-left">
+				<!-- cms输出指定的频道 -->
+				<div class="c-header-channel">
+					<ul>
+						<li data-cid=""><a href="http://www.mgtv.com/">首页</a></li>
+						<li data-cid=""><a href="http://www.mgtv.com/show/">综艺</a></li>
+						<li data-cid=""><a href="http://www.mgtv.com/tv/">电视剧</a></li>
+						<li data-cid=""><a href="http://www.mgtv.com/movie/">电影</a></li>
+						<li data-cid=""><a href="http://www.mgtv.com/cartoon/">动漫</a></li>
+						<li data-cid=""><a href="http://www.mgtv.com/child/">少儿</a></li>
+						<li data-cid=""><a href="http://www.mgtv.com/news/">新闻</a></li>
+						<li data-cid=""><a href="http://www.mgtv.com/music/">音乐</a></li>
+						<li data-cid=""><a href="http://www.mgtv.com/v/2016/idol/">爱豆</a></li>
+						<li data-cid=""><a href="http://www.mgtv.com/live/">直播</a></li>
+						<li data-cid=""><a href="http://www.mgtv.com/ori/">逗爸</a></li>
+						<li data-cid=""><a href="http://www.mgtv.com/life/">乐活</a></li>
+						<li data-cid=""><a href="http://www.mgtv.com/edu/">教育</a></li>
+						<li data-cid=""><a href="http://www.mgtv.com/doc/">纪录片</a></li>
+						<li data-cid=""><a href="http://www.mgtv.com/game/">趣玩</a></li>
+						<li data-cid=""><a href="http://wan.mgtv.com/?frm&#x3D;mgsy-wyx&amp;referer&#x3D;mgtv">玩游戏</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="c-header-right">
+				<a class="c-header-vip" href="http://www.mgtv.com/vip">VIP会员</a>
+			</div>
+		</div>
+	</div>
+</div>
+<script>honey.go("lib:jquery, lib:honey.header.v5.bundle",function(){})</script>
+ 
+
+    <!-- 内容区 焦点图-->
+    <!--
+ * 模板: m-focus-new.hbs
+ * 样式: m-focus-new.less
+ * 描述: 芒果TV首页 - 焦点图
+ * 归属: imgotv-channel库
+ * 创建: Dora - 2016.07.15
+ * 修改: Dora - 2016.07.15
+ -->
+<div class="m-focus-new">
+    <div class="m-focus-ad">
+        <!--  闪图广告位 2000203-->
+        <anuncio id="2000203"></anuncio>
+        <!--  巨幕广告位 226-->
+        <anuncio id="200078"></anuncio>
+    </div>
+    <div class="m-focus-ad-bg" style="display:none"> </div>
+
+    <!-- 1.图片,$请替换输出的图片地址 -->
+    <script>window.__foucus_start_time=+new Date,window.__foucus_reported=!1</script>
+    
+    <a href="http://www.mgtv.com/b/316381/4124362.html" class="screenshot" target="_blank" id="honey-focus-big" data-jumpkind="12" data-jumpid="316381" data-childid="4124362" style="background-image:url('http://2img.hitv.com/preview/cms_icon/2017/09/20170930201553434.jpg_1680x550.jpg');background-color:#623727"></a>
+    <img src="http://2img.hitv.com/preview/cms_icon/2017/09/20170930201553434.jpg_1660x550.jpg" style="display:none" id="honey-focus-big-image" alt="">
+    <script>window.__monitorjs=window.__monitorjs||{};var focusImage=document.getElementById("honey-focus-big-image");focusImage.onload=function(_){__foucus_reported||(window.__foucus_end_time=+new Date,__monitorjs.cdnImg={l:focusImage.src,t:__foucus_end_time-__foucus_start_time,f:"0"},__foucus_reported=!0)},focusImage.onerror=function(_){__foucus_reported||(window.__foucus_end_time=+new Date,__monitorjs.cdnImg={l:focusImage.src,t:__foucus_end_time-__foucus_start_time,f:"-1",e:"503000"},__foucus_reported=!0)}</script>
+    <!--  Tab列表 浮-->
+    <div class="slider_nav wp-main">
+        <!--8条内容垂直居中 增加类“small-ul”-->
+        <ul id="honey-focus-list">
+            <!-- 第一个默认加first  选中状态sel-->
+            <li class="first sel" data-jumpkind="12" data-jumpid="316381" data-childid="4124362">
+                <a href="http://www.mgtv.com/b/316381/4124362.html" target="_blank" data-img="http://2img.hitv.com/preview/cms_icon/2017/09/20170930201553434.jpg_1660x550.jpg" data-bgcolor="#623727">
+                    <p class="til">中餐厅</p>
+                    <p class="txt">收官答谢宴！赵薇献唱</p>
+                </a>                
+            </li>
+            <!-- 第一个默认加first  选中状态sel-->
+            <li class="" data-jumpkind="12" data-jumpid="316045" data-childid="4123030">
+                <a href="http://www.mgtv.com/b/316045/4123030.html" target="_blank" data-img="http://0img.hitv.com/preview/cms_icon/2017/09/20170929212322035.jpg_1660x550.jpg" data-bgcolor="#26364a">
+                    <p class="til">我们来了2</p>
+                    <p class="txt">关之琳变装惊艳众人</p>
+                </a>                
+            </li>
+            <!-- 第一个默认加first  选中状态sel-->
+            <li class="" data-jumpkind="12" data-jumpid="316387" data-childid="4120600">
+                <a href="http://www.mgtv.com/b/316387/4120600.html" target="_blank" data-img="http://4img.hitv.com/preview/cms_icon/2017/09/20170930092717316.jpg_1660x550.jpg" data-bgcolor="#f0d9c5">
+                    <p class="til">爸爸去哪儿5</p>
+                    <p class="txt">Jasper山洞探险</p>
+                </a>                
+            </li>
+            <!-- 第一个默认加first  选中状态sel-->
+            <li class="" data-jumpkind="12" data-jumpid="317619" data-childid="4125136">
+                <a href="http://www.mgtv.com/b/317619/4125136.html" target="_blank" data-img="http://2img.hitv.com/preview/cms_icon/2017/10/20171002195939318.jpg_1660x550.jpg" data-bgcolor="#1a100e">
+                    <p class="til">狄仁杰</p>
+                    <p class="txt">任嘉伦“烧脑式”探案</p>
+                </a>                
+            </li>
+            <!-- 第一个默认加first  选中状态sel-->
+            <li class="" data-jumpkind="12" data-jumpid="308710" data-childid="4124098">
+                <a href="http://www.mgtv.com/b/308710/4124098.html" target="_blank" data-img="http://2img.hitv.com/preview/cms_icon/2017/09/20170930201138027.jpg_1660x550.jpg" data-bgcolor="#08c4fc">
+                    <p class="til">快本</p>
+                    <p class="txt">李晨现场表白范冰冰</p>
+                </a>                
+            </li>
+            <!-- 第一个默认加first  选中状态sel-->
+            <li class="" data-jumpkind="12" data-jumpid="303799" data-childid="4124548">
+                <a href="http://www.mgtv.com/b/303799/4124548.html" target="_blank" data-img="http://2img.hitv.com/preview/cms_icon/2017/09/20170929104847720.jpg_1660x550.jpg" data-bgcolor="#0f080e">
+                    <p class="til">大话西游</p>
+                    <p class="txt">黄子韬重饰经典飙演技</p>
+                </a>                
+            </li>
+            <!-- 第一个默认加first  选中状态sel-->
+            <li class="" data-jumpkind="12" data-jumpid="295837" data-childid="4124905">
+                <a href="http://www.mgtv.com/b/295837/4124905.html" target="_blank" data-img="http://3img.hitv.com/preview/cms_icon/2017/09/20170928231221254.jpg_1660x550.jpg" data-bgcolor="#afc1cb">
+                    <p class="til">美味奇缘</p>
+                    <p class="txt">Mike毛晓彤发糖</p>
+                </a>                
+            </li>
+            <!-- 第一个默认加first  选中状态sel-->
+            <li class="" data-jumpkind="12" data-jumpid="316184" data-childid="4121357">
+                <a href="http://www.mgtv.com/b/316184/4121357.html" target="_blank" data-img="http://0img.hitv.com/preview/cms_icon/2017/09/20170930094309865.jpg_1660x550.jpg" data-bgcolor="#9bb8bf">
+                    <p class="til">建军大业</p>
+                    <p class="txt">献礼建军90周年</p>
+                </a>                
+            </li>
+            <!-- 第一个默认加first  选中状态sel-->
+            <li class="" data-jumpkind="12" data-jumpid="317645" data-childid="4124985">
+                <a href="http://www.mgtv.com/b/317645/4124985.html" target="_blank" data-img="http://3img.hitv.com/preview/cms_icon/2017/10/20171001232629750.jpg_1660x550.jpg" data-bgcolor="#000000">
+                    <p class="til">儿行千里</p>
+                    <p class="txt">王暾与地震“赛跑”</p>
+                </a>                
+            </li>
+            <!-- 第一个默认加first  选中状态sel-->
+            <li class="" data-jumpkind="12" data-jumpid="318693" data-childid="4123710">
+                <a href="http://www.mgtv.com/b/318693/4123710.html" target="_blank" data-img="http://1img.hitv.com/preview/cms_icon/2017/09/20170930112827983.jpg_1660x550.jpg" data-bgcolor="#e2f3fa">
+                    <p class="til">还看今朝湖南篇</p>
+                    <p class="txt">中流击水新湖南</p>
+                </a>                
+            </li>
+        </ul>
+        <!-- 广告标签 -->
+    </div>
+</div>
+
+
+    
+
+    <script>window.fsmonitor.run=function(){for(var e=document.getElementsByTagName("img"),t=fsmonitor.pageStartTime,n=(new Date,[]),o=function(e){var t=0;t=window.pageYOffset?window.pageYOffset:document.documentElement.scrollTop;try{t+=e.getBoundingClientRect().top}catch(e){}finally{return t}},i=function(){var e=+new Date;this.removeEventListener&&this.removeEventListener("load",i,!1),this.dettachEvent&&this.dettachEvent("onreadystatechange",i,!1),n.push({img:this,time:e})},a=0;a<e.length;a++)!function(){var t=e[a];"complete"!=t.readyState?t.addEventListener?!t.complete&&t.addEventListener("load",i,!1):t.attachEvent&&t.attachEvent("onreadystatechange",function(){"complete"==t.readyState&&i.call(t,i)}):i.call(t,i)}();var r=function(){for(var e=document.documentElement.clientHeight,i=0;i<n.length;i++){var a=n[i],r=a.img,d=a.time,m=o(r);m>=0&&m<e&&(t=d>t?d:t)}return t},d=function(){var e=r(),t=+new Date;fsmonitor.firstScreenTime=e-fsmonitor.pageStartTime,fsmonitor.loadEndTime=t-fsmonitor.pageStartTime,0==fsmonitor.firstScreenTime&&(fsmonitor.firstScreenTime=fsmonitor.domReadyTime);var n=new Image,o="ipad"==navigator.userAgent.toLowerCase().match(/iPad/i)?"14.1.91":"1.1.91",i=window.screen.width+"X"+window.screen.height;n.src="http://pcweb.v1.mgtv.com/dispatcher.do?bid="+o+"&act=fsrender&wst="+fsmonitor.headEndTime+"&drt="+fsmonitor.domReadyTime+"&dlt="+fsmonitor.loadEndTime+"&fst="+fsmonitor.firstScreenTime+"&pix="+i+"&url="+encodeURIComponent(window.location.href)+"&modl=0&vid=&cid="+PAGE_DATA.fstlvlId},m=function(){var e=+new Date;fsmonitor.domReadyTime=e-fsmonitor.pageStartTime};window.addEventListener?(window.addEventListener("DOMContentLoaded",m),window.addEventListener("load",d)):(document.attachEvent("onreadystatechange",m),window.attachEvent("onload",d))},window.fsmonitor.run()</script>
+
+        <div class="wp-main tv-main">
+    <!--
+ * 模板: m-list-double-img.hbs
+ * 样式: m-list-double-img.less
+ * 描述: 芒果TV首页 - 图文列表 电视剧
+ * 归属: imgotv-channel库
+ * 创建: Dora - 2016.07.15
+ * 修改: Dora - 2016.07.15
+ -->
+
+<div class="m-list-double-img mt30 mg_module" mg-name="list-double-img" data-lazyload-fn="0">
+
+<textarea style="display:none" class="template hide">
+
+	<div class="m-title">
+            <p class="til"><a href="http://www.mgtv.com/show/" target="_blank">热门综艺</a></p>
+            <p class="more"><a href="http://www.mgtv.com/show/" target="_blank">更多>></a></p>
+        <p class="change"><a href="javascript:void(0);">换一换</a></p>
+    </div>
+
+	<div class="v-list-inner">
+		<div class="v-list-inner-ul">
+			{{#first}}
+			<ul class="v-list-unit v-list-unit-big">
+				<li class="v-item v-item-big" data-jumpkind="{{jumpKind}}" data-jumpid="{{jumpId}}" data-childid="{{childId}}">
+					<p class="screenshot screenshot-big">
+						<a class="a-bigimg" href="{{link}}" target="_blank"><img alt="{{title}}" class="lazy" data-original="{{imageBig}}" src="{{imageBig}}"></a>
+						<span class="mask"></span>
+						{{#series}}<span class="rb duration">{{series}}</span>{{/series}}
+						<span class="playico">点击观看完整视频</span>
+						{{#rightCorner}}<i class="icon-o" style="background-color:{{cornerType}}">{{rightCorner}}</i>{{/rightCorner}}
+					</p>
+					<p class="title"><a href="{{link}}" target="_blank">{{title}}</a></p>
+					<p class="des">{{desc}}</p>
+				</li>
+			</ul>
+			{{/first}}
+			{{#itemGroups}}
+			<ul class="v-list-unit">
+				{{#items}}
+				<li class="v-item">
+					<p class="screenshot">
+						<a href="{{link}}" target="_blank"><img alt="{{title}}" class="lazy" data-original="{{image}}" src="{{image}}"></a>
+						{{#series}}<span class="rb duration">{{series}}</span>{{/series}}
+						{{#rightCorner}}<i class="icon-o" style="background-color:{{cornerType}}">{{rightCorner}}</i>{{/rightCorner}}
+					</p>
+					<p class="title"><a href="{{link}}" target="_blank">{{title}}</a></p>
+					<p class="des">{{desc}}</p>
+				</li>
+				{{/items}}
+			</ul>
+			{{/itemGroups}}
+		</div>
+	</div>
+</textarea>
+
+<script type="text/template" class="template-data hide">
+{ 
+"moduleId": "id_1413_961988d2", 
+"isExchange": 1,
+"moduleName": "热门综艺", 
+"moduleLink": "http://www.mgtv.com/show/", 
+"data": [{"jumpKind":"12","childId":"4124098","jumpId":"308710","image":{"imgHUrl":"http://1img.hitv.com/preview/sp_images/2017/zongyi/308710/4124098/20170930194822567.jpg","pcImgUrl":"http://0img.hitv.com/preview/cms_icon/2017/09/20170930220709649.jpg","imgHVUrl":"http://3img.hitv.com/preview/sp_images/2017/zongyi/308710/4124098/20170930194822256.jpg","squareImgUrl":""},"cornerType":"#0080FF","rightCorner":"蓝光","title":"快乐大本营","desc":"范冰冰嫌弃李晨年纪大","series":"09-30期","link":"http://www.mgtv.com/b/308710/4124098.html"},{"jumpKind":"12","childId":"4123300","jumpId":"316685","image":{"imgHUrl":"http://2img.hitv.com/preview/sp_images/2017/zongyi/316685/4123300/20170930105554003.jpg","pcImgUrl":"http://1img.hitv.com/preview/cms_icon/2017/09/20170930115859893.jpg","imgHVUrl":"http://0img.hitv.com/preview/sp_images/2017/zongyi/316685/4123300/20170930105553632.jpg","squareImgUrl":""},"cornerType":"#FF5F00","rightCorner":"自制","title":"2017变形计","desc":"吴欣媛勇敢变形","series":"09-30期","link":"http://www.mgtv.com/b/316685/4123300.html"},{"jumpKind":"12","childId":"4120600","jumpId":"316387","image":{"imgHUrl":"http://3img.hitv.com/preview/sp_images/2017/zongyi/316387/4112000/20170921104531358.jpg","pcImgUrl":"http://3img.hitv.com/preview/cms_icon/2017/09/20170928115920143.jpg","imgHVUrl":"http://0img.hitv.com/preview/sp_images/2017/zongyi/316387/4112000/20170921104530402.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"爸爸去哪儿5","desc":"可爱满分！泡芙变嗯哼最好朋友","series":"09-28期","link":"http://www.mgtv.com/b/316387/4120600.html"},{"jumpKind":"12","childId":"4124913","jumpId":"316801","image":{"imgHUrl":"http://1img.hitv.com/preview/sp_images/2017/zongyi/316801/4124913/20171001193845950.jpg","pcImgUrl":"http://0img.hitv.com/preview/cms_icon/2017/10/20171001220509777.jpg","imgHVUrl":"http://3img.hitv.com/preview/sp_images/2017/zongyi/316801/4124913/20171001193845623.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"我是未来","desc":"杨振宁空降现场遭犀利提问","series":"10-01期","link":"http://www.mgtv.com/b/316801/4124913.html"},{"jumpKind":"12","childId":"4125069","jumpId":"318172","image":{"imgHUrl":"http://1img.hitv.com/preview/sp_images/2017/zongyi/318172/4125069/20171002000249401.jpg","pcImgUrl":"http://2img.hitv.com/preview/cms_icon/2017/10/20171002120330443.jpg","imgHVUrl":"http://3img.hitv.com/preview/sp_images/2017/zongyi/318172/4125069/20171002000249126.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"杜江带娃记","desc":"嗯哼第一次坐驴车超兴奋","series":"10-02期","link":"http://www.mgtv.com/b/318172/4125069.html"},{"jumpKind":"12","childId":"4124767","jumpId":"317055","image":{"imgHUrl":"http://0img.hitv.com/preview/sp_images/2017/zongyi/317055/4124767/20171001175531331.jpg","pcImgUrl":"http://2img.hitv.com/preview/cms_icon/2017/10/20171002120418118.jpg","imgHVUrl":"http://2img.hitv.com/preview/sp_images/2017/zongyi/317055/4124767/20171001175531021.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"中餐厅会员定制版","desc":"赵薇一首《当》重拾格格记忆","series":"10-02期","link":"http://www.mgtv.com/b/317055/4124767.html"},{"jumpKind":"12","childId":"4124985","jumpId":"317645","image":{"imgHUrl":"http://2img.hitv.com/preview/sp_images/2017/zongyi/317645/4124985/20171001210208975.jpg","pcImgUrl":"http://0img.hitv.com/preview/cms_icon/2017/10/20171001231023968.jpg","imgHVUrl":"http://2img.hitv.com/preview/sp_images/2017/zongyi/317645/4124985/20171001210208708.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"儿行千里","desc":"王暾科学报国与地震“赛跑”","series":"10-01期","link":"http://www.mgtv.com/b/317645/4124985.html"},{"jumpKind":"12","childId":"4123286","jumpId":"308734","image":{"imgHUrl":"http://0img.hitv.com/preview/sp_images/2017/zongyi/308734/4123286/20170929220210784.jpg","pcImgUrl":"http://1img.hitv.com/preview/cms_icon/2017/09/20170929233649836.jpg","imgHVUrl":"http://3img.hitv.com/preview/sp_images/2017/zongyi/308734/4123286/20170929220226520.jpg","squareImgUrl":""},"cornerType":"#0080FF","rightCorner":"蓝光","title":"天天向上","desc":"《辉煌中国》主创讲述幕后故事","series":"09-29期","link":"http://www.mgtv.com/b/308734/4123286.html"},{"jumpKind":"12","childId":"4124362","jumpId":"316381","image":{"imgHUrl":"http://1img.hitv.com/preview/sp_images/2017/zongyi/316381/4124362/20170930220650347.jpg","pcImgUrl":"http://3img.hitv.com/preview/cms_icon/2017/09/20170930234421069.jpg","imgHVUrl":"http://3img.hitv.com/preview/sp_images/2017/zongyi/316381/4124362/20170930220654041.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"中餐厅","desc":"收官！周冬雨给黄晓明伴舞","series":"09-30期","link":"http://www.mgtv.com/b/316381/4124362.html"},{"jumpKind":"12","childId":"4123030","jumpId":"316045","image":{"imgHUrl":"http://1img.hitv.com/preview/sp_images/2017/zongyi/316045/4123030/20170929191306041.jpg","pcImgUrl":"http://3img.hitv.com/preview/cms_icon/2017/09/20170929220816969.jpg","imgHVUrl":"http://3img.hitv.com/preview/sp_images/2017/zongyi/316045/4123030/20170929191309297.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"我们来了第二季","desc":"陈妍希穿越唐朝成人气王","series":"09-29期","link":"http://www.mgtv.com/b/316045/4123030.html"},{"jumpKind":"12","childId":"4120339","jumpId":"308801","image":{"imgHUrl":"http://3img.hitv.com/preview/sp_images/2017/zongyi/308801/4120339/20170927184453473.jpg","pcImgUrl":"http://4img.hitv.com/preview/cms_icon/2017/09/20170928095436700.jpg","imgHVUrl":"http://3img.hitv.com/preview/sp_images/2017/zongyi/308801/4120339/20170927184451162.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"八卦鉴定事务所","desc":" 赵丽颖冯绍峰恋情曝实锤？","series":"09-28期","link":"http://www.mgtv.com/b/308801/4120339.html"},{"jumpKind":"12","childId":"4117016","jumpId":"317158","image":{"imgHUrl":"http://0img.hitv.com/preview/sp_images/2017/zongyi/317158/4117016/20170925142214982.jpg","pcImgUrl":"http://4img.hitv.com/preview/cms_icon/2017/09/20170926120221323.jpg","imgHVUrl":"http://3img.hitv.com/preview/sp_images/2017/zongyi/317158/4117016/20170925142214643.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"我们来了会员定制版","desc":"宋茜唐艺昕秒变芭蕾女郎","series":"09-26期","link":"http://www.mgtv.com/b/317158/4117016.html"},{"jumpKind":"12","childId":"4121935","jumpId":"317753","image":{"imgHUrl":"http://2img.hitv.com/preview/sp_images/2017/zongyi/317753/4121935/20170928215921384.jpg","pcImgUrl":"http://0img.hitv.com/preview/cms_icon/2017/09/20170928234229070.jpg","imgHVUrl":"http://3img.hitv.com/preview/sp_images/2017/zongyi/317753/4121935/20170928215925019.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"汉语桥","desc":"非洲组冠军诞生夜","series":"09-28期","link":"http://www.mgtv.com/b/317753/4121935.html"},{"jumpKind":"12","childId":"4121970","jumpId":"318197","image":{"imgHUrl":"http://3img.hitv.com/preview/sp_images/2017/zongyi/318197/4121970/20170928230328153.jpg","pcImgUrl":"http://2img.hitv.com/preview/cms_icon/2017/09/20170929120921956.jpg","imgHVUrl":"http://0img.hitv.com/preview/sp_images/2017/zongyi/318197/4121970/20170928230327808.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"起飞吧萌娃","desc":"邹明轩举重天赋上线","series":"09-29期","link":"http://www.mgtv.com/b/318197/4121970.html"},{"jumpKind":"12","childId":"4117274","jumpId":"318122","image":{"imgHUrl":"http://0img.hitv.com/preview/sp_images/2017/zongyi/318122/4117274/20170925170852238.jpg","pcImgUrl":"http://0img.hitv.com/preview/cms_icon/2017/09/20170927115939584.jpg","imgHVUrl":"http://3img.hitv.com/preview/sp_images/2017/zongyi/318122/4117274/20170925170857823.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"萌师驾到","desc":"李维嘉带娃插秧变泥人","series":"09-27期","link":"http://www.mgtv.com/b/318122/4117274.html"},{"jumpKind":"12","childId":"4124380","jumpId":"316874","image":{"imgHUrl":"http://1img.hitv.com/preview/sp_images/2017/zongyi/316874/4124380/20170930221311422.jpg","pcImgUrl":"http://0img.hitv.com/preview/cms_icon/2017/09/20170930230702068.jpg","imgHVUrl":"http://2img.hitv.com/preview/sp_images/2017/zongyi/316874/4124380/20170930221311136.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"国片大首映","desc":"《英伦对决》成龙突破自己","series":"09-29期","link":"http://www.mgtv.com/b/316874/4124380.html"}]
+}
+</script>
+
+</div>
+    <!--
+ * 模板: m-hot-focus.hbs
+ * 样式: m-hot-focus.less
+ * 描述: 芒果TV首页 - 热点聚集
+ * 归属: imgotv-channel库
+ * 创建: Dora - 2016.07.18
+ * 修改: Dora - 2016.07.18
+ -->
+
+<div class="m-hot-focus mt30 mg_module" mg-name="list-text" data-lazyload-fn="0">
+<textarea style="display:none" class="template hide">
+	<div class="m-title">
+			<p class="til"><a href="javascript:void(0);">热点</a></p>
+	</div>
+	<ul class="m-hot-focus-toplist">
+		{{#items}}
+		<li class="{{#first}}first{{/first}}">
+			<a href="{{link}}" target="_blank" title="{{title}}">
+				{{#first}}<p class="screenshot"><img alt="{{title}}" class="lazy" data-original="{{image}}" src="{{image}}"></p>{{/first}}
+				<p class="title">{{title}}</p>
+			</a>
+		</li>
+		{{/items}}
+	</ul>
+</textarea>
+
+<script type="text/template" class="template-data hide">
+{ 
+"moduleId": "id_703_5cbfb76a", 
+"moduleName": "热点", 
+"moduleLink": "", 
+"data": [{"jumpKind":"4","childId":"0","jumpId":"","image":{"imgHUrl":"http://4img.hitv.com/preview/internettv/sp_images/ott/2017/xinwen/100011156/20170918125401104-new.jpg","pcImgUrl":"http://1img.hitv.com/preview/cms_icon/2017/09/20170927190151425.jpg","imgHVUrl":"http://1img.hitv.com/preview/internettv/sp_images/ott/2017/xinwen/100011156/20170918125729139-new.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"喜迎十九大·我们看见的变化","desc":"我们看见的变化","series":"","link":"http://www.mgtv.com/topic/118.html"},{"jumpKind":"12","childId":"4125457","jumpId":"318691","image":{"imgHUrl":"http://3img.hitv.com/preview/sp_images/2017/jilupian/318691/4125457/20171002214435205.jpg","pcImgUrl":"","imgHVUrl":"http://3img.hitv.com/preview/sp_images/2017/jilupian/318691/4125457/20171002214434947.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"5分钟速览《强军》第五集","desc":"5分钟速览《强军》第五集","series":"","link":"http://www.mgtv.com/b/318691/4125457.html"},{"jumpKind":"12","childId":"4125224","jumpId":"308703","image":{"imgHUrl":"http://2img.hitv.com/preview/sp_images/2017/zongyi/308703/4125224/20171002150601293.jpg","pcImgUrl":"","imgHVUrl":"http://3img.hitv.com/preview/sp_images/2017/zongyi/308703/4125224/20171002150600992.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"巴黎时装：刘雯章泽天同框比美","desc":"刘雯章泽天同框比美","series":"","link":"http://www.mgtv.com/b/308703/4125224.html"},{"jumpKind":"12","childId":"4125168","jumpId":"308703","image":{"imgHUrl":"http://2img.hitv.com/preview/sp_images/2017/zongyi/308703/4125168/20171002114356036.jpg","pcImgUrl":"","imgHVUrl":"http://3img.hitv.com/preview/sp_images/2017/zongyi/308703/4125168/20171002114355745.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"周杰伦开演唱会小泡芙到场支持","desc":"周杰伦演唱会刘畊宏小泡芙到场","series":"","link":"http://www.mgtv.com/b/308703/4125168.html"},{"jumpKind":"12","childId":"4125215","jumpId":"308703","image":{"imgHUrl":"http://3img.hitv.com/preview/sp_images/2017/zongyi/308703/4125215/20171002140702254.jpg","pcImgUrl":"","imgHVUrl":"http://3img.hitv.com/preview/sp_images/2017/zongyi/308703/4125215/20171002140701929.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"郑爽马天宇医院走廊劈叉玩手机","desc":"郑爽马天宇医院走廊劈叉玩手机","series":"","link":"http://www.mgtv.com/b/308703/4125215.html"},{"jumpKind":"12","childId":"4124572","jumpId":"308703","image":{"imgHUrl":"http://2img.hitv.com/preview/sp_images/2017/zongyi/308703/4124572/20171001112542642.jpg","pcImgUrl":"","imgHVUrl":"http://2img.hitv.com/preview/sp_images/2017/zongyi/308703/4124572/20171001112542393.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"马伊琍告诫妈妈们要瘦要打扮","desc":"马伊琍身穿白色连衣裙似少女","series":"","link":"http://www.mgtv.com/b/308703/4124572.html"},{"jumpKind":"12","childId":"4124656","jumpId":"318716","image":{"imgHUrl":"http://1img.hitv.com/preview/sp_images/2017/jilupian/318716/4124656/20171001150506190.jpg","pcImgUrl":"","imgHVUrl":"http://3img.hitv.com/preview/sp_images/2017/jilupian/318716/4124656/20171001150505918.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"社会主义核心价值观微电影展","desc":"奔跑的青春","series":"","link":"http://www.mgtv.com/b/318716/4124656.html"},{"jumpKind":"12","childId":"4124565","jumpId":"308703","image":{"imgHUrl":"http://0img.hitv.com/preview/sp_images/2017/zongyi/308703/4124565/20171001111820463.jpg","pcImgUrl":"","imgHVUrl":"http://3img.hitv.com/preview/sp_images/2017/zongyi/308703/4124565/20171001111820159.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"费曼长胖了爸爸吴镇宇这样补刀","desc":"吴镇宇回应费曼长胖","series":"","link":"http://www.mgtv.com/b/308703/4124565.html"}]
+}
+</script>
+
+
+<script></script>
+</div>
+</div>
+        <div class="wp-main">
+    <!--
+ * 模板: m-list-single.hbs
+ * 样式: m-list-single.less
+ * 描述: 芒果TV首页 - 图文列表单行
+ * 归属: imgotv-channel库
+ * 创建: Dora - 2016.07.18
+ * 修改: Dora - 2016.07.18
+ -->
+<div class="m-list-single mt30 mg_module" mg-name="list-single" data-lazyload-fn="0">
+<textarea style="display:none" class="template hide">
+	<div class="m-title">
+            <p class="til"><a href="http://www.mgtv.com/d/332.html" target="_blank">精选推荐</a></p>
+            <p class="more"><a href="http://www.mgtv.com/d/332.html" target="_blank">更多>></a></p>
+        <p class="change"><a href="javascript:void(0);">换一换</a></p>
+    </div>
+
+	<!--图文-->
+	<div class="v-list-inner">
+		<ul class="v-list-unit">
+		{{#items}}
+			<li class="v-item" data-vid="{{videoId}}" data-jumpkind="{{jumpKind}}" data-jumpid="{{jumpId}}" data-childid="{{childId}}">
+				<p class="screenshot">
+					<a href="{{link}}" target="_blank"><img alt="{{title}}" class="lazy" data-original="{{image}}" src="{{image}}"></a>
+					{{#series}}<span class="rb duration">{{series}}</span>{{/series}}
+					{{#rightCorner}}<i class="icon-o" style="background-color:{{cornerType}}">{{rightCorner}}</i>{{/rightCorner}}
+				</p>
+				<p class="title"><a href="{{link}}" target="_blank">{{title}}</a></p>
+				<p class="des">{{desc}}</p>
+			</li>
+		{{/items}}
+		</ul>
+	</div>
+</textarea>
+
+<script type="text/template" class="template-data hide">
+{ 
+"moduleId": "id_706_1983f6f3",
+"moduleName": "精选推荐", 
+"moduleLink": "http://www.mgtv.com/d/332.html", 
+"isExchange": 1,
+"data": [{"jumpKind":"2","childId":"4125481","jumpId":"100011679","image":{"imgHUrl":"http://3img.hitv.com/preview/internettv/sp_images/ott/2017/dianshiju/100011679/20171002204700070-new.jpg","pcImgUrl":"","imgHVUrl":"http://2img.hitv.com/preview/internettv/sp_images/ott/2017/dianshiju/100011679/20171002204650445-new.jpg","squareImgUrl":""},"cornerType":"#E84440","rightCorner":"直播中","title":"《那片星空2》开播","desc":"冯绍峰郭碧婷相遇盛唐","series":"","link":"http://www.mgtv.com/l/100011679.html"},{"jumpKind":"12","childId":"4125407","jumpId":"308710","image":{"imgHUrl":"http://3img.hitv.com/preview/sp_images/2017/zongyi/308710/4125407/20171002194455162.jpg","pcImgUrl":"http://0img.hitv.com/preview/cms_icon/2017/10/20171002200948248.jpg","imgHVUrl":"http://3img.hitv.com/preview/sp_images/2017/zongyi/308710/4125407/20171002194454856.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"快本·谢娜怀孕现身","desc":"潘玮柏深情献唱 好甜好甜","series":"","link":"http://www.mgtv.com/b/308710/4125407.html"},{"jumpKind":"12","childId":"4125217","jumpId":"308703","image":{"imgHUrl":"http://0img.hitv.com/preview/sp_images/2017/zongyi/308703/4125217/20171002141128396.jpg","pcImgUrl":"http://4img.hitv.com/preview/cms_icon/2017/10/20171002151052343.jpg","imgHVUrl":"http://0img.hitv.com/preview/sp_images/2017/zongyi/308703/4125217/20171002141127777.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"祖国，生日快乐！","desc":"TFBOYS献唱《我爱你中国》","series":"","link":"http://www.mgtv.com/b/308703/4125217.html"},{"jumpKind":"12","childId":"4123767","jumpId":"308795","image":{"imgHUrl":"http://1img.hitv.com/preview/sp_images/2017/yuanchuang/308795/4123767/20170930162424057.jpg","pcImgUrl":"http://1img.hitv.com/preview/cms_icon/2017/10/20171002124919497.jpg","imgHVUrl":"http://1img.hitv.com/preview/sp_images/2017/yuanchuang/308795/4123767/20170930162427290.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"安吉教弟弟学中文 ","desc":"哥哥太严厉！小鱼儿哭笑不得","series":"","link":"http://www.mgtv.com/b/308795/4123767.html"},{"jumpKind":"12","childId":"4122898","jumpId":"308905","image":{"imgHUrl":"http://1img.hitv.com/preview/sp_images/2017/xinwen/308905/4122898/20170929175521889.jpg","pcImgUrl":"http://1img.hitv.com/preview/cms_icon/2017/10/20171002124425666.jpg","imgHVUrl":"","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"琅琊榜2·片花曝光","desc":"没有参演的胡歌和刘涛这样说","series":"","link":"http://www.mgtv.com/b/308905/4122898.html"},{"jumpKind":"12","childId":"4125080","jumpId":"316387","image":{"imgHUrl":"http://1img.hitv.com/preview/sp_images/2017/zongyi/316387/4125080/20171002001312302.jpg","pcImgUrl":"http://4img.hitv.com/preview/cms_icon/2017/10/20171002121405535.jpg","imgHVUrl":"http://1img.hitv.com/preview/sp_images/2017/zongyi/316387/4125080/20171002001311079.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"萌·嗯哼的尴尬技能","desc":"哈哈哈！每一分钟都在打脸","series":"","link":"http://www.mgtv.com/b/316387/4125080.html"},{"jumpKind":"2","childId":"4124558","jumpId":"100010946","image":{"imgHUrl":"http://4img.hitv.com/preview/internettv/sp_images/ott/2017/zongyi/100010946/20170912182123373-new.jpg","pcImgUrl":"http://2img.hitv.com/preview/cms_icon/2017/10/20171002122738181.gif","imgHVUrl":"http://3img.hitv.com/preview/internettv/sp_images/ott/2017/zongyi/100010946/20170912182119304-new.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"亲爱的客栈·快开张了","desc":"刘涛“神收纳”技能重出江湖","series":"","link":"http://www.mgtv.com/l/100010946.html"},{"jumpKind":"12","childId":"4124721","jumpId":"308703","image":{"imgHUrl":"http://3img.hitv.com/preview/sp_images/2017/zongyi/308703/4124721/20171001163808322.jpg","pcImgUrl":"","imgHVUrl":"http://2img.hitv.com/preview/sp_images/2017/zongyi/308703/4124721/20171001163808031.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"高圆圆谈生子：顺其自然","desc":"又一个被催生的女明星","series":"","link":"http://www.mgtv.com/b/308703/4124721.html"},{"jumpKind":"12","childId":"3967441","jumpId":"309266","image":{"imgHUrl":"http://3img.mgtv.com/preview/sp_images/2017/xinwen/309266/3967441/20170609163249564.jpg","pcImgUrl":"http://3img.hitv.com/preview/cms_icon/2017/10/20171001150944639.jpg","imgHVUrl":"","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"萌妹子号称小赵丽颖","desc":"7岁小美女颜值逆天，好漂亮！","series":"","link":"http://www.mgtv.com/b/309266/3967441.html"},{"jumpKind":"12","childId":"4124749","jumpId":"308703","image":{"imgHUrl":"http://3img.hitv.com/preview/sp_images/2017/zongyi/308703/4124749/20171001170810415.jpg","pcImgUrl":"","imgHVUrl":"http://2img.hitv.com/preview/sp_images/2017/zongyi/308703/4124749/20171001170810143.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"小小春被亲脸颊超乖巧","desc":"应采儿携Jasper祝应爸生日快乐","series":"","link":"http://www.mgtv.com/b/308703/4124749.html"},{"jumpKind":"12","childId":"4124586","jumpId":"308703","image":{"imgHUrl":"http://2img.hitv.com/preview/sp_images/2017/zongyi/308703/4124586/20171001120938262.jpg","pcImgUrl":"http://4img.hitv.com/preview/cms_icon/2017/10/20171001145802310.jpg","imgHVUrl":"http://0img.hitv.com/preview/sp_images/2017/zongyi/308703/4124586/20171001120937944.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"李小璐模仿MJ跳成名曲 ","desc":"贾乃亮大赞老婆舞技：你赢了","series":"","link":"http://www.mgtv.com/b/308703/4124586.html"},{"jumpKind":"12","childId":"4124492","jumpId":"316381","image":{"imgHUrl":"http://3img.hitv.com/preview/sp_images/2017/zongyi/316381/4124492/20171001001203359.jpg","pcImgUrl":"","imgHVUrl":"http://0img.hitv.com/preview/sp_images/2017/zongyi/316381/4124492/20171001001200368.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"赵丽颖加盟《中餐厅》第二季?","desc":"周冬雨引诱颖宝学做菜","series":"","link":"http://www.mgtv.com/b/316381/4124492.html"}]
+}
+</script>
+</div>
+</div>
+        <div class="wp-main">
+    <!--
+ * 模板: m-list-single.hbs
+ * 样式: m-list-single.less
+ * 描述: 芒果TV首页 - 图文列表单行
+ * 归属: imgotv-channel库
+ * 创建: Dora - 2016.07.18
+ * 修改: Dora - 2016.07.18
+ -->
+<div class="m-list-single mt30 mg_module" mg-name="list-single" data-lazyload-fn="0">
+<textarea style="display:none" class="template hide">
+	<div class="m-title">
+            <p class="til"><a href="http://www.mgtv.com/topic/119.html" target="_blank">国好家圆·庆十一</a></p>
+            <p class="more"><a href="http://www.mgtv.com/topic/119.html" target="_blank">更多>></a></p>
+        
+    </div>
+
+	<!--图文-->
+	<div class="v-list-inner">
+		<ul class="v-list-unit">
+		{{#items}}
+			<li class="v-item" data-vid="{{videoId}}" data-jumpkind="{{jumpKind}}" data-jumpid="{{jumpId}}" data-childid="{{childId}}">
+				<p class="screenshot">
+					<a href="{{link}}" target="_blank"><img alt="{{title}}" class="lazy" data-original="{{image}}" src="{{image}}"></a>
+					{{#series}}<span class="rb duration">{{series}}</span>{{/series}}
+					{{#rightCorner}}<i class="icon-o" style="background-color:{{cornerType}}">{{rightCorner}}</i>{{/rightCorner}}
+				</p>
+				<p class="title"><a href="{{link}}" target="_blank">{{title}}</a></p>
+				<p class="des">{{desc}}</p>
+			</li>
+		{{/items}}
+		</ul>
+	</div>
+</textarea>
+
+<script type="text/template" class="template-data hide">
+{ 
+"moduleId": "id_8979_eb3821d1",
+"moduleName": "国好家圆·庆十一", 
+"moduleLink": "http://www.mgtv.com/topic/119.html", 
+"isExchange": 0,
+"data": [{"jumpKind":"4","childId":"0","jumpId":"","image":{"imgHUrl":"","pcImgUrl":"http://4img.hitv.com/preview/cms_icon/2017/09/20170930212337051.jpg","imgHVUrl":"","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"[爱]快乐中国 为你点赞","desc":"庆祝中华人民共和国成立68周年","series":"","link":"http://www.mgtv.com/topic/120.html"},{"jumpKind":"2","childId":"3722333","jumpId":"100011595","image":{"imgHUrl":"http://2img.hitv.com/preview/internettv/sp_images/ott/2017/yuanchuang/100011595/20170930144851672-new.jpg","pcImgUrl":"","imgHVUrl":"http://4img.hitv.com/preview/internettv/sp_images/ott/2017/yuanchuang/100011595/20170930145742099-new.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"[看]国庆追剧指南","desc":"杨洋郑爽赵丽颖自制剧独家放送","series":"","link":"http://www.mgtv.com/l/100011595.html"},{"jumpKind":"2","childId":"4121120","jumpId":"100011548","image":{"imgHUrl":"http://4img.hitv.com/preview/internettv/sp_images/ott/2017/zongyi/100011548/20170928165320842-new.jpg","pcImgUrl":"","imgHVUrl":"http://1img.hitv.com/preview/internettv/sp_images/ott/2017/zongyi/100011548/20170928165315965-new.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"[赏]十一观看宝典！","desc":"让你做一只愉快的加班狗","series":"","link":"http://www.mgtv.com/l/100011548.html"},{"jumpKind":"2","childId":"4107701","jumpId":"100011156","image":{"imgHUrl":"http://4img.hitv.com/preview/internettv/sp_images/ott/2017/xinwen/100011156/20170918125401104-new.jpg","pcImgUrl":"","imgHVUrl":"http://1img.hitv.com/preview/internettv/sp_images/ott/2017/xinwen/100011156/20170918125729139-new.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"[燃]喜迎十九大","desc":"我们看见的变化","series":"","link":"http://www.mgtv.com/l/100011156.html"},{"jumpKind":"4","childId":"0","jumpId":"","image":{"imgHUrl":"","pcImgUrl":"http://2img.hitv.com/preview/cms_icon/2017/09/20170929171338270.jpg","imgHVUrl":"","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"[观]荣光 青春 奋进 梦想","desc":"喜迎十九大网络视听节目展播","series":"","link":"http://zt.mgtv.com/act/2017/19da/"},{"jumpKind":"12","childId":"4110471","jumpId":"318340","image":{"imgHUrl":"http://1img.hitv.com/preview/sp_images/2017/jilupian/318340/4110471/20170919210937027.jpg","pcImgUrl":"","imgHVUrl":"http://2img.hitv.com/preview/sp_images/2017/jilupian/318340/4110471/20170919210930885.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"[强]辉煌中国","desc":"第1集：圆梦工程","series":"","link":"http://www.mgtv.com/b/318340/4110471.html"}]
+}
+</script>
+</div>
+</div>
+        <div class="wp-main">
+    <!--
+ * 模板: m-list-single.hbs
+ * 样式: m-list-single.less
+ * 描述: 芒果TV首页 - 图文列表单行
+ * 归属: imgotv-channel库
+ * 创建: Dora - 2016.07.18
+ * 修改: Dora - 2016.07.18
+ -->
+<div class="m-list-single mt30 mg_module" mg-name="list-single" data-lazyload-fn="0">
+<textarea style="display:none" class="template hide">
+	<div class="m-title">
+            <p class="til"><a href="http://www.mgtv.com/h/316387.html" target="_blank">爸爸去哪儿5</a></p>
+            <p class="more"><a href="http://www.mgtv.com/h/316387.html" target="_blank">更多>></a></p>
+        <p class="change"><a href="javascript:void(0);">换一换</a></p>
+    </div>
+
+	<!--图文-->
+	<div class="v-list-inner">
+		<ul class="v-list-unit">
+		{{#items}}
+			<li class="v-item" data-vid="{{videoId}}" data-jumpkind="{{jumpKind}}" data-jumpid="{{jumpId}}" data-childid="{{childId}}">
+				<p class="screenshot">
+					<a href="{{link}}" target="_blank"><img alt="{{title}}" class="lazy" data-original="{{image}}" src="{{image}}"></a>
+					{{#series}}<span class="rb duration">{{series}}</span>{{/series}}
+					{{#rightCorner}}<i class="icon-o" style="background-color:{{cornerType}}">{{rightCorner}}</i>{{/rightCorner}}
+				</p>
+				<p class="title"><a href="{{link}}" target="_blank">{{title}}</a></p>
+				<p class="des">{{desc}}</p>
+			</li>
+		{{/items}}
+		</ul>
+	</div>
+</textarea>
+
+<script type="text/template" class="template-data hide">
+{ 
+"moduleId": "id_8204_3231cb90",
+"moduleName": "爸爸去哪儿5", 
+"moduleLink": "http://www.mgtv.com/h/316387.html", 
+"isExchange": 1,
+"data": [{"jumpKind":"12","childId":"4115240","jumpId":"316387","image":{"imgHUrl":"http://0img.hitv.com/preview/sp_images/2017/zongyi/316387/4115240/20170923171052913.jpg","pcImgUrl":"http://4img.hitv.com/preview/cms_icon/2017/10/20171002195559152.jpg","imgHVUrl":"http://2img.hitv.com/preview/sp_images/2017/zongyi/316387/4115240/20170923170523163.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"[可爱]Jasper暖心物语","desc":"暖到爆灯，甜到爆炸！","series":"","link":"http://www.mgtv.com/b/316387/4115240.html"},{"jumpKind":"12","childId":"4123165","jumpId":"316387","image":{"imgHUrl":"http://3img.hitv.com/preview/sp_images/2017/zongyi/316387/4123165/20170929204030924.jpg","pcImgUrl":"http://2img.hitv.com/preview/cms_icon/2017/10/20171002194141664.gif","imgHVUrl":"http://2img.hitv.com/preview/sp_images/2017/zongyi/316387/4123165/20170929204035122.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"[表情包]叫我嗯哼大王！","desc":"拿去！给你一波可爱表情包","series":"","link":"http://www.mgtv.com/b/316387/4123165.html"},{"jumpKind":"12","childId":"4125140","jumpId":"308703","image":{"imgHUrl":"http://2img.hitv.com/preview/sp_images/2017/zongyi/308703/4125140/20171002101805601.jpg","pcImgUrl":"","imgHVUrl":"http://3img.hitv.com/preview/sp_images/2017/zongyi/308703/4125140/20171002101805289.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"[专访]自恋的邓爸比","desc":"我要是个女孩一定嫁给自己","series":"","link":"http://www.mgtv.com/b/308703/4125140.html"},{"jumpKind":"12","childId":"4125223","jumpId":"308703","image":{"imgHUrl":"http://0img.hitv.com/preview/sp_images/2017/zongyi/308703/4125223/20171002150344669.jpg","pcImgUrl":"","imgHVUrl":"http://0img.hitv.com/preview/sp_images/2017/zongyi/308703/4125223/20171002150344392.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"[好奇]明星怎么过国庆？","desc":"幸福！吴尊抱两娃逛街超有爱","series":"","link":"http://www.mgtv.com/b/308703/4125223.html"},{"jumpKind":"12","childId":"4125167","jumpId":"316387","image":{"imgHUrl":"http://0img.hitv.com/preview/sp_images/2017/zongyi/316387/4125167/20171002114257074.jpg","pcImgUrl":"","imgHVUrl":"http://3img.hitv.com/preview/sp_images/2017/zongyi/316387/4125167/20171002114256441.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"[难题]爸爸做不到啊","desc":"嗯哼给杜江下任务：射太阳","series":"","link":"http://www.mgtv.com/b/316387/4125167.html"},{"jumpKind":"12","childId":"4121061","jumpId":"316387","image":{"imgHUrl":"http://2img.hitv.com/preview/sp_images/2017/zongyi/316387/4121061/20170928114537598.jpg","pcImgUrl":"http://0img.hitv.com/preview/cms_icon/2017/09/20170930202637971.jpg","imgHVUrl":"http://3img.hitv.com/preview/sp_images/2017/zongyi/316387/4121061/20170928114538041.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"[伤心]友情的小船说翻就翻","desc":"嗯哼泡芙抢玩具闹矛盾了","series":"","link":"http://www.mgtv.com/b/316387/4121061.html"},{"jumpKind":"12","childId":"4121152","jumpId":"316387","image":{"imgHUrl":"http://2img.hitv.com/preview/sp_images/2017/zongyi/316387/4121152/20170928162307817.jpg","pcImgUrl":"","imgHVUrl":"http://3img.hitv.com/preview/sp_images/2017/zongyi/316387/4121152/20170928162307597.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"[触动]陈小春哭了","desc":"第一次为Jasper洗脚感触良多","series":"","link":"http://www.mgtv.com/b/316387/4121152.html"},{"jumpKind":"12","childId":"4123766","jumpId":"316387","image":{"imgHUrl":"http://2img.hitv.com/preview/sp_images/2017/zongyi/316387/4123766/20170930161806921.jpg","pcImgUrl":"","imgHVUrl":"http://0img.hitv.com/preview/sp_images/2017/zongyi/316387/4123766/20170930161806675.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"[小奶音]我爱你，中国！","desc":"认真唱歌的嗯哼大王萌一脸","series":"","link":"http://www.mgtv.com/b/316387/4123766.html"},{"jumpKind":"12","childId":"4121108","jumpId":"316387","image":{"imgHUrl":"http://1img.hitv.com/preview/sp_images/2017/zongyi/316387/4121108/20170928120522261.jpg","pcImgUrl":"","imgHVUrl":"http://1img.hitv.com/preview/sp_images/2017/zongyi/316387/4121108/20170928120521983.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"[花絮]谁是哥哥？谁更高？","desc":"Jasper嗯哼的“互怼”日常","series":"","link":"http://www.mgtv.com/b/316387/4121108.html"},{"jumpKind":"2","childId":"4121120","jumpId":"100011535","image":{"imgHUrl":"http://3img.hitv.com/preview/internettv/sp_images/ott/2017/zongyi/100011535/20170928123536390-new.jpg","pcImgUrl":"http://4img.hitv.com/preview/cms_icon/2017/09/20170930083957894.jpg","imgHVUrl":"http://3img.hitv.com/preview/internettv/sp_images/ott/2017/zongyi/100011535/20170928123532018-new.jpg","squareImgUrl":""},"cornerType":"#1EBBC3","rightCorner":"预告","title":"[看点]Jasper变县老爷","desc":"杜江吴尊受“惩罚” 浑身淋湿","series":"","link":"http://www.mgtv.com/l/100011535.html"},{"jumpKind":"12","childId":"4121806","jumpId":"308703","image":{"imgHUrl":"http://0img.hitv.com/preview/sp_images/2017/zongyi/308703/4121806/20170928190625986.jpg","pcImgUrl":"","imgHVUrl":"http://3img.hitv.com/preview/sp_images/2017/zongyi/308703/4121806/20170928190625724.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"[盘点]爸爸的育儿经","desc":"Jasper安吉成小暖男标杆","series":"","link":"http://www.mgtv.com/b/308703/4121806.html"},{"jumpKind":"12","childId":"4120897","jumpId":"316387","image":{"imgHUrl":"http://3img.hitv.com/preview/sp_images/2017/zongyi/316387/4120897/20170928103216694.jpg","pcImgUrl":"http://4img.hitv.com/preview/cms_icon/2017/09/20170929084827685.jpg","imgHVUrl":"http://2img.hitv.com/preview/sp_images/2017/zongyi/316387/4120897/20170928103216048.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"[说唱]Max版《PPAP》","desc":"画风清奇，爸爸姐姐表示看不懂","series":"","link":"http://www.mgtv.com/b/316387/4120897.html"},{"jumpKind":"12","childId":"4121108","jumpId":"316387","image":{"imgHUrl":"http://1img.hitv.com/preview/sp_images/2017/zongyi/316387/4121108/20170928120522261.jpg","pcImgUrl":"http://4img.hitv.com/preview/cms_icon/2017/09/20170929084747209.jpg","imgHVUrl":"http://1img.hitv.com/preview/sp_images/2017/zongyi/316387/4121108/20170928120521983.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"[日常]谁是大哥？谁更高？","desc":"Jasper嗯哼一见面就开怼","series":"","link":"http://www.mgtv.com/b/316387/4121108.html"},{"jumpKind":"12","childId":"4120898","jumpId":"316387","image":{"imgHUrl":"http://0img.hitv.com/preview/sp_images/2017/zongyi/316387/4120898/20170928103514829.jpg","pcImgUrl":"http://4img.hitv.com/preview/cms_icon/2017/09/20170929084934714.jpg","imgHVUrl":"http://0img.hitv.com/preview/sp_images/2017/zongyi/316387/4120898/20170928103514549.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"[尴尬]来自嗯哼的吐槽","desc":"小泡芙，你怎么不和我击掌了","series":"","link":"http://www.mgtv.com/b/316387/4120898.html"},{"jumpKind":"12","childId":"4120892","jumpId":"316387","image":{"imgHUrl":"http://2img.hitv.com/preview/sp_images/2017/zongyi/316387/4120892/20170928102637731.jpg","pcImgUrl":"http://0img.hitv.com/preview/cms_icon/2017/09/20170929084526403.jpg","imgHVUrl":"http://3img.hitv.com/preview/sp_images/2017/zongyi/316387/4120892/20170928102637423.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"[圈粉]来一波666","desc":"小山竹东北话喊麦 邓伦笑开花","series":"","link":"http://www.mgtv.com/b/316387/4120892.html"},{"jumpKind":"12","childId":"4118536","jumpId":"308703","image":{"imgHUrl":"http://3img.hitv.com/preview/sp_images/2017/zongyi/308703/4118536/20170926152146651.jpg","pcImgUrl":"http://3img.hitv.com/preview/cms_icon/2017/09/20170927103029975.jpg","imgHVUrl":"http://0img.hitv.com/preview/sp_images/2017/zongyi/308703/4118536/20170926152147183.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"[搞笑]陈小春喊嗯哼为“啊哈”","desc":"为春哥的普通话感到捉急","series":"","link":"http://www.mgtv.com/b/308703/4118536.html"},{"jumpKind":"12","childId":"4119721","jumpId":"316387","image":{"imgHUrl":"http://2img.hitv.com/preview/sp_images/2017/zongyi/316387/4119721/20170927121512733.jpg","pcImgUrl":"","imgHVUrl":"http://1img.hitv.com/preview/sp_images/2017/zongyi/316387/4119721/20170927121512451.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"[花絮]小山竹Jasper一起玩耍","desc":"两个小可爱太养眼了！","series":"","link":"http://www.mgtv.com/b/316387/4119721.html"},{"jumpKind":"12","childId":"4120585","jumpId":"316387","image":{"imgHUrl":"http://0img.hitv.com/preview/sp_images/2017/zongyi/316387/4120585/20170927221134779.jpg","pcImgUrl":"","imgHVUrl":"http://3img.hitv.com/preview/sp_images/2017/zongyi/316387/4120585/20170927221128806.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"[萌]当台湾腔遇上东北腔 ","desc":"小泡芙小山竹的友谊愉快达成","series":"","link":"http://www.mgtv.com/b/316387/4120585.html"}]
+}
+</script>
+</div>
+</div>
+        <!--
+ * 模板: m-upgc.hbs
+ * 样式: m-upgc.less
+ * 描述: 芒果TV首页 - upgc模块
+ * 归属: imgotv-channel库
+ * 创建: Dora - 2017.06.2
+ * 修改: Dora - 2017.06.2
+ -->
+<div class="wp-main">
+<div class="mt30 m-upgc mg_module" mg-name="list-upgc" data-lazyload-fn="0" data-moduleid="8205">
+<input type="hidden" id="upgc-data-url" value="http://rc-upgc.api.mgtv.com/upgc/recomend?">
+<textarea style="display:none" class="template hide">
+    <div class="m-title">
+            <p class="til"><a href="javascript:void(0);">原创精选</a></p>
+        
+    </div>
+
+    <!--图文-->
+    <div class="v-list-inner">
+        <ul class="v-list-unit">
+            {{#_items}}
+            <li class="v-item" data-uid="{{uuid}}" data-rctype="">
+                <p class="screenshot">
+                    <a href="{{video.videoUrl}}" target="_blank">
+                        <img alt="" class="lazy" src="{{video.image}}">
+                    </a>
+                    <!-- <span class="mask"></span> -->
+                    {{#updateInfo}}<span class="rb duration">{{updateInfo}}</span>{{/updateInfo}}
+                    {{#rightCorner}}<i class="icon-o rt" style="background-color:{{cornerType}}">{{rightCorner}}</i>{{/rightCorner}}
+                </p>
+                <p class="title"><a href="{{video.videoUrl}}" target="_blank">{{video.name}}</a></p>
+                <!-- <p class="des">张大佛爷美颜杀 特殊身份曝光</p> -->
+                <p class="author">
+                    <a href="{{link}}">
+                        <span class="pic"><img src="{{avatar}}"><i></i></span>
+                        <span class="name">{{name}}</span>
+                    </a>
+                    {{^isFollowed}}<span class="follow" data-uid="{{uuid}}">关注</span>{{/isFollowed}}
+                    {{#isFollowed}}<span class="follow after" data-uid="{{uuid}}">已关注</span>{{/isFollowed}}
+                </p>
+            </li>   
+            {{/_items}}
+        </ul>
+    </div>
+</textarea>
+<script type="text/template" class="template-data hide">
+{ 
+"id": "id_8205_5b9a7457",
+"moduleId": "8205",
+"moduleName": "原创精选", 
+"moduleLink": "", 
+"isExchange": 0,
+"data": [{"artistId":"","bgColor":"","childId":"4123497","constellation":"","cornerType":"","fontColor":"","imgHUrl":"http://0upgcimg.hitv.com/pugcftp/9ccd91babb1cc715fa5905bb006032e5/15067414723191046672331240324.jpg","imgHVUrl":"","isPay":"0","isShare":"1","jumpId":"100010006","jumpKind":"13","keywords":"大胃王密子君 蘸料 虾兵蟹将 美食","name":"虾兵蟹将见到密子君都要怕！","pageUrl":"","pcImgUrl":"","pcTitle":"","pic":"","playerType":"0","rightCorner":"","sortNo":1,"sourceType":"0","squareImgUrl":"","story":"","subName":"","tvChannelId":"0","updateInfo":"","vclassId":"0","videoId":"1945327","videoUrl":"http://www.mgtv.com/l/100010006/4123497.html"},{"artistId":"","bgColor":"","childId":"4123262","constellation":"","cornerType":"","fontColor":"","imgHUrl":"http://0upgcimg.hitv.com/pugcftp/70b12929ede145a3947297e9151b3240/1506691884817118863_tencentcdn1.jpg","imgHVUrl":"","isPay":"0","isShare":"1","jumpId":"100007767","jumpKind":"13","keywords":"范儿影视 搞笑","name":"周莹出狱后为吴家做的第一件事","pageUrl":"","pcImgUrl":"http://0img.hitv.com/preview/cms_icon/2017/09/20170930085618273.jpg","pcTitle":"","pic":"","playerType":"0","rightCorner":"","sortNo":2,"sourceType":"0","squareImgUrl":"","story":"","subName":"","tvChannelId":"0","updateInfo":"","vclassId":"0","videoId":"1938493","videoUrl":"http://www.mgtv.com/l/100007767/4123262.html"},{"artistId":"","bgColor":"","childId":"4121741","constellation":"","cornerType":"","fontColor":"","imgHUrl":"http://0upgcimg.hitv.com/pugcftp/c7be5fd44c3c4cbd85cce3a64dd69968/15065955124532341571761410189.jpg","imgHVUrl":"","isPay":"0","isShare":"1","jumpId":"100009787","jumpKind":"13","keywords":"螃蟹 蟹 剧毒 长见识 涨姿势 猎奇 大开眼界","name":"惊！一只蟹能毒死45000只老鼠","pageUrl":"","pcImgUrl":"","pcTitle":"","pic":"","playerType":"0","rightCorner":"","sortNo":3,"sourceType":"0","squareImgUrl":"","story":"","subName":"","tvChannelId":"0","updateInfo":"","vclassId":"0","videoId":"1933262","videoUrl":"http://www.mgtv.com/l/100009787/4121741.html"},{"artistId":"","bgColor":"","childId":"4112708","constellation":"","cornerType":"","fontColor":"","imgHUrl":"http://0upgcimg.hitv.com/pugcftp/a10200f3084f4dcbb647e8e60d736e53/15062463391005205534564784526.jpg","imgHVUrl":"","isPay":"0","isShare":"1","jumpId":"100010104","jumpKind":"13","keywords":"QM工作室 大咖影院 使徒行者 古天乐","name":"使徒行者·卧底被迫变节做坏人","pageUrl":"","pcImgUrl":"","pcTitle":"","pic":"","playerType":"0","rightCorner":"","sortNo":4,"sourceType":"0","squareImgUrl":"","story":"","subName":"三分钟看影版《使徒行者》","tvChannelId":"0","updateInfo":"","vclassId":"0","videoId":"1932514","videoUrl":"http://www.mgtv.com/l/100010104/4112708.html"},{"artistId":"","bgColor":"","childId":"4120064","constellation":"","cornerType":"","fontColor":"","imgHUrl":"http://0upgcimg.hitv.com/pugcftp/9c54c629967e485ca4a19e9a5d5148ee/1506500409164989665_tencentcdn1.jpg","imgHVUrl":"","isPay":"0","isShare":"1","jumpId":"100010993","jumpKind":"13","keywords":"当一天中国人 体验中国 全球招募计划 外国人 综艺","name":"当一天中国人体验中式沙滩婚礼","pageUrl":"","pcImgUrl":"http://4img.hitv.com/preview/cms_icon/2017/09/20170928174555751.jpg","pcTitle":"","pic":"","playerType":"0","rightCorner":"","sortNo":5,"sourceType":"0","squareImgUrl":"","story":"","subName":"","tvChannelId":"0","updateInfo":"","vclassId":"0","videoId":"1931317","videoUrl":"http://www.mgtv.com/l/100010993/4120064.html"},{"artistId":"","bgColor":"","childId":"4115612","constellation":"","cornerType":"","fontColor":"","imgHUrl":"http://0upgcimg.hitv.com/pugcftp/45373e8c532a4fbab41f260bacd5f327/1506171427317358181_tencentcdn1.jpg","imgHVUrl":"","isPay":"0","isShare":"1","jumpId":"100008815","jumpKind":"13","keywords":"美食 法国 男人 大虾 小吃","name":"大虾这么做比油焖大虾还好吃","pageUrl":"","pcImgUrl":"http://1img.hitv.com/preview/cms_icon/2017/09/20170927151004713.jpg","pcTitle":"","pic":"","playerType":"0","rightCorner":"","sortNo":6,"sourceType":"0","squareImgUrl":"","story":"","subName":"","tvChannelId":"0","updateInfo":"","vclassId":"0","videoId":"1909358","videoUrl":"http://www.mgtv.com/l/100008815/4115612.html"}]
+}
+</script>
+</div>
+</div>
+
+
+        <!--
+ * 模板: m-gglist.hbs
+ * 样式: m-gglist.less
+ * 描述: 芒果TV首页 - 广告列表
+ * 归属: imgotv-channel库
+ * 创建: Dora - 2016.07.18
+ * 修改: Dora - 2016.07.18
+ -->
+<div class="wp-main gg-main lazy-loaded">
+<ul class="m-gglist">
+    <li><a href="http://zt.mgtv.com/act/2017/19da/" target="_blank"><img src="http://3img.mgtv.com/preview/cms_icon/2017/09/20170901163603008.png_170x60.png" alt="喜迎十九大"></a></li>
+    <li><a href="http://www.mgtv.com/h/318221.html?fpa&#x3D;se" target="_blank"><img src="http://3img.hitv.com/preview/cms_icon/2017/09/20170929105032169.jpg_170x60.jpg" alt="亲爱的客栈"></a></li>
+    <li><a href="http://zt.mgtv.com/act/2017/bbqne5/" target="_blank"><img src="http://4img.hitv.com/preview/cms_icon/2017/09/20170907093804469.png_170x60.png" alt="爸爸去哪儿 第五季"></a></li>
+    <li><a href="http://www.mgtv.com/v/2017/chineserestaurant/" target="_blank"><img src="http://3img.mgtv.com/preview/cms_icon/2017/07/20170724174057698.gif_170x60.gif" alt="中餐厅"></a></li>
+    <li><a href="http://www.mgtv.com/v/2017/wmll2/" target="_blank"><img src="http://0img.mgtv.com/preview/cms_icon/2017/08/20170804163542624.jpg_170x60.jpg" alt="我们来了2"></a></li>
+    <li><a href="http://www.mgtv.com/v/2017/sssqj/" target="_blank"><img src="http://1img.mgtv.com/preview/cms_icon/2017/08/20170811112927969.png_170x60.png" alt="三星"></a></li>
+</ul>
+</div>
+        <div class="wp-main">
+    <!--
+ * 模板: m-list-single.hbs
+ * 样式: m-list-single.less
+ * 描述: 芒果TV首页 - 图文列表单行
+ * 归属: imgotv-channel库
+ * 创建: Dora - 2016.07.18
+ * 修改: Dora - 2016.07.18
+ -->
+<div class="m-list-single mt30 mg_module" mg-name="list-single" data-lazyload-fn="0">
+<textarea style="display:none" class="template hide">
+	<div class="m-title">
+            <p class="til"><a href="http://www.mgtv.com/h/316381.html" target="_blank">中餐厅</a></p>
+            <p class="more"><a href="http://www.mgtv.com/h/316381.html" target="_blank">更多>></a></p>
+        <p class="change"><a href="javascript:void(0);">换一换</a></p>
+    </div>
+
+	<!--图文-->
+	<div class="v-list-inner">
+		<ul class="v-list-unit">
+		{{#items}}
+			<li class="v-item" data-vid="{{videoId}}" data-jumpkind="{{jumpKind}}" data-jumpid="{{jumpId}}" data-childid="{{childId}}">
+				<p class="screenshot">
+					<a href="{{link}}" target="_blank"><img alt="{{title}}" class="lazy" data-original="{{image}}" src="{{image}}"></a>
+					{{#series}}<span class="rb duration">{{series}}</span>{{/series}}
+					{{#rightCorner}}<i class="icon-o" style="background-color:{{cornerType}}">{{rightCorner}}</i>{{/rightCorner}}
+				</p>
+				<p class="title"><a href="{{link}}" target="_blank">{{title}}</a></p>
+				<p class="des">{{desc}}</p>
+			</li>
+		{{/items}}
+		</ul>
+	</div>
+</textarea>
+
+<script type="text/template" class="template-data hide">
+{ 
+"moduleId": "id_8053_23e5c734",
+"moduleName": "中餐厅", 
+"moduleLink": "http://www.mgtv.com/h/316381.html", 
+"isExchange": 1,
+"data": [{"jumpKind":"12","childId":"4125061","jumpId":"316381","image":{"imgHUrl":"http://0img.hitv.com/preview/sp_images/2017/zongyi/316381/4125061/20171001234804094.jpg","pcImgUrl":"","imgHVUrl":"http://0img.hitv.com/preview/sp_images/2017/zongyi/316381/4125061/20171001234803820.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"[幕后]80后回忆杀","desc":"这首歌太“还珠格格”啦~","series":"","link":"http://www.mgtv.com/b/316381/4125061.html"},{"jumpKind":"12","childId":"4124418","jumpId":"316381","image":{"imgHUrl":"http://3img.hitv.com/preview/sp_images/2017/zongyi/316381/4124418/20170930223015906.jpg","pcImgUrl":"","imgHVUrl":"http://0img.hitv.com/preview/sp_images/2017/zongyi/316381/4124418/20170930223015585.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"[贴心]周冬雨手机瘾又犯了","desc":"赵薇苦口婆心：走路别老看手机","series":"","link":"http://www.mgtv.com/b/316381/4124418.html"},{"jumpKind":"12","childId":"4124471","jumpId":"316381","image":{"imgHUrl":"http://3img.hitv.com/preview/sp_images/2017/zongyi/316381/4124471/20170930234537972.jpg","pcImgUrl":"","imgHVUrl":"http://2img.hitv.com/preview/sp_images/2017/zongyi/316381/4124471/20170930234608618.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"[花痴]你太帅了","desc":"赵薇被穿西装的黄晓明电到","series":"","link":"http://www.mgtv.com/b/316381/4124471.html"},{"jumpKind":"12","childId":"4124459","jumpId":"316381","image":{"imgHUrl":"http://0img.hitv.com/preview/sp_images/2017/zongyi/316381/4124459/20170930231627911.jpg","pcImgUrl":"","imgHVUrl":"http://2img.hitv.com/preview/sp_images/2017/zongyi/316381/4124459/20170930231627588.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"[太萌]赵薇借锅记！","desc":"这下知道店长为啥修炼厚脸皮了","series":"","link":"http://www.mgtv.com/b/316381/4124459.html"},{"jumpKind":"12","childId":"4124436","jumpId":"316381","image":{"imgHUrl":"http://0img.hitv.com/preview/sp_images/2017/zongyi/316381/4124436/20170930224951619.jpg","pcImgUrl":"","imgHVUrl":"http://0img.hitv.com/preview/sp_images/2017/zongyi/316381/4124436/20170930224951058.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"[幕后]这段我能笑一年","desc":"黄晓明“丧心病狂”打鸡蛋","series":"","link":"http://www.mgtv.com/b/316381/4124436.html"},{"jumpKind":"12","childId":"4119676","jumpId":"316381","image":{"imgHUrl":"http://3img.hitv.com/preview/sp_images/2017/zongyi/316381/4119676/20170927112701369.jpg","pcImgUrl":"","imgHVUrl":"http://3img.hitv.com/preview/sp_images/2017/zongyi/316381/4119676/20170927112701098.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"[收官]赵薇&黄晓明","desc":"见证一个愿怼一个愿挨式的友情","series":"","link":"http://www.mgtv.com/b/316381/4119676.html"},{"jumpKind":"12","childId":"4116502","jumpId":"316381","image":{"imgHUrl":"http://3img.hitv.com/preview/sp_images/2017/zongyi/316381/4116502/20170925001455761.jpg","pcImgUrl":"","imgHVUrl":"http://1img.hitv.com/preview/sp_images/2017/zongyi/316381/4116502/20170925001455192.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"[幕后]说好的英语小达人呢","desc":"黄晓明中式英文听懵国外友人","series":"","link":"http://www.mgtv.com/b/316381/4116502.html"},{"jumpKind":"12","childId":"4115956","jumpId":"316381","image":{"imgHUrl":"http://0img.hitv.com/preview/sp_images/2017/zongyi/316381/4115956/20170924123116625.jpg","pcImgUrl":"","imgHVUrl":"http://0img.hitv.com/preview/sp_images/2017/zongyi/316381/4115956/20170924123116303.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"[花絮]张亮和女儿视频","desc":"隔空玩亲亲！简直父爱爆棚","series":"","link":"http://www.mgtv.com/b/316381/4115956.html"},{"jumpKind":"12","childId":"4115819","jumpId":"316381","image":{"imgHUrl":"http://2img.hitv.com/preview/sp_images/2017/zongyi/316381/4115819/20170924002312281.jpg","pcImgUrl":"","imgHVUrl":"http://0img.hitv.com/preview/sp_images/2017/zongyi/316381/4115819/20170924002311951.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"[CUT]猝不及防公主抱","desc":"薇店长要把冬雨宠上天！","series":"","link":"http://www.mgtv.com/b/316381/4115819.html"},{"jumpKind":"12","childId":"4115910","jumpId":"316381","image":{"imgHUrl":"http://1img.hitv.com/preview/sp_images/2017/zongyi/316381/4115910/20170924111649713.jpg","pcImgUrl":"","imgHVUrl":"http://0img.hitv.com/preview/sp_images/2017/zongyi/316381/4115910/20170924111649465.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"[未播]赵薇海边上演文艺片","desc":"自导自演周冬雨一脸嫌弃","series":"","link":"http://www.mgtv.com/b/316381/4115910.html"},{"jumpKind":"12","childId":"4115801","jumpId":"316381","image":{"imgHUrl":"http://1img.hitv.com/preview/sp_images/2017/zongyi/316381/4115801/20170923235712714.jpg","pcImgUrl":"","imgHVUrl":"http://0img.hitv.com/preview/sp_images/2017/zongyi/316381/4115801/20170923235707373.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"[好大方]花式送礼","desc":"黄晓明意外收获客人感恩小费","series":"","link":"http://www.mgtv.com/b/316381/4115801.html"},{"jumpKind":"12","childId":"4115758","jumpId":"316381","image":{"imgHUrl":"http://2img.hitv.com/preview/sp_images/2017/zongyi/316381/4115758/20170923230420993.jpg","pcImgUrl":"","imgHVUrl":"http://2img.hitv.com/preview/sp_images/2017/zongyi/316381/4115758/20170923230420666.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"[呆萌]周冬雨告白赵薇","desc":"“喜欢你这个智慧傻大姐”！","series":"","link":"http://www.mgtv.com/b/316381/4115758.html"}]
+}
+</script>
+</div>
+</div>
+        <!-- 左右分布单排图文合成模块 -->
+<div class="wp-main m-list-single-split">
+    <div class="left"><!--
+ * 模板: m-list-single.hbs
+ * 样式: m-list-single.less
+ * 描述: 芒果TV首页 - 图文列表单行
+ * 归属: imgotv-channel库
+ * 创建: Dora - 2016.07.18
+ * 修改: Dora - 2016.07.18
+ -->
+<div class="m-list-single mt30 mg_module" mg-name="list-single" data-lazyload-fn="0">
+<textarea style="display:none" class="template hide">
+	<div class="m-title">
+            <p class="til"><a href="http://www.mgtv.com/v/2017/bxj/" target="_blank">变形计</a></p>
+            <p class="more"><a href="http://www.mgtv.com/v/2017/bxj/" target="_blank">更多>></a></p>
+        <p class="change"><a href="javascript:void(0);">换一换</a></p>
+    </div>
+
+	<!--图文-->
+	<div class="v-list-inner">
+		<ul class="v-list-unit">
+		{{#items}}
+			<li class="v-item" data-vid="{{videoId}}" data-jumpkind="{{jumpKind}}" data-jumpid="{{jumpId}}" data-childid="{{childId}}">
+				<p class="screenshot">
+					<a href="{{link}}" target="_blank"><img alt="{{title}}" class="lazy" data-original="{{image}}" src="{{image}}"></a>
+					{{#series}}<span class="rb duration">{{series}}</span>{{/series}}
+					{{#rightCorner}}<i class="icon-o" style="background-color:{{cornerType}}">{{rightCorner}}</i>{{/rightCorner}}
+				</p>
+				<p class="title"><a href="{{link}}" target="_blank">{{title}}</a></p>
+				<p class="des">{{desc}}</p>
+			</li>
+		{{/items}}
+		</ul>
+	</div>
+</textarea>
+
+<script type="text/template" class="template-data hide">
+{ 
+"moduleId": "id_6908_4d6407d3",
+"moduleName": "变形计", 
+"moduleLink": "http://www.mgtv.com/v/2017/bxj/", 
+"isExchange": 1,
+"data": [{"jumpKind":"12","childId":"4123659","jumpId":"316685","image":{"imgHUrl":"http://2img.hitv.com/preview/sp_images/2017/zongyi/316685/4123659/20170930113902145.jpg","pcImgUrl":"http://2img.hitv.com/preview/cms_icon/2017/09/20170930123251861.jpg","imgHVUrl":"http://0img.hitv.com/preview/sp_images/2017/zongyi/316685/4123659/20170930113901879.jpg","squareImgUrl":""},"cornerType":"#1EBBC3","rightCorner":"预告","title":"[看点]人气高","desc":"黄润秋引发校园轰动","series":"","link":"http://www.mgtv.com/b/316685/4123659.html"},{"jumpKind":"12","childId":"4123498","jumpId":"316685","image":{"imgHUrl":"http://1img.hitv.com/preview/sp_images/2017/zongyi/316685/4123498/20170930100854594.jpg","pcImgUrl":"http://1img.hitv.com/preview/cms_icon/2017/09/20170930123634525.jpg","imgHVUrl":"http://0img.hitv.com/preview/sp_images/2017/zongyi/316685/4123498/20170930100854314.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"[主人公]臭美成性亲情淡漠","desc":"黄润秋我行我素让父母伤心","series":"","link":"http://www.mgtv.com/b/316685/4123498.html"},{"jumpKind":"12","childId":"4123502","jumpId":"316685","image":{"imgHUrl":"http://0img.hitv.com/preview/sp_images/2017/zongyi/316685/4123502/20170930101829562.jpg","pcImgUrl":"http://3img.hitv.com/preview/cms_icon/2017/09/20170930123445980.jpg","imgHVUrl":"http://2img.hitv.com/preview/sp_images/2017/zongyi/316685/4123502/20170930101829052.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"[番外]吴欣媛犹豫是否变形","desc":"父母各执己见引发家庭纷争","series":"","link":"http://www.mgtv.com/b/316685/4123502.html"},{"jumpKind":"12","childId":"4116523","jumpId":"316685","image":{"imgHUrl":"http://3img.hitv.com/preview/sp_images/2017/zongyi/316685/4116523/20170924235759648.jpg","pcImgUrl":"","imgHVUrl":"http://0img.hitv.com/preview/sp_images/2017/zongyi/316685/4116523/20170924235804651.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"[励志]省钱睡大街","desc":"吴越为填补学费“天坑”好拼","series":"","link":"http://www.mgtv.com/b/316685/4116523.html"},{"jumpKind":"12","childId":"4119969","jumpId":"316685","image":{"imgHUrl":"http://2img.hitv.com/preview/sp_images/2017/zongyi/316685/4119969/20170927155203840.jpg","pcImgUrl":"","imgHVUrl":"http://1img.hitv.com/preview/sp_images/2017/zongyi/316685/4119969/20170927155203557.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"[未播]吴越泳池party","desc":"花式入水被整懵","series":"","link":"http://www.mgtv.com/b/316685/4119969.html"},{"jumpKind":"12","childId":"4115107","jumpId":"316685","image":{"imgHUrl":"http://2img.hitv.com/preview/sp_images/2017/zongyi/316685/4115107/20170923125944001.jpg","pcImgUrl":"","imgHVUrl":"http://3img.hitv.com/preview/sp_images/2017/zongyi/316685/4115107/20170923125943699.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"[尴尬]吴越被要求唱歌","desc":"濒临暴走的小哥哥一开口？","series":"","link":"http://www.mgtv.com/b/316685/4115107.html"}]
+}
+</script>
+</div></div>
+    <div class="right"><!--
+ * 模板: m-list-single.hbs
+ * 样式: m-list-single.less
+ * 描述: 芒果TV首页 - 图文列表单行
+ * 归属: imgotv-channel库
+ * 创建: Dora - 2016.07.18
+ * 修改: Dora - 2016.07.18
+ -->
+<div class="m-list-single mt30 mg_module" mg-name="list-single" data-lazyload-fn="0">
+<textarea style="display:none" class="template hide">
+	<div class="m-title">
+            <p class="til"><a href="http://www.mgtv.com/h/316045.html" target="_blank">我们来了2</a></p>
+            <p class="more"><a href="http://www.mgtv.com/h/316045.html" target="_blank">更多>></a></p>
+        <p class="change"><a href="javascript:void(0);">换一换</a></p>
+    </div>
+
+	<!--图文-->
+	<div class="v-list-inner">
+		<ul class="v-list-unit">
+		{{#items}}
+			<li class="v-item" data-vid="{{videoId}}" data-jumpkind="{{jumpKind}}" data-jumpid="{{jumpId}}" data-childid="{{childId}}">
+				<p class="screenshot">
+					<a href="{{link}}" target="_blank"><img alt="{{title}}" class="lazy" data-original="{{image}}" src="{{image}}"></a>
+					{{#series}}<span class="rb duration">{{series}}</span>{{/series}}
+					{{#rightCorner}}<i class="icon-o" style="background-color:{{cornerType}}">{{rightCorner}}</i>{{/rightCorner}}
+				</p>
+				<p class="title"><a href="{{link}}" target="_blank">{{title}}</a></p>
+				<p class="des">{{desc}}</p>
+			</li>
+		{{/items}}
+		</ul>
+	</div>
+</textarea>
+
+<script type="text/template" class="template-data hide">
+{ 
+"moduleId": "id_8424_56ac81b4",
+"moduleName": "我们来了2", 
+"moduleLink": "http://www.mgtv.com/h/316045.html", 
+"isExchange": 1,
+"data": [{"jumpKind":"12","childId":"4125222","jumpId":"308703","image":{"imgHUrl":"http://1img.hitv.com/preview/sp_images/2017/zongyi/308703/4125222/20171002150127622.jpg","pcImgUrl":"","imgHVUrl":"http://1img.hitv.com/preview/sp_images/2017/zongyi/308703/4125222/20171002150127017.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"[收官]汪涵请客","desc":"唐艺昕晒出海鲜宴，都想吃！","series":"","link":"http://www.mgtv.com/b/308703/4125222.html"},{"jumpKind":"12","childId":"4123297","jumpId":"316045","image":{"imgHUrl":"http://0img.hitv.com/preview/sp_images/2017/zongyi/316045/4123297/20170929221634445.jpg","pcImgUrl":"","imgHVUrl":"http://1img.hitv.com/preview/sp_images/2017/zongyi/316045/4123297/20170929221634152.jpg","squareImgUrl":""},"cornerType":"#1EBBC3","rightCorner":"预告","title":"[看点]李玟谭维维空降 ","desc":"众嘉宾学秦腔笑料百出","series":"","link":"http://www.mgtv.com/b/316045/4123297.html"},{"jumpKind":"12","childId":"4123173","jumpId":"316045","image":{"imgHUrl":"http://3img.hitv.com/preview/sp_images/2017/zongyi/316045/4123173/20170929210050680.jpg","pcImgUrl":"","imgHVUrl":"http://2img.hitv.com/preview/sp_images/2017/zongyi/316045/4123173/20170929210050413.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"[神奇]唐代化妆术","desc":"唐艺昕变杨贵妃狂甩表情包","series":"","link":"http://www.mgtv.com/b/316045/4123173.html"},{"jumpKind":"12","childId":"4123169","jumpId":"316045","image":{"imgHUrl":"http://3img.hitv.com/preview/sp_images/2017/zongyi/316045/4123169/20170929204845686.jpg","pcImgUrl":"http://0img.hitv.com/preview/cms_icon/2017/09/20170929213748513.jpg","imgHVUrl":"http://2img.hitv.com/preview/sp_images/2017/zongyi/316045/4123169/20170929204845389.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"[调侃]我圆脸我骄傲","desc":"陈妍希：在唐代一定受欢迎","series":"","link":"http://www.mgtv.com/b/316045/4123169.html"},{"jumpKind":"12","childId":"4123162","jumpId":"316045","image":{"imgHUrl":"http://2img.hitv.com/preview/sp_images/2017/zongyi/316045/4123162/20170929202712513.jpg","pcImgUrl":"","imgHVUrl":"http://3img.hitv.com/preview/sp_images/2017/zongyi/316045/4123162/20170929202713019.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"[厉害]华妃变单车达人","desc":"蒋欣骑车被嘲是骆驼祥子拉货","series":"","link":"http://www.mgtv.com/b/316045/4123162.html"},{"jumpKind":"12","childId":"4118945","jumpId":"316045","image":{"imgHUrl":"http://1img.hitv.com/preview/sp_images/2017/zongyi/316045/4118945/20170926182251912.jpg","pcImgUrl":"","imgHVUrl":"http://3img.hitv.com/preview/sp_images/2017/zongyi/316045/4118945/20170926182251630.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"[幕后]宋茜躺着化妆惊吓汪涵","desc":"练舞练到腿抽筋 ","series":"","link":"http://www.mgtv.com/b/316045/4118945.html"},{"jumpKind":"12","childId":"4114791","jumpId":"316045","image":{"imgHUrl":"http://3img.hitv.com/preview/sp_images/2017/zongyi/316045/4114791/20170922223945557.jpg","pcImgUrl":"http://0img.hitv.com/preview/cms_icon/2017/09/20170922233246777.jpg","imgHVUrl":"http://0img.hitv.com/preview/sp_images/2017/zongyi/316045/4114791/20170922223945286.jpg","squareImgUrl":""},"cornerType":"#1EBBC3","rightCorner":"预告","title":"[看点]女神团骑马惊险不断","desc":"关之琳生日 汪涵吴秀波送惊喜","series":"","link":"http://www.mgtv.com/b/316045/4114791.html"},{"jumpKind":"12","childId":"4118313","jumpId":"316045","image":{"imgHUrl":"http://1img.hitv.com/preview/sp_images/2017/zongyi/316045/4118313/20170926113728224.jpg","pcImgUrl":"http://2img.hitv.com/preview/cms_icon/2017/09/20170926131622140.jpg","imgHVUrl":"http://3img.hitv.com/preview/sp_images/2017/zongyi/316045/4118313/20170926113727972.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"[彩蛋]沈梦辰吐槽唐艺昕","desc":"“你是不是傻！偶像包袱没了”","series":"","link":"http://www.mgtv.com/b/316045/4118313.html"},{"jumpKind":"12","childId":"4114704","jumpId":"316045","image":{"imgHUrl":"http://1img.hitv.com/preview/sp_images/2017/zongyi/316045/4114704/20170922200632640.jpg","pcImgUrl":"http://2img.hitv.com/preview/cms_icon/2017/09/20170922220926939.jpg","imgHVUrl":"http://1img.hitv.com/preview/sp_images/2017/zongyi/316045/4114704/20170922200632380.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"[番外]唐艺昕被整疯","desc":"感觉请了个假教练！","series":"","link":"http://www.mgtv.com/b/316045/4114704.html"},{"jumpKind":"12","childId":"4114729","jumpId":"316045","image":{"imgHUrl":"http://3img.hitv.com/preview/sp_images/2017/zongyi/316045/4114729/20170922210152364.jpg","pcImgUrl":"http://1img.hitv.com/preview/cms_icon/2017/09/20170922214757834.jpg","imgHVUrl":"http://3img.hitv.com/preview/sp_images/2017/zongyi/316045/4114729/20170922210152067.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"[意外]蒋欣脚伤复发 ","desc":"不愿拖后腿宣布退出？！","series":"","link":"http://www.mgtv.com/b/316045/4114729.html"},{"jumpKind":"12","childId":"4112923","jumpId":"316045","image":{"imgHUrl":"http://2img.hitv.com/preview/sp_images/2017/zongyi/316045/4112923/20170921190007232.jpg","pcImgUrl":"http://4img.hitv.com/preview/cms_icon/2017/09/20170921192249739.jpg","imgHVUrl":"http://2img.hitv.com/preview/sp_images/2017/zongyi/316045/4112923/20170921190006880.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"[档案]宋茜《worth it》","desc":"女神的正确打开方式","series":"","link":"http://www.mgtv.com/b/316045/4112923.html"},{"jumpKind":"12","childId":"4109868","jumpId":"316045","image":{"imgHUrl":"http://2img.hitv.com/preview/sp_images/2017/zongyi/316045/4109868/20170919140309612.jpg","pcImgUrl":"","imgHVUrl":"http://3img.hitv.com/preview/sp_images/2017/zongyi/316045/4109868/20170919140303535.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"[彩蛋]蒋欣神补刀！","desc":"宋茜坐实游戏黑洞的称号","series":"","link":"http://www.mgtv.com/b/316045/4109868.html"}]
+}
+</script>
+</div></div>
+</div>
+        <div class="wp-main tv-main">
+    <!--
+ * 模板: m-list-double-img.hbs
+ * 样式: m-list-double-img.less
+ * 描述: 芒果TV首页 - 图文列表 电视剧
+ * 归属: imgotv-channel库
+ * 创建: Dora - 2016.07.15
+ * 修改: Dora - 2016.07.15
+ -->
+
+<div class="m-list-double-img mt30 mg_module" mg-name="list-double-img" data-lazyload-fn="0">
+
+<textarea style="display:none" class="template hide">
+
+	<div class="m-title">
+            <p class="til"><a href="http://www.mgtv.com/tv/" target="_blank">电视剧</a></p>
+            <p class="more"><a href="http://www.mgtv.com/tv/" target="_blank">更多>></a></p>
+        <p class="change"><a href="javascript:void(0);">换一换</a></p>
+    </div>
+
+	<div class="v-list-inner">
+		<div class="v-list-inner-ul">
+			{{#first}}
+			<ul class="v-list-unit v-list-unit-big">
+				<li class="v-item v-item-big" data-jumpkind="{{jumpKind}}" data-jumpid="{{jumpId}}" data-childid="{{childId}}">
+					<p class="screenshot screenshot-big">
+						<a class="a-bigimg" href="{{link}}" target="_blank"><img alt="{{title}}" class="lazy" data-original="{{imageBig}}" src="{{imageBig}}"></a>
+						<span class="mask"></span>
+						{{#series}}<span class="rb duration">{{series}}</span>{{/series}}
+						<span class="playico">点击观看完整视频</span>
+						{{#rightCorner}}<i class="icon-o" style="background-color:{{cornerType}}">{{rightCorner}}</i>{{/rightCorner}}
+					</p>
+					<p class="title"><a href="{{link}}" target="_blank">{{title}}</a></p>
+					<p class="des">{{desc}}</p>
+				</li>
+			</ul>
+			{{/first}}
+			{{#itemGroups}}
+			<ul class="v-list-unit">
+				{{#items}}
+				<li class="v-item">
+					<p class="screenshot">
+						<a href="{{link}}" target="_blank"><img alt="{{title}}" class="lazy" data-original="{{image}}" src="{{image}}"></a>
+						{{#series}}<span class="rb duration">{{series}}</span>{{/series}}
+						{{#rightCorner}}<i class="icon-o" style="background-color:{{cornerType}}">{{rightCorner}}</i>{{/rightCorner}}
+					</p>
+					<p class="title"><a href="{{link}}" target="_blank">{{title}}</a></p>
+					<p class="des">{{desc}}</p>
+				</li>
+				{{/items}}
+			</ul>
+			{{/itemGroups}}
+		</div>
+	</div>
+</textarea>
+
+<script type="text/template" class="template-data hide">
+{ 
+"moduleId": "id_659_563e3275", 
+"isExchange": 1,
+"moduleName": "电视剧", 
+"moduleLink": "http://www.mgtv.com/tv/", 
+"data": [{"jumpKind":"12","childId":"4124548","jumpId":"303799","image":{"imgHUrl":"http://1img.hitv.com/preview/sp_images/2017/dianshiju/303799/4120217/20170927175417377.jpg","pcImgUrl":"http://3img.hitv.com/preview/cms_icon/2017/10/20171001223803993.jpg","imgHVUrl":"http://0img.hitv.com/preview/sp_images/2017/dianshiju/303799/4120217/20170927175417140.jpg","squareImgUrl":""},"cornerType":"#E4B659","rightCorner":"VIP免费","title":"大话西游之爱你一万年","desc":"黄子韬变身至尊宝","series":"更新至第18集","link":"http://www.mgtv.com/b/303799/4124548.html"},{"jumpKind":"12","childId":"4125136","jumpId":"317619","image":{"imgHUrl":"http://2img.hitv.com/preview/sp_images/2017/dianshiju/317619/4125136/20171002100036702.jpg","pcImgUrl":"http://0img.hitv.com/preview/cms_icon/2017/09/20170926200256781.jpg","imgHVUrl":"http://1img.hitv.com/preview/sp_images/2017/dianshiju/317619/4125136/20171002103216964.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"通天狄仁杰","desc":"任嘉伦阚清子上演盛唐虐恋","series":"更新至第44集","link":"http://www.mgtv.com/b/317619/4125136.html"},{"jumpKind":"12","childId":"4121944","jumpId":"318250","image":{"imgHUrl":"http://1img.hitv.com/preview/sp_images/2017/dianshiju/318250/4121944/20170929093002353.jpg","pcImgUrl":"http://3img.hitv.com/preview/cms_icon/2017/09/20170929125655526.jpg","imgHVUrl":"http://1img.hitv.com/preview/sp_images/2017/dianshiju/318250/4121944/20170929093001857.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"神奈小姐","desc":"“重磅”日剧暖心上演","series":"全10集","link":"http://www.mgtv.com/b/318250/4121944.html"},{"jumpKind":"12","childId":"4124905","jumpId":"295837","image":{"imgHUrl":"http://0img.hitv.com/preview/sp_images/2017/dianshiju/295837/4123166/20170929205703476.jpg","pcImgUrl":"http://3img.hitv.com/preview/cms_icon/2017/09/20170926234415306.jpg","imgHVUrl":"http://3img.hitv.com/preview/sp_images/2017/dianshiju/295837/4123166/20170929205657161.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"美味奇缘 ","desc":"Mike毛晓彤甜蜜来袭","series":"更新至第33集","link":"http://www.mgtv.com/b/295837/4124905.html"},{"jumpKind":"12","childId":"4119892","jumpId":"317117","image":{"imgHUrl":"http://2img.hitv.com/preview/sp_images/2017/dianshiju/317117/4119892/20170927154159162.jpg","pcImgUrl":"http://1img.hitv.com/preview/cms_icon/2017/09/20170920200124905.jpg","imgHVUrl":"http://0img.hitv.com/preview/sp_images/2017/dianshiju/317117/4119892/20170927154158901.jpg","squareImgUrl":""},"cornerType":"#E4B659","rightCorner":"VIP免费","title":"亲爱的王子大人","desc":"张予曦谢佳见高甜萌爱","series":"更新至第15集","link":"http://www.mgtv.com/b/317117/4119892.html"},{"jumpKind":"12","childId":"4120576","jumpId":"313205","image":{"imgHUrl":"http://2img.hitv.com/preview/sp_images/2017/dianshiju/313205/4120576/20170927221658493.jpg","pcImgUrl":"http://4img.mgtv.com/preview/cms_icon/2017/08/20170828235429351.jpg","imgHVUrl":"http://2img.hitv.com/preview/sp_images/2017/dianshiju/313205/4120576/20170927221658185.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"进击吧闪电","desc":"蒋劲夫陈娅安热血耍“剑”","series":"全30集","link":"http://www.mgtv.com/b/313205/4120576.html"},{"jumpKind":"12","childId":"4116540","jumpId":"318251","image":{"imgHUrl":"http://2img.hitv.com/preview/sp_images/2017/dianshiju/318251/4116540/20170925092925180.jpg","pcImgUrl":"http://3img.hitv.com/preview/cms_icon/2017/09/20170927125340347.jpg","imgHVUrl":"http://0img.hitv.com/preview/sp_images/2017/dianshiju/318251/4116540/20170925092924903.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"受保护过度的加穗子","desc":"“麦穗”夫妇高甜来袭","series":"全10集","link":"http://www.mgtv.com/b/318251/4116540.html"},{"jumpKind":"12","childId":"4036455","jumpId":"310305","image":{"imgHUrl":"http://2img.mgtv.com/preview/sp_images/2017/dianshiju/310305/4036455/20170730220453761.jpg","pcImgUrl":"http://4img.mgtv.com/preview/cms_icon/2017/08/20170824230126071.jpg","imgHVUrl":"http://0img.mgtv.com/preview/sp_images/2017/dianshiju/310305/4036455/20170730220454353.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"浪花一朵朵 ","desc":"云朵陪一白去美国","series":"全37集","link":"http://www.mgtv.com/b/310305/4036455.html"},{"jumpKind":"12","childId":"4061843","jumpId":"308004","image":{"imgHUrl":"http://0img.hitv.com/preview/sp_images/2017/dianshiju/308004/4098776/20170910205905234.jpg","pcImgUrl":"http://1img.hitv.com/preview/cms_icon/2017/09/20170910233359878.jpg","imgHVUrl":"http://0img.hitv.com/preview/sp_images/2017/dianshiju/308004/4098776/20170910205904262.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"人间至味是清欢","desc":"丁人间安清欢苦尽甘来","series":"全42集","link":"http://www.mgtv.com/b/308004/4061843.html"},{"jumpKind":"12","childId":"3960734","jumpId":"293193","image":{"imgHUrl":"http://2img.mgtv.com/preview/sp_images/2017/dianshiju/293193/3960734/20170605214430820.jpg","pcImgUrl":"http://3img.mgtv.com/preview/cms_icon/2017/08/20170801234545290.jpg","imgHVUrl":"http://1img.mgtv.com/preview/sp_images/2017/dianshiju/293193/3960734/20170605214430397.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"楚乔传","desc":"赵丽颖林更新窦骁乱世虐恋","series":"全67集","link":"http://www.mgtv.com/b/293193/3960734.html"},{"jumpKind":"12","childId":"4054083","jumpId":"317423","image":{"imgHUrl":"http://2img.mgtv.com/preview/sp_images/2017/dianshiju/317423/4054083/20170810175122648.jpg","pcImgUrl":"http://3img.mgtv.com/preview/cms_icon/2017/08/20170811000135396.jpg","imgHVUrl":"http://2img.mgtv.com/preview/sp_images/2017/dianshiju/317423/4054083/20170810175122076.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"我们的爱","desc":"靳东变凤凰男 演绎婚姻保卫战","series":"全38集","link":"http://www.mgtv.com/b/317423/4054083.html"},{"jumpKind":"12","childId":"510117","jumpId":"44195","image":{"imgHUrl":"http://3img.mgtv.com/preview/sp_images/2016/dianshiju/44195/510117/20160612205136952.jpg","pcImgUrl":"http://3img.mgtv.com/preview/cms_icon/2017/08/20170816100936767.jpg","imgHVUrl":"","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"我是特种兵2","desc":"吴京变身神枪手","series":"全40集","link":"http://www.mgtv.com/b/44195/510117.html"},{"jumpKind":"12","childId":"3943590","jumpId":"304167","image":{"imgHUrl":"http://1img.mgtv.com/preview/sp_images/2017/dianshiju/304167/4029215/20170725150921511.jpg","pcImgUrl":"http://4img.mgtv.com/preview/cms_icon/2017/07/20170725180114360.jpg","imgHVUrl":"http://0img.mgtv.com/preview/sp_images/2017/dianshiju/304167/4029215/20170725150920923.jpg","squareImgUrl":""},"cornerType":"#E4B659","rightCorner":"VIP免费","title":"天使的幸福","desc":"晓涵杰罗高甜浪漫大婚","series":"全30集","link":"http://www.mgtv.com/b/304167/3943590.html"},{"jumpKind":"12","childId":"4059327","jumpId":"317273","image":{"imgHUrl":"http://3img.mgtv.com/preview/sp_images/2017/dianshiju/317273/4059327/20170814143143691.jpg","pcImgUrl":"http://4img.mgtv.com/preview/cms_icon/2017/08/20170814233927928.jpg","imgHVUrl":"http://3img.mgtv.com/preview/sp_images/2017/dianshiju/317273/4059327/20170814143143266.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"守卫者浮出水面","desc":"老干部靳东转型破案王","series":"全30集","link":"http://www.mgtv.com/b/317273/4059327.html"}]
+}
+</script>
+
+</div>
+    <!--
+ * 模板: m-list-top.hbs
+ * 样式: m-list-top.less
+ * 描述: 芒果TV首页 - 推荐系统排行榜模块
+ * 归属: imgotv-channel库
+ * 创建: Dora - 2016.07.18
+ * 修改: Dora - 2016.07.18
+ -->
+
+<div class="m-list-top mt30 mg_module" mg-name="list-top" data-lazyload-fn="0" data-cid="2" data-name="电视剧排行榜" data-link="http://www.mgtv.com/top/tv/">
+
+<textarea style="display:none" class="template hide">
+	<div class="m-title">
+            <p class="til"><a href="http://www.mgtv.com/top/tv/" target="_blank">电视剧排行榜</a></p>
+            <p class="more"><a href="http://www.mgtv.com/top/tv/" target="_blank">更多>></a></p>
+    </div>
+
+	<ul class="m-top-toplist">
+		{{#data}}
+		<li class="" data-vid="{{videoId}}" data-rctype="{{rcType}}">
+			<p class="txt"><em class="{{#top3}}on{{/top3}}">{{videoIndex}}</em><span><a href="{{play_url}}" target="_blank">{{name}}</a></span></p>
+			<p class="con">
+				<span class="screenshot">
+					<a href="{{play_url}}" target="_blank"><img alt="{{name}}" class="lazy" data-original="{{image}}" src="{{image}}"></a>
+					<i class="num">{{videoIndex}}</i>
+				</span>
+				<span class="title"><a href="{{play_url}}" target="_blank">{{name}}</a></span>
+				<span class="name">
+					{{#players}} / {{player}}{{/players}}
+				</span>
+			</p>
+		</li>
+		{{/data}}
+	</ul>
+</textarea>
+
+<script type="text/template" class="template-data hide">
+{ 
+"moduleId": "id_651_11e798de",
+"moduleName": "电视剧排行榜", 
+"moduleLink": "http://www.mgtv.com/top/tv/", 
+"data": []
+}
+</script>
+
+</div>
+</div>
+        <div class="wp-main">
+    <!--
+ * 模板: m-list-single.hbs
+ * 样式: m-list-single.less
+ * 描述: 芒果TV首页 - 图文列表单行
+ * 归属: imgotv-channel库
+ * 创建: Dora - 2016.07.18
+ * 修改: Dora - 2016.07.18
+ -->
+<div class="m-list-single mt30 mg_module" mg-name="list-single" data-lazyload-fn="0">
+<textarea style="display:none" class="template hide">
+	<div class="m-title">
+            <p class="til"><a href="http://www.mgtv.com/tv/" target="_blank">剧透社</a></p>
+            <p class="more"><a href="http://www.mgtv.com/tv/" target="_blank">更多>></a></p>
+        
+    </div>
+
+	<!--图文-->
+	<div class="v-list-inner">
+		<ul class="v-list-unit">
+		{{#items}}
+			<li class="v-item" data-vid="{{videoId}}" data-jumpkind="{{jumpKind}}" data-jumpid="{{jumpId}}" data-childid="{{childId}}">
+				<p class="screenshot">
+					<a href="{{link}}" target="_blank"><img alt="{{title}}" class="lazy" data-original="{{image}}" src="{{image}}"></a>
+					{{#series}}<span class="rb duration">{{series}}</span>{{/series}}
+					{{#rightCorner}}<i class="icon-o" style="background-color:{{cornerType}}">{{rightCorner}}</i>{{/rightCorner}}
+				</p>
+				<p class="title"><a href="{{link}}" target="_blank">{{title}}</a></p>
+				<p class="des">{{desc}}</p>
+			</li>
+		{{/items}}
+		</ul>
+	</div>
+</textarea>
+
+<script type="text/template" class="template-data hide">
+{ 
+"moduleId": "id_5414_8f09119e",
+"moduleName": "剧透社", 
+"moduleLink": "http://www.mgtv.com/tv/", 
+"isExchange": 0,
+"data": [{"jumpKind":"12","childId":"4125490","jumpId":"313162","image":{"imgHUrl":"http://2img.hitv.com/preview/sp_images/2017/dianshiju/313162/4125490/20171002225330790.jpg","pcImgUrl":"","imgHVUrl":"http://1img.hitv.com/preview/sp_images/2017/dianshiju/313162/4125490/20171002225330192.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"《那片星空2》片尾MV","desc":"冯绍峰郭碧婷曾经沧海","series":"","link":"http://www.mgtv.com/b/313162/4125490.html"},{"jumpKind":"12","childId":"4121870","jumpId":"303799","image":{"imgHUrl":"http://2img.hitv.com/preview/sp_images/2017/dianshiju/303799/4121870/20170928194804448.jpg","pcImgUrl":"","imgHVUrl":"http://3img.hitv.com/preview/sp_images/2017/dianshiju/303799/4121870/20170928194804164.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"《大话西游》剧透","desc":"黄子韬编故事跟踪青霞被揍","series":"","link":"http://www.mgtv.com/b/303799/4121870.html"},{"jumpKind":"12","childId":"4120591","jumpId":"309504","image":{"imgHUrl":"http://3img.hitv.com/preview/sp_images/2017/dianshiju/309504/4120591/20170927224040034.jpg","pcImgUrl":"","imgHVUrl":"http://2img.hitv.com/preview/sp_images/2017/dianshiju/309504/4120591/20170927224042178.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"《噗通噗通我爱你》特辑","desc":"甜点魔术师 征服你的心和胃","series":"","link":"http://www.mgtv.com/b/309504/4120591.html"},{"jumpKind":"12","childId":"4123765","jumpId":"313162","image":{"imgHUrl":"http://0img.hitv.com/preview/sp_images/2017/dianshiju/313162/4123765/20170930160920684.jpg","pcImgUrl":"http://1img.hitv.com/preview/cms_icon/2017/09/20170930171825735.jpg","imgHVUrl":"http://2img.hitv.com/preview/sp_images/2017/dianshiju/313162/4123765/20170930160920321.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"《星空海2》开播发布会","desc":"冯绍峰郭碧婷化身灵魂画手","series":"","link":"http://www.mgtv.com/b/313162/4123765.html"},{"jumpKind":"12","childId":"4120148","jumpId":"313205","image":{"imgHUrl":"http://1img.hitv.com/preview/sp_images/2017/dianshiju/313205/4120148/20170927164440582.jpg","pcImgUrl":"","imgHVUrl":"http://1img.hitv.com/preview/sp_images/2017/dianshiju/313205/4120148/20170927164440281.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"《进击吧闪电》专访","desc":"吴昊泽成最佳“助攻王”","series":"","link":"http://www.mgtv.com/b/313205/4120148.html"},{"jumpKind":"12","childId":"4124993","jumpId":"313162","image":{"imgHUrl":"http://1img.hitv.com/preview/sp_images/2017/dianshiju/313162/4124993/20171001205722487.jpg","pcImgUrl":"","imgHVUrl":"http://1img.hitv.com/preview/sp_images/2017/dianshiju/313162/4124993/20171001205722189.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"《那片星空那片海2》实拍篇","desc":"郭碧婷黄宗泽偶遇美人鱼？   ","series":"","link":"http://www.mgtv.com/b/313162/4124993.html"}]
+}
+</script>
+</div>
+</div>
+        <div class="wp-main">
+    <!--
+ * 模板: m-list-single.hbs
+ * 样式: m-list-single.less
+ * 描述: 芒果TV首页 - 图文列表单行
+ * 归属: imgotv-channel库
+ * 创建: Dora - 2016.07.18
+ * 修改: Dora - 2016.07.18
+ -->
+<div class="m-list-single mt30 mg_module" mg-name="list-single" data-lazyload-fn="0">
+<textarea style="display:none" class="template hide">
+	<div class="m-title">
+            <p class="til"><a href="http://www.mgtv.com/v/2016/idol/" target="_blank">爱豆福利社</a></p>
+            <p class="more"><a href="http://www.mgtv.com/v/2016/idol/" target="_blank">更多>></a></p>
+        
+    </div>
+
+	<!--图文-->
+	<div class="v-list-inner">
+		<ul class="v-list-unit">
+		{{#items}}
+			<li class="v-item" data-vid="{{videoId}}" data-jumpkind="{{jumpKind}}" data-jumpid="{{jumpId}}" data-childid="{{childId}}">
+				<p class="screenshot">
+					<a href="{{link}}" target="_blank"><img alt="{{title}}" class="lazy" data-original="{{image}}" src="{{image}}"></a>
+					{{#series}}<span class="rb duration">{{series}}</span>{{/series}}
+					{{#rightCorner}}<i class="icon-o" style="background-color:{{cornerType}}">{{rightCorner}}</i>{{/rightCorner}}
+				</p>
+				<p class="title"><a href="{{link}}" target="_blank">{{title}}</a></p>
+				<p class="des">{{desc}}</p>
+			</li>
+		{{/items}}
+		</ul>
+	</div>
+</textarea>
+
+<script type="text/template" class="template-data hide">
+{ 
+"moduleId": "id_1518_53b77027",
+"moduleName": "爱豆福利社", 
+"moduleLink": "http://www.mgtv.com/v/2016/idol/", 
+"isExchange": 0,
+"data": [{"jumpKind":"12","childId":"4123761","jumpId":"308703","image":{"imgHUrl":"http://0img.hitv.com/preview/sp_images/2017/zongyi/308703/4123761/20170930160301312.jpg","pcImgUrl":"http://1img.hitv.com/preview/cms_icon/2017/09/20170930220532251.jpg","imgHVUrl":"http://2img.hitv.com/preview/sp_images/2017/zongyi/308703/4123761/20170930160301022.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"【鹿晗】委屈喊话双节不放假","desc":"《零界点》MV变身最帅修车工","series":"","link":"http://www.mgtv.com/b/308703/4123761.html"},{"jumpKind":"12","childId":"4124317","jumpId":"308710","image":{"imgHUrl":"http://1img.hitv.com/preview/sp_images/2017/zongyi/308710/4124317/20170930214111636.jpg","pcImgUrl":"http://2img.hitv.com/preview/cms_icon/2017/09/20170930220100023.jpg","imgHVUrl":"http://1img.hitv.com/preview/sp_images/2017/zongyi/308710/4124317/20170930214111368.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"【李晨】现场表白范冰冰","desc":"你是我人生的导演！","series":"","link":"http://www.mgtv.com/b/308710/4124317.html"},{"jumpKind":"12","childId":"4117282","jumpId":"309454","image":{"imgHUrl":"http://1img.hitv.com/preview/sp_images/2017/yuanchuang/309454/4117282/20170925165338342.jpg","pcImgUrl":"http://2img.hitv.com/preview/cms_icon/2017/09/20170925235853597.jpg","imgHVUrl":"http://1img.hitv.com/preview/sp_images/2017/yuanchuang/309454/4117282/20170925165337930.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"【李易峰赵丽颖】CP","desc":"《时间裂缝》深情难易莫失莫忘","series":"","link":"http://www.mgtv.com/b/309454/4117282.html"},{"jumpKind":"12","childId":"4113600","jumpId":"316657","image":{"imgHUrl":"http://1img.hitv.com/preview/sp_images/2017/dianshiju/316657/4113600/20170922113119133.jpg","pcImgUrl":"http://0img.hitv.com/preview/cms_icon/2017/09/20170922130201073.png","imgHVUrl":"http://0img.hitv.com/preview/sp_images/2017/dianshiju/316657/4113600/20170922113118842.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"【三生三世五里桃花】饭制剧","desc":"杨洋杨幂阿离的甜蜜时光","series":"","link":"http://www.mgtv.com/b/316657/4113600.html"},{"jumpKind":"12","childId":"4110092","jumpId":"309452","image":{"imgHUrl":"http://3img.hitv.com/preview/sp_images/2017/yuanchuang/309452/4110092/20170919161508729.jpg","pcImgUrl":"","imgHVUrl":"http://3img.hitv.com/preview/sp_images/2017/yuanchuang/309452/4110092/20170919161502696.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"【热巴】快问快答","desc":"拍吻戏会准备一颗冷漠的心？","series":"","link":"http://www.mgtv.com/b/309452/4110092.html"},{"jumpKind":"2","childId":"4106652","jumpId":"100011098","image":{"imgHUrl":"http://2img.hitv.com/preview/internettv/sp_images/ott/2017/zongyi/100011098/20170916071701665-new.jpg","pcImgUrl":"","imgHVUrl":"http://0img.hitv.com/preview/internettv/sp_images/ott/2017/zongyi/100011098/20170916071413001-new.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"【范冰冰】36岁生日这天 ","desc":"李晨求婚成功了！恭喜恭喜","series":"","link":"http://www.mgtv.com/l/100011098.html"},{"jumpKind":"12","childId":"4104773","jumpId":"317103","image":{"imgHUrl":"http://1img.hitv.com/preview/sp_images/2017/dianshiju/317103/4097116/20170908210650102.jpg","pcImgUrl":"http://3img.hitv.com/preview/cms_icon/2017/09/20170912144046695.jpg","imgHVUrl":"http://3img.hitv.com/preview/sp_images/2017/dianshiju/317103/4097116/20170908210649729.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"【饭制剧】霸道总裁爱上我","desc":"赵丽颖欲抛弃落魄王子李易峰","series":"","link":"http://www.mgtv.com/b/317103/4104773.html"}]
+}
+</script>
+</div>
+</div>
+        <!--
+ * 模板: m-star-list.hbs
+ * 样式: m-star-list.less
+ * 描述: 芒果TV首页 - 单排图文圆形模块
+ * 归属: imgotv-channel库
+ * 创建: Dora - 2016.07.18
+ * 修改: Dora - 2016.07.18
+ -->
+<div class="wp-main star-main">
+<div class="m-list-single-circle mt30 mg_module" mg-name="list-star" data-lazyload-fn="0">
+
+<textarea style="display:none" class="template hide">
+    <div class="m-title">
+            <p class="til"><a href="javascript:void(0);">明星</a></p>
+        
+    </div>
+
+    <ul class="starul">
+        {{#items}}
+        {{!-- 直播中增加类 sel --}}
+        <li class="{{#isOnline}}sel{{/isOnline}}" data-uid="{{uid}}">  
+            <p class="screenshot">
+                <a href="{{link}}" target="_blank">
+                    <img class="lazy" data-original="{{photo}}" src="{{photo}}" alt="{{nickName}}" width="90" height="90">
+                </a>
+                <i class="mask"></i>
+                <i class="num">{{hotValue}}</i>
+            </p>
+            <p class="name"><a href="{{link}}" target="_blank">{{nickName}}</a></p>
+            <p class="living">直播中</p>
+            <p class="playnum"><span>{{hotValue}}</span></p>
+        </li>
+        {{/items}}
+    </ul>
+</textarea>
+
+<script type="text/template" class="template-data hide">
+{ 
+"moduleId": "id_646_42acdbba", 
+"moduleName": "明星", 
+"moduleLink": "", 
+"isExchange": 0,
+"data": []
+}
+</script>
+</div>
+</div>
+        <div class="wp-main">
+    <!--
+ * 模板: m-list-portrait.hbs
+ * 样式: m-list-portrait.less
+ * 描述: 芒果TV首页 - 竖版列表模块
+ * 归属: imgotv-channel库
+ * 创建: Dora - 2016.07.18
+ * 修改: Dora - 2016.07.18
+ -->
+<div class="m-list-portrait mt30 mg_module" mg-name="list-portrait" data-lazyload-fn="0">
+<textarea style="display:none" class="template hide">
+	<div class="m-title">
+            <p class="til"><a href="http://www.mgtv.com/movie/" target="_blank">电影</a></p>
+            <p class="more"><a href="http://www.mgtv.com/movie/" target="_blank">更多>></a></p>
+        <p class="change"><a href="javascript:void(0);">换一换</a></p>
+    </div>
+
+	<div class="v-list-inner">
+		<ul class="v-list-unit">
+		{{#items}}
+			<li class="v-item" data-vid="{{videoId}}">
+				<p class="screenshot">
+					<a href="{{link}}" target="_blank"><img alt="{{title}}" class="lazy" data-original="{{image}}" src="{{image}}"></a>
+					{{#series}}<span class="rb duration">{{series}}</span>{{/series}}
+					{{#rightCorner}}<i class="icon-o" style="background-color:{{cornerType}}">{{rightCorner}}</i>{{/rightCorner}}
+				</p>
+				<p class="title"><a href="{{link}}" target="_blank">{{title}}</a></p>
+				<p class="des">{{desc}}</p>
+			</li>
+		{{/items}}
+		</ul>
+	</div>
+</textarea>
+
+<script type="text/template" class="template-data hide">
+{ 
+"moduleId": "id_713_6856bbd5", 
+"moduleName": "电影", 
+"moduleLink": "http://www.mgtv.com/movie/", 
+"isExchange": 1,
+"data": [{"jumpKind":"12","childId":"4121357","jumpId":"316184","image":{"imgHUrl":"http://0img.hitv.com/preview/sp_images/2017/dianying/316184/4121357/20170930100749231.jpg","pcImgUrl":"http://1img.hitv.com/preview/cms_icon/2017/09/20170930121706816.jpg","imgHVUrl":"http://0img.hitv.com/preview/sp_images/2017/dianying/316184/4121357/20170928164536914.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"建军大业","desc":"献礼建军90周年","series":"","link":"http://www.mgtv.com/b/316184/4121357.html"},{"jumpKind":"12","childId":"4033975","jumpId":"314137","image":{"imgHUrl":"http://3img.mgtv.com/preview/sp_images/2017/dianying/314137/4033975/20170728151115746.jpg","pcImgUrl":"http://1img.hitv.com/preview/cms_icon/2017/09/20170930121647355.jpg","imgHVUrl":"http://2img.mgtv.com/preview/sp_images/2017/dianying/314137/4033975/20170728151209237.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"逆时营救","desc":"三个杨幂惊险对决霍建华","series":"","link":"http://www.mgtv.com/b/314137/4033975.html"},{"jumpKind":"12","childId":"4117304","jumpId":"308777","image":{"imgHUrl":"http://3img.hitv.com/preview/sp_images/2017/dianying/308777/4117304/20170926231852500.jpg","pcImgUrl":"http://3img.hitv.com/preview/cms_icon/2017/09/20170926234939703.jpg","imgHVUrl":"http://0img.hitv.com/preview/sp_images/2017/dianying/308777/4117304/20170925171758822.jpg","squareImgUrl":""},"cornerType":"#E84440","rightCorner":"VIP用券","title":"新木乃伊","desc":"阿汤哥开启墓穴探险","series":"","link":"http://www.mgtv.com/b/308777/4117304.html"},{"jumpKind":"12","childId":"3977857","jumpId":"313260","image":{"imgHUrl":"http://0img.mgtv.com/preview/sp_images/2017/dianying/313260/3977857/20170617170741018.jpg","pcImgUrl":"http://0img.hitv.com/preview/cms_icon/2017/09/20170917215430227.jpg","imgHVUrl":"http://3img.mgtv.com/preview/sp_images/2017/dianying/313260/3977857/20170617170740618.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"嫌疑人X的献身","desc":"王凯张鲁一天才对决","series":"","link":"http://www.mgtv.com/b/313260/3977857.html"},{"jumpKind":"12","childId":"4105849","jumpId":"315779","image":{"imgHUrl":"http://1img.hitv.com/preview/sp_images/2017/dianying/315779/4105849/20170915184556219.jpg","pcImgUrl":"http://3img.hitv.com/preview/cms_icon/2017/09/20170916095800068.jpg","imgHVUrl":"http://2img.hitv.com/preview/sp_images/2017/dianying/315779/4105849/20170915184602201.jpg","squareImgUrl":""},"cornerType":"#E4B659","rightCorner":"VIP免费","title":"明月几时有","desc":"周迅彭于晏霍建华携手抗敌","series":"","link":"http://www.mgtv.com/b/315779/4105849.html"},{"jumpKind":"12","childId":"4091664","jumpId":"312808","image":{"imgHUrl":"http://3img.hitv.com/preview/sp_images/2017/dianying/312808/4091664/20170914182855962.jpg","pcImgUrl":"http://2img.hitv.com/preview/cms_icon/2017/09/20170915000035828.jpg","imgHVUrl":"http://0img.hitv.com/preview/sp_images/2017/dianying/312808/4091664/20170905165358918.jpg","squareImgUrl":""},"cornerType":"#E84440","rightCorner":"VIP用券","title":"加勒比海盗5","desc":"杰克船长对决亡灵大军","series":"","link":"http://www.mgtv.com/b/312808/4091664.html"},{"jumpKind":"12","childId":"3941034","jumpId":"290237","image":{"imgHUrl":"http://0img.mgtv.com/preview/sp_images/2017/dianying/290237/3941034/20170519160633712.jpg","pcImgUrl":"http://3img.hitv.com/preview/cms_icon/2017/09/20170922102643807.jpg","imgHVUrl":"http://3img.mgtv.com/preview/sp_images/2017/dianying/290237/3941034/20170519160635698.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"爵迹","desc":"陈伟霆吴亦凡集结为荣誉而战","series":"","link":"http://www.mgtv.com/b/290237/3941034.html"},{"jumpKind":"12","childId":"3052639","jumpId":"108873","image":{"imgHUrl":"http://0img.mgtv.com/preview/sp_images/2016/dianying/108873/3052639/20160318111100420.jpg","pcImgUrl":"http://2img.hitv.com/preview/cms_icon/2017/09/20170922102712762.jpg","imgHVUrl":"http://3img.hitv.com/preview/sp_images/2017/dianying/108873/3052639/20170920160850073.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"从天儿降","desc":"陈学冬张艺兴喜当爹爆笑带娃","series":"","link":"http://www.mgtv.com/b/108873/3052639.html"},{"jumpKind":"12","childId":"4094815","jumpId":"313351","image":{"imgHUrl":"http://0img.hitv.com/preview/sp_images/2017/dianying/313351/4094815/20170908145146472.jpg","pcImgUrl":"http://1img.hitv.com/preview/cms_icon/2017/09/20170908160603919.jpg","imgHVUrl":"http://1img.hitv.com/preview/sp_images/2017/dianying/313351/4094815/20170908145343997.jpg","squareImgUrl":""},"cornerType":"#E4B659","rightCorner":"VIP免费","title":"鲛珠传","desc":"王大陆张天爱携手对抗羽族","series":"","link":"http://www.mgtv.com/b/313351/4094815.html"},{"jumpKind":"12","childId":"4119273","jumpId":"316670","image":{"imgHUrl":"http://1img.hitv.com/preview/sp_images/2017/dianying/316670/4119273/20170927092906468.jpg","pcImgUrl":"http://3img.hitv.com/preview/cms_icon/2017/09/20170927111652595.jpg","imgHVUrl":"http://3img.hitv.com/preview/sp_images/2017/dianying/316670/4119273/20170927092909977.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"羞羞的铁拳[首映礼]","desc":"铁打的马丽流水的男主","series":"","link":"http://www.mgtv.com/b/316670/4119273.html"}]
+}
+</script>
+</div>
+    <!--
+ * 模板: m-list-top.hbs
+ * 样式: m-list-top.less
+ * 描述: 芒果TV首页 - 推荐系统排行榜模块
+ * 归属: imgotv-channel库
+ * 创建: Dora - 2016.07.18
+ * 修改: Dora - 2016.07.18
+ -->
+
+<div class="m-list-top mt30 mg_module" mg-name="list-top" data-lazyload-fn="0" data-cid="3" data-name="电影排行榜" data-link="http://www.mgtv.com/top/movie/">
+
+<textarea style="display:none" class="template hide">
+	<div class="m-title">
+            <p class="til"><a href="http://www.mgtv.com/top/movie/" target="_blank">电影排行榜</a></p>
+            <p class="more"><a href="http://www.mgtv.com/top/movie/" target="_blank">更多>></a></p>
+    </div>
+
+	<ul class="m-top-toplist">
+		{{#data}}
+		<li class="" data-vid="{{videoId}}" data-rctype="{{rcType}}">
+			<p class="txt"><em class="{{#top3}}on{{/top3}}">{{videoIndex}}</em><span><a href="{{play_url}}" target="_blank">{{name}}</a></span></p>
+			<p class="con">
+				<span class="screenshot">
+					<a href="{{play_url}}" target="_blank"><img alt="{{name}}" class="lazy" data-original="{{image}}" src="{{image}}"></a>
+					<i class="num">{{videoIndex}}</i>
+				</span>
+				<span class="title"><a href="{{play_url}}" target="_blank">{{name}}</a></span>
+				<span class="name">
+					{{#players}} / {{player}}{{/players}}
+				</span>
+			</p>
+		</li>
+		{{/data}}
+	</ul>
+</textarea>
+
+<script type="text/template" class="template-data hide">
+{ 
+"moduleId": "id_714_849a1a2a",
+"moduleName": "电影排行榜", 
+"moduleLink": "http://www.mgtv.com/top/movie/", 
+"data": []
+}
+</script>
+
+</div>
+</div>
+        <div class="wp-main tv-main">
+    <!--
+ * 模板: m-list-double-img.hbs
+ * 样式: m-list-double-img.less
+ * 描述: 芒果TV首页 - 图文列表 电视剧
+ * 归属: imgotv-channel库
+ * 创建: Dora - 2016.07.15
+ * 修改: Dora - 2016.07.15
+ -->
+
+<div class="m-list-double-img mt30 mg_module" mg-name="list-double-img" data-lazyload-fn="0">
+
+<textarea style="display:none" class="template hide">
+
+	<div class="m-title">
+            <p class="til"><a href="http://www.mgtv.com/child/" target="_blank">少儿频道</a></p>
+            <p class="more"><a href="http://www.mgtv.com/child/" target="_blank">更多>></a></p>
+        <p class="change"><a href="javascript:void(0);">换一换</a></p>
+    </div>
+
+	<div class="v-list-inner">
+		<div class="v-list-inner-ul">
+			{{#first}}
+			<ul class="v-list-unit v-list-unit-big">
+				<li class="v-item v-item-big" data-jumpkind="{{jumpKind}}" data-jumpid="{{jumpId}}" data-childid="{{childId}}">
+					<p class="screenshot screenshot-big">
+						<a class="a-bigimg" href="{{link}}" target="_blank"><img alt="{{title}}" class="lazy" data-original="{{imageBig}}" src="{{imageBig}}"></a>
+						<span class="mask"></span>
+						{{#series}}<span class="rb duration">{{series}}</span>{{/series}}
+						<span class="playico">点击观看完整视频</span>
+						{{#rightCorner}}<i class="icon-o" style="background-color:{{cornerType}}">{{rightCorner}}</i>{{/rightCorner}}
+					</p>
+					<p class="title"><a href="{{link}}" target="_blank">{{title}}</a></p>
+					<p class="des">{{desc}}</p>
+				</li>
+			</ul>
+			{{/first}}
+			{{#itemGroups}}
+			<ul class="v-list-unit">
+				{{#items}}
+				<li class="v-item">
+					<p class="screenshot">
+						<a href="{{link}}" target="_blank"><img alt="{{title}}" class="lazy" data-original="{{image}}" src="{{image}}"></a>
+						{{#series}}<span class="rb duration">{{series}}</span>{{/series}}
+						{{#rightCorner}}<i class="icon-o" style="background-color:{{cornerType}}">{{rightCorner}}</i>{{/rightCorner}}
+					</p>
+					<p class="title"><a href="{{link}}" target="_blank">{{title}}</a></p>
+					<p class="des">{{desc}}</p>
+				</li>
+				{{/items}}
+			</ul>
+			{{/itemGroups}}
+		</div>
+	</div>
+</textarea>
+
+<script type="text/template" class="template-data hide">
+{ 
+"moduleId": "id_1503_8bc04aaa", 
+"isExchange": 1,
+"moduleName": "少儿频道", 
+"moduleLink": "http://www.mgtv.com/child/", 
+"data": [{"jumpKind":"12","childId":"3789954","jumpId":"310504","image":{"imgHUrl":"http://0img.mgtv.com/preview/sp_images/2017/dongman/310504/3789954/20170119165111721.jpg","pcImgUrl":"http://4img.mgtv.com/preview/cms_icon/2017/08/20170828101243531.jpg","imgHVUrl":"http://0img.mgtv.com/preview/sp_images/2017/dongman/310504/3789954/20170119165111271.jpg","squareImgUrl":""},"cornerType":"#E4B659","rightCorner":"VIP免费","title":"汪汪队立大功 第三季","desc":"非会员免费看十集！","series":"全26集","link":"http://www.mgtv.com/b/310504/3789954.html"},{"jumpKind":"12","childId":"3887317","jumpId":"313803","image":{"imgHUrl":"http://2img.mgtv.com/preview/sp_images/2017/dongman/313803/3887317/20170401174543473.jpg","pcImgUrl":"http://2img.hitv.com/preview/cms_icon/2017/09/20170924102503248.jpg","imgHVUrl":"http://3img.mgtv.com/preview/sp_images/2017/dongman/313803/3887317/20170401174542958.jpg","squareImgUrl":""},"cornerType":"#FF5F00","rightCorner":"独播","title":"偶像X战士奇迹之音","desc":"偶像小仙女养成记！","series":"更新至第26集","link":"http://www.mgtv.com/b/313803/3887317.html"},{"jumpKind":"12","childId":"4001079","jumpId":"316477","image":{"imgHUrl":"http://3img.mgtv.com/preview/sp_images/2017/dongman/316477/4001079/20170705112819536.jpg","pcImgUrl":"http://3img.hitv.com/preview/cms_icon/2017/09/20170930104108422.jpg","imgHVUrl":"http://1img.mgtv.com/preview/sp_images/2017/dongman/316477/4001079/20170705112819080.jpg","squareImgUrl":""},"cornerType":"#FF5F00","rightCorner":"独播","title":"超级菜鸟","desc":"限时免费看全集","series":"全52集","link":"http://www.mgtv.com/b/316477/4001079.html"},{"jumpKind":"12","childId":"4001866","jumpId":"316479","image":{"imgHUrl":"http://1img.mgtv.com/preview/sp_images/2017/dongman/316479/4001866/20170705180302057.jpg","pcImgUrl":"http://4img.hitv.com/preview/cms_icon/2017/09/20170930104149862.jpg","imgHVUrl":"http://2img.mgtv.com/preview/sp_images/2017/dongman/316479/4001866/20170705180301404.jpg","squareImgUrl":""},"cornerType":"#FF5F00","rightCorner":"独播","title":"濒危物种","desc":"限时免费看全集","series":"全52集","link":"http://www.mgtv.com/b/316479/4001866.html"},{"jumpKind":"12","childId":"2956673","jumpId":"291089","image":{"imgHUrl":"http://3img.mgtv.com/preview//sp_images/2016/dongman/291089/2956673/20160729152927002.jpg","pcImgUrl":"http://4img.hitv.com/preview/cms_icon/2017/09/20170930104620638.jpg","imgHVUrl":"","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"小猪佩奇 第四季","desc":"超萌小猪陪你成长","series":"全26集","link":"http://www.mgtv.com/b/291089/2956673.html"},{"jumpKind":"12","childId":"4103417","jumpId":"318243","image":{"imgHUrl":"http://1img.hitv.com/preview/sp_images/2017/dongman/318243/4103417/20170914100916477.jpg","pcImgUrl":"http://1img.hitv.com/preview/cms_icon/2017/09/20170930103834297.jpg","imgHVUrl":"http://3img.hitv.com/preview/sp_images/2017/dongman/318243/4103417/20170914100917875.jpg","squareImgUrl":""},"cornerType":"#FF5F00","rightCorner":"连载","title":"激战奇轮第三季","desc":"奇轮星大危机","series":"更新至第8集","link":"http://www.mgtv.com/b/318243/4103417.html"},{"jumpKind":"1","childId":"4119506","jumpId":"318565","image":{"imgHUrl":"http://4img.hitv.com/preview/internettv/sp_images/ott/2017/dongman/318565/20170925120256203-new.jpg","pcImgUrl":"http://0img.hitv.com/preview/cms_icon/2017/09/20170930104310010.jpg","imgHVUrl":"http://2img.hitv.com/preview/internettv/sp_images/ott/2017/dongman/318565/20170925120251014-new.jpg","squareImgUrl":""},"cornerType":"#FF5F00","rightCorner":"连载","title":"喜羊羊与灰太狼之发明大作战","desc":"奇思妙想超乎想象","series":"更新至第16集","link":"http://www.mgtv.com/b/318565/4119499.html"},{"jumpKind":"12","childId":"3907066","jumpId":"314612","image":{"imgHUrl":"http://1img.mgtv.com/preview/sp_images/2017/dongman/314612/3907066/20170420183149816.jpg","pcImgUrl":"http://1img.mgtv.com/preview/cms_icon/2017/05/20170502172248721.jpg","imgHVUrl":"http://3img.mgtv.com/preview/sp_images/2017/dongman/314612/3907066/20170420183148686.jpg","squareImgUrl":""},"cornerType":"#07B85A","rightCorner":"首发","title":"熊熊乐园","desc":"在大树幼儿园里开心成长","series":"全52集","link":"http://www.mgtv.com/b/314612/3907066.html"},{"jumpKind":"12","childId":"4000627","jumpId":"316475","image":{"imgHUrl":"http://3img.mgtv.com/preview/sp_images/2017/dongman/316475/4000627/20170704191854470.jpg","pcImgUrl":"http://1img.mgtv.com/preview/cms_icon/2017/07/20170714164454070.jpg","imgHVUrl":"http://1img.mgtv.com/preview/sp_images/2017/dongman/316475/4000627/20170704184903887.jpg","squareImgUrl":""},"cornerType":"#F06000","rightCorner":"独播","title":"太空骑侠罗杰","desc":"想象力与创造力齐飞","series":"全26集","link":"http://www.mgtv.com/b/316475/4000627.html"},{"jumpKind":"12","childId":"3881629","jumpId":"313589","image":{"imgHUrl":"http://1img.mgtv.com/preview/sp_images/2017/dongman/313589/3881629/20170328161030213.jpg","pcImgUrl":"http://1img.mgtv.com/preview/cms_icon/2017/06/20170613101121729.jpg","imgHVUrl":"http://0img.mgtv.com/preview/sp_images/2017/dongman/313589/3881629/20170328161029852.jpg","squareImgUrl":""},"cornerType":"#F06000","rightCorner":"独播","title":"积高侠与阿里巴巴","desc":"积木小英雄热血开战","series":"全52集","link":"http://www.mgtv.com/b/313589/3881629.html"},{"jumpKind":"12","childId":"3945839","jumpId":"46329","image":{"imgHUrl":"http://1img.mgtv.com/preview/sp_images/2017/dongman/46329/3945839/20170524093034146.jpg","pcImgUrl":"http://3img.mgtv.com/preview/cms_icon/2017/06/20170621144132606.jpg","imgHVUrl":"http://1img.mgtv.com/preview/sp_images/2017/dongman/46329/3945839/20170524093033625.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"功夫熊猫第一季","desc":"神龙大侠闯江湖","series":"全26集","link":"http://www.mgtv.com/b/46329/3945839.html"},{"jumpKind":"12","childId":"3710010","jumpId":"307839","image":{"imgHUrl":"http://3img.mgtv.com/preview/sp_images/2016/dongman/307839/3710010/20161123114856889.jpg","pcImgUrl":"http://1img.mgtv.com/preview/cms_icon/2017/03/20170329150206254.jpg","imgHVUrl":"http://1img.mgtv.com/preview/sp_images/2016/dongman/307839/3710010/20161123114856147.jpg","squareImgUrl":""},"cornerType":"#F06000","rightCorner":"独播","title":"新猫和老鼠 第二季","desc":"欢喜小冤家逗萌上线","series":"全78集","link":"http://www.mgtv.com/b/307839/3710010.html"},{"jumpKind":"12","childId":"3785864","jumpId":"310880","image":{"imgHUrl":"http://1img.mgtv.com/preview/sp_images/2017/dongman/310880/3785864/20170117104341849.jpg","pcImgUrl":"http://1img.mgtv.com/preview/cms_icon/2017/03/20170329150335439.jpg","imgHVUrl":"http://2img.mgtv.com/preview/sp_images/2017/dongman/310880/3785864/20170117104342826.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"海底小纵队第四季 ","desc":"海底小纵队与海象幼崽","series":"全26集","link":"http://www.mgtv.com/b/310880/3785864.html"},{"jumpKind":"12","childId":"3996777","jumpId":"316424","image":{"imgHUrl":"http://2img.mgtv.com/preview/sp_images/2017/dongman/316424/3996777/20170630185302071.jpg","pcImgUrl":"http://4img.mgtv.com/preview/cms_icon/2017/07/20170701115521830.jpg","imgHVUrl":"http://1img.mgtv.com/preview/sp_images/2017/dongman/316424/3996777/20170630185301577.jpg","squareImgUrl":""},"cornerType":"#07B85A","rightCorner":"首发","title":"小小探索家","desc":"让想象飞起来","series":"更新至第26集","link":"http://www.mgtv.com/b/316424/3996777.html"}]
+}
+</script>
+
+</div>
+    <!--
+ * 模板: m-list-top.hbs
+ * 样式: m-list-top.less
+ * 描述: 芒果TV首页 - 推荐系统排行榜模块
+ * 归属: imgotv-channel库
+ * 创建: Dora - 2016.07.18
+ * 修改: Dora - 2016.07.18
+ -->
+
+<div class="m-list-top mt30 mg_module" mg-name="list-top" data-lazyload-fn="0" data-cid="50" data-name="少儿排行榜" data-link="http://www.mgtv.com/top/cartoon/">
+
+<textarea style="display:none" class="template hide">
+	<div class="m-title">
+            <p class="til"><a href="http://www.mgtv.com/top/cartoon/" target="_blank">少儿排行榜</a></p>
+            <p class="more"><a href="http://www.mgtv.com/top/cartoon/" target="_blank">更多>></a></p>
+    </div>
+
+	<ul class="m-top-toplist">
+		{{#data}}
+		<li class="" data-vid="{{videoId}}" data-rctype="{{rcType}}">
+			<p class="txt"><em class="{{#top3}}on{{/top3}}">{{videoIndex}}</em><span><a href="{{play_url}}" target="_blank">{{name}}</a></span></p>
+			<p class="con">
+				<span class="screenshot">
+					<a href="{{play_url}}" target="_blank"><img alt="{{name}}" class="lazy" data-original="{{image}}" src="{{image}}"></a>
+					<i class="num">{{videoIndex}}</i>
+				</span>
+				<span class="title"><a href="{{play_url}}" target="_blank">{{name}}</a></span>
+				<span class="name">
+					{{#players}} / {{player}}{{/players}}
+				</span>
+			</p>
+		</li>
+		{{/data}}
+	</ul>
+</textarea>
+
+<script type="text/template" class="template-data hide">
+{ 
+"moduleId": "id_1506_506dde54",
+"moduleName": "少儿排行榜", 
+"moduleLink": "http://www.mgtv.com/top/cartoon/", 
+"data": []
+}
+</script>
+
+</div>
+</div>
+        <div class="wp-main">
+    <!--
+ * 模板: m-list-single.hbs
+ * 样式: m-list-single.less
+ * 描述: 芒果TV首页 - 图文列表单行
+ * 归属: imgotv-channel库
+ * 创建: Dora - 2016.07.18
+ * 修改: Dora - 2016.07.18
+ -->
+<div class="m-list-single mt30 mg_module" mg-name="list-single" data-lazyload-fn="0">
+<textarea style="display:none" class="template hide">
+	<div class="m-title">
+            <p class="til"><a href="http://www.mgtv.com/cartoon/" target="_blank">动漫</a></p>
+            <p class="more"><a href="http://www.mgtv.com/cartoon/" target="_blank">更多>></a></p>
+        <p class="change"><a href="javascript:void(0);">换一换</a></p>
+    </div>
+
+	<!--图文-->
+	<div class="v-list-inner">
+		<ul class="v-list-unit">
+		{{#items}}
+			<li class="v-item" data-vid="{{videoId}}" data-jumpkind="{{jumpKind}}" data-jumpid="{{jumpId}}" data-childid="{{childId}}">
+				<p class="screenshot">
+					<a href="{{link}}" target="_blank"><img alt="{{title}}" class="lazy" data-original="{{image}}" src="{{image}}"></a>
+					{{#series}}<span class="rb duration">{{series}}</span>{{/series}}
+					{{#rightCorner}}<i class="icon-o" style="background-color:{{cornerType}}">{{rightCorner}}</i>{{/rightCorner}}
+				</p>
+				<p class="title"><a href="{{link}}" target="_blank">{{title}}</a></p>
+				<p class="des">{{desc}}</p>
+			</li>
+		{{/items}}
+		</ul>
+	</div>
+</textarea>
+
+<script type="text/template" class="template-data hide">
+{ 
+"moduleId": "id_712_9da116e1",
+"moduleName": "动漫", 
+"moduleLink": "http://www.mgtv.com/cartoon/", 
+"isExchange": 1,
+"data": [{"jumpKind":"12","childId":"3963559","jumpId":"311086","image":{"imgHUrl":"http://0img.hitv.com/preview/cms_icon/2017/09/20170928173340845.jpg","pcImgUrl":"","imgHVUrl":"http://0img.mgtv.com/preview/sp_images/2017/dongman/311086/4030861/20170726152829797.jpg","squareImgUrl":""},"cornerType":"#07B85A","rightCorner":"首发","title":"精灵梦叶罗丽 第五季","desc":"每周四16:00  用魔法守护你","series":"更新至第17集","link":"http://www.mgtv.com/b/311086/3963559.html"},{"jumpKind":"12","childId":"4050973","jumpId":"317343","image":{"imgHUrl":"http://4img.mgtv.com/preview/cms_icon/2017/08/20170811101415104.jpg","pcImgUrl":"","imgHVUrl":"http://3img.mgtv.com/preview/internettv/sp_images/ott/2017/dongman/317343/20170808174023194-new.jpg","squareImgUrl":""},"cornerType":"#E4B659","rightCorner":"VIP免费","title":"捷德奥特曼","desc":"2017最新奥特战士诞生","series":"更新至第13集","link":"http://www.mgtv.com/b/317343/4050973.html"},{"jumpKind":"12","childId":"3999674","jumpId":"316347","image":{"imgHUrl":"http://2img.mgtv.com/preview/sp_images/2017/dongman/316347/3999674/20170703221642169.jpg","pcImgUrl":"http://1img.mgtv.com/preview/cms_icon/2017/07/20170704104842285.jpg","imgHVUrl":"http://3img.mgtv.com/preview/sp_images/2017/dongman/316347/3999674/20170703221639749.jpg","squareImgUrl":""},"cornerType":"#07B85A","rightCorner":"首发","title":"妖怪公寓的幽雅日常","desc":"一直在努力的少年夕士","series":"更新至第14集","link":"http://www.mgtv.com/b/316347/3999674.html"},{"jumpKind":"12","childId":"4110803","jumpId":"317990","image":{"imgHUrl":"http://4img.hitv.com/preview/internettv/sp_images/ott/2017/dongman/317990/20170905160647818-new.jpg","pcImgUrl":"http://2img.hitv.com/preview/cms_icon/2017/09/20170920105921200.jpg","imgHVUrl":"http://2img.hitv.com/preview/internettv/sp_images/ott/2017/dongman/317990/20170905160635680-new.jpg","squareImgUrl":""},"cornerType":"#07B85A","rightCorner":"首发","title":"我的天劫女友","desc":"不一样的修真之旅","series":"更新至第2集","link":"http://www.mgtv.com/b/317990/4110803.html"},{"jumpKind":"12","childId":"3024568","jumpId":"168368","image":{"imgHUrl":"http://3img.mgtv.com/preview/sp_images/2016/dongman/130255/3024568/20160310095925078.jpg","pcImgUrl":"http://1img.hitv.com/preview/cms_icon/2017/09/20170929190047951.jpg","imgHVUrl":"http://3img.mgtv.com/preview/sp_images/2016/dongman/130255/3024568/20161025102534014.jpg","squareImgUrl":""},"cornerType":"#07B85A","rightCorner":"首发","title":"天行九歌","desc":"超高颜值权谋史诗","series":"更新至第41集","link":"http://www.mgtv.com/b/168368/3024568.html"},{"jumpKind":"12","childId":"4014349","jumpId":"316394","image":{"imgHUrl":"http://3img.mgtv.com/preview/cms_icon/2017/08/20170807104152618.jpg","pcImgUrl":"","imgHVUrl":"http://1img.mgtv.com/preview/sp_images/2017/dongman/316394/4014349/20170714181110064.jpg","squareImgUrl":""},"cornerType":"#FF5F00","rightCorner":"独播","title":"蓝漠的花","desc":"变身少女追爱记","series":"全9集","link":"http://www.mgtv.com/b/316394/4014349.html"},{"jumpKind":"1","childId":"4042108","jumpId":"314203","image":{"imgHUrl":"http://4img.hitv.com/preview/internettv/sp_images/ott/2017/dongman/314203/20170721182547032-new.jpg","pcImgUrl":"http://1img.hitv.com/preview/cms_icon/2017/09/20170928110545899.jpg","imgHVUrl":"http://3img.hitv.com/preview/internettv/sp_images/ott/2017/dongman/314203/20170721182612312-new.jpg","squareImgUrl":""},"cornerType":"#07B85A","rightCorner":"首发","title":"妖怪名单 第二季","desc":"在我的BGM里没人能胜过我！","series":"更新至第9集","link":"http://www.mgtv.com/b/314203/"},{"jumpKind":"12","childId":"3961151","jumpId":"315846","image":{"imgHUrl":"http://1img.mgtv.com/preview/cms_icon/2017/07/20170714100751910.jpg","pcImgUrl":"","imgHVUrl":"http://3img.mgtv.com/preview/internettv/sp_images/ott/2017/dongman/315846/20170605112757292-new.jpg","squareImgUrl":""},"cornerType":"#07B85A","rightCorner":"首发","title":"蜡笔小新 第六季","desc":"全新季！熊孩子的萌趣日常","series":"全156集","link":"http://www.mgtv.com/b/315846/3961151.html"},{"jumpKind":"12","childId":"3895733","jumpId":"314097","image":{"imgHUrl":"http://1img.mgtv.com/preview/sp_images/2017/dongman/313755/3895732/20170411110411959.jpg","pcImgUrl":"http://3img.mgtv.com/preview/cms_icon/2017/07/20170706112459553.jpg","imgHVUrl":"http://1img.mgtv.com/preview/sp_images/2017/dongman/313755/3895732/20170411110411562.jpg","squareImgUrl":""},"cornerType":"#FF5F00","rightCorner":"独播","title":"最强番长是少女","desc":"娇柔少女变身学园大佬？","series":"全12集","link":"http://www.mgtv.com/b/314097/3895733.html"},{"jumpKind":"12","childId":"1718204","jumpId":"156998","image":{"imgHUrl":"http://4img.mgtv.com/preview/internettv/sp_images/ott/2016/dongman/117765/20160910135027917-new.jpg","pcImgUrl":"http://1img.mgtv.com/preview/cms_icon/2017/06/20170605173533303.jpg","imgHVUrl":"http://i5.hunantv.com/p1/20150701/1115477452C.jpg","squareImgUrl":""},"cornerType":"#F06000","rightCorner":"连载","title":"狐妖小红娘","desc":"千颜篇虐心完结","series":"更新至第63集","link":"http://www.mgtv.com/b/156998/1718204.html"},{"jumpKind":"12","childId":"3185847","jumpId":"293556","image":{"imgHUrl":"http://2img.mgtv.com/preview/sp_images/2017/dongman/293556/3961826/20170606143835952.jpg","pcImgUrl":"http://4img.mgtv.com/preview/cms_icon/2017/06/20170601190342150.jpg","imgHVUrl":"http://0img.mgtv.com/preview/sp_images/2017/dongman/293556/3961826/20170606143835487.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"舞法天女","desc":"尬舞天女元气回归！","series":"全60集","link":"http://www.mgtv.com/b/293556/3185847.html"},{"jumpKind":"12","childId":"3896806","jumpId":"314036","image":{"imgHUrl":"http://3img.mgtv.com/preview/sp_images/2017/dongman/314036/3896806/20170412000410214.jpg","pcImgUrl":"http://0img.mgtv.com/preview/cms_icon/2017/04/20170412111806765.jpg","imgHVUrl":"http://3img.mgtv.com/preview/sp_images/2017/dongman/314036/3896806/20170412000409853.jpg","squareImgUrl":""},"cornerType":"#07B85A","rightCorner":"首发","title":"夏目友人帐第六季","desc":"与你阔别半载 归来仍是少年","series":"全11集","link":"http://www.mgtv.com/b/314036/3896806.html"}]
+}
+</script>
+</div>
+</div>
+        <div class="wp-main">
+    <!--
+ * 模板: m-list-single.hbs
+ * 样式: m-list-single.less
+ * 描述: 芒果TV首页 - 图文列表单行
+ * 归属: imgotv-channel库
+ * 创建: Dora - 2016.07.18
+ * 修改: Dora - 2016.07.18
+ -->
+<div class="m-list-single mt30 mg_module" mg-name="list-single" data-lazyload-fn="0">
+<textarea style="display:none" class="template hide">
+	<div class="m-title">
+            <p class="til"><a href="http://www.mgtv.com/d/334.html" target="_blank">芒果自制</a></p>
+            <p class="more"><a href="http://www.mgtv.com/d/334.html" target="_blank">更多>></a></p>
+        
+    </div>
+
+	<!--图文-->
+	<div class="v-list-inner">
+		<ul class="v-list-unit">
+		{{#items}}
+			<li class="v-item" data-vid="{{videoId}}" data-jumpkind="{{jumpKind}}" data-jumpid="{{jumpId}}" data-childid="{{childId}}">
+				<p class="screenshot">
+					<a href="{{link}}" target="_blank"><img alt="{{title}}" class="lazy" data-original="{{image}}" src="{{image}}"></a>
+					{{#series}}<span class="rb duration">{{series}}</span>{{/series}}
+					{{#rightCorner}}<i class="icon-o" style="background-color:{{cornerType}}">{{rightCorner}}</i>{{/rightCorner}}
+				</p>
+				<p class="title"><a href="{{link}}" target="_blank">{{title}}</a></p>
+				<p class="des">{{desc}}</p>
+			</li>
+		{{/items}}
+		</ul>
+	</div>
+</textarea>
+
+<script type="text/template" class="template-data hide">
+{ 
+"moduleId": "id_708_3bcf0c93",
+"moduleName": "芒果自制", 
+"moduleLink": "http://www.mgtv.com/d/334.html", 
+"isExchange": 0,
+"data": [{"jumpKind":"12","childId":"4120600","jumpId":"316387","image":{"imgHUrl":"http://3img.hitv.com/preview/sp_images/2017/zongyi/316387/4112000/20170921104531358.jpg","pcImgUrl":"http://3img.hitv.com/preview/cms_icon/2017/09/20170928120513103.jpg","imgHVUrl":"http://0img.hitv.com/preview/sp_images/2017/zongyi/316387/4112000/20170921104530402.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"爸爸去哪儿5","desc":"嗯哼Jasper上演表情包神同步","series":"09-28期","link":"http://www.mgtv.com/b/316387/4120600.html"},{"jumpKind":"12","childId":"4123300","jumpId":"316685","image":{"imgHUrl":"http://2img.hitv.com/preview/sp_images/2017/zongyi/316685/4123300/20170930105554003.jpg","pcImgUrl":"http://1img.hitv.com/preview/cms_icon/2017/09/20170930120907215.jpg","imgHVUrl":"http://0img.hitv.com/preview/sp_images/2017/zongyi/316685/4123300/20170930105553632.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"2017变形计","desc":"青春戒律","series":"09-30期","link":"http://www.mgtv.com/b/316685/4123300.html"},{"jumpKind":"12","childId":"4120339","jumpId":"308801","image":{"imgHUrl":"http://3img.hitv.com/preview/sp_images/2017/zongyi/308801/4120339/20170927184453473.jpg","pcImgUrl":"http://4img.hitv.com/preview/cms_icon/2017/09/20170928095629980.jpg","imgHVUrl":"http://3img.hitv.com/preview/sp_images/2017/zongyi/308801/4120339/20170927184451162.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"八卦鉴定事务所","desc":"赵丽颖冯绍峰恋情曝实锤？","series":"09-28期","link":"http://www.mgtv.com/b/308801/4120339.html"},{"jumpKind":"12","childId":"4113342","jumpId":"309437","image":{"imgHUrl":"http://2img.hitv.com/preview/sp_images/2017/dianshiju/309437/4113342/20170922100327939.jpg","pcImgUrl":"http://3img.hitv.com/preview/cms_icon/2017/09/20170922113744040.jpg","imgHVUrl":"http://1img.hitv.com/preview/sp_images/2017/dianshiju/309437/4113342/20170922100342282.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"果酱爱探班","desc":"蒋劲夫胡宇威实力搞怪","series":"09-22期","link":"http://www.mgtv.com/b/309437/4113342.html"},{"jumpKind":"12","childId":"4042426","jumpId":"315024","image":{"imgHUrl":"http://3img.mgtv.com/preview/sp_images/2017/zongyi/315024/4042426/20170803121503848.jpg","pcImgUrl":"","imgHVUrl":"http://0img.mgtv.com/preview/sp_images/2017/zongyi/315024/4042426/20170803121503350.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"大本营的秘密花园2","desc":"真闺蜜·周冬雨窦靖童互怼","series":"第12期","link":"http://www.mgtv.com/b/315024/4042426.html"},{"jumpKind":"12","childId":"4079277","jumpId":"316420","image":{"imgHUrl":"http://3img.mgtv.com/preview/sp_images/2017/zongyi/316420/4079277/20170828093158114.jpg","pcImgUrl":"http://3img.mgtv.com/preview/cms_icon/2017/08/20170828095909160.jpg","imgHVUrl":"http://0img.mgtv.com/preview/sp_images/2017/zongyi/316420/4079277/20170828093157718.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"香蕉打卡之脂肪特工队","desc":"杜海涛重返18岁搞事情","series":"08-28期","link":"http://www.mgtv.com/b/316420/4079277.html"}]
+}
+</script>
+</div>
+</div>
+        <div class="wp-main">
+    <!--
+ * 模板: m-list-single.hbs
+ * 样式: m-list-single.less
+ * 描述: 芒果TV首页 - 图文列表单行
+ * 归属: imgotv-channel库
+ * 创建: Dora - 2016.07.18
+ * 修改: Dora - 2016.07.18
+ -->
+<div class="m-list-single mt30 mg_module" mg-name="list-single" data-lazyload-fn="0">
+<textarea style="display:none" class="template hide">
+	<div class="m-title">
+            <p class="til"><a href="http://www.mgtv.com/music/" target="_blank">音乐live</a></p>
+            <p class="more"><a href="http://www.mgtv.com/music/" target="_blank">更多>></a></p>
+        <p class="change"><a href="javascript:void(0);">换一换</a></p>
+    </div>
+
+	<!--图文-->
+	<div class="v-list-inner">
+		<ul class="v-list-unit">
+		{{#items}}
+			<li class="v-item" data-vid="{{videoId}}" data-jumpkind="{{jumpKind}}" data-jumpid="{{jumpId}}" data-childid="{{childId}}">
+				<p class="screenshot">
+					<a href="{{link}}" target="_blank"><img alt="{{title}}" class="lazy" data-original="{{image}}" src="{{image}}"></a>
+					{{#series}}<span class="rb duration">{{series}}</span>{{/series}}
+					{{#rightCorner}}<i class="icon-o" style="background-color:{{cornerType}}">{{rightCorner}}</i>{{/rightCorner}}
+				</p>
+				<p class="title"><a href="{{link}}" target="_blank">{{title}}</a></p>
+				<p class="des">{{desc}}</p>
+			</li>
+		{{/items}}
+		</ul>
+	</div>
+</textarea>
+
+<script type="text/template" class="template-data hide">
+{ 
+"moduleId": "id_1447_3054f256",
+"moduleName": "音乐live", 
+"moduleLink": "http://www.mgtv.com/music/", 
+"isExchange": 1,
+"data": [{"jumpKind":"12","childId":"4109552","jumpId":"151138","image":{"imgHUrl":"http://3img.hitv.com/preview/sp_images/2017/yinle/111672/4109552/20170919100755445.jpg","pcImgUrl":"","imgHVUrl":"http://2img.hitv.com/preview/sp_images/2017/yinle/111672/4109552/20170919100802797.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"《零》","desc":"欧阳靖","series":"","link":"http://www.mgtv.com/b/151138/4109552.html"},{"jumpKind":"12","childId":"4104786","jumpId":"151138","image":{"imgHUrl":"http://2img.hitv.com/preview/sp_images/2017/yinle/111672/4104786/20170915104150565.jpg","pcImgUrl":"http://4img.hitv.com/preview/cms_icon/2017/09/20170915105924125.jpg","imgHVUrl":"http://1img.hitv.com/preview/sp_images/2017/yinle/111672/4104786/20170915104155156.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"《我在诗里看到了你》","desc":"大张伟","series":"","link":"http://www.mgtv.com/b/151138/4104786.html"},{"jumpKind":"12","childId":"4102206","jumpId":"151138","image":{"imgHUrl":"http://1img.hitv.com/preview/sp_images/2017/yinle/111672/4102206/20170913111416507.jpg","pcImgUrl":"http://4img.hitv.com/preview/cms_icon/2017/09/20170913114052404.jpg","imgHVUrl":"http://0img.hitv.com/preview/sp_images/2017/yinle/111672/4102206/20170913111427426.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"《想成为你》","desc":"黄子韬","series":"","link":"http://www.mgtv.com/b/151138/4102206.html"},{"jumpKind":"12","childId":"4097750","jumpId":"317829","image":{"imgHUrl":"http://3img.hitv.com/preview/sp_images/2017/yinle/317829/4097750/20170909214025211.jpg","pcImgUrl":"http://0img.hitv.com/preview/cms_icon/2017/09/20170909220030617.png","imgHVUrl":"http://0img.hitv.com/preview/sp_images/2017/yinle/317829/4097750/20170909213907057.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"[回顾]春浪音乐节","desc":"热狗 张震岳 一起嗨嗨人生","series":"","link":"http://www.mgtv.com/b/317829/4097750.html"},{"jumpKind":"12","childId":"4094277","jumpId":"151138","image":{"imgHUrl":"http://1img.hitv.com/preview/sp_images/2017/yinle/111672/4094277/20170907103241242.jpg","pcImgUrl":"http://2img.hitv.com/preview/cms_icon/2017/09/20170907112354255.jpg","imgHVUrl":"http://2img.hitv.com/preview/sp_images/2017/yinle/111672/4094277/20170907103243497.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"《追梦赤子心》","desc":"鹿晗","series":"","link":"http://www.mgtv.com/b/151138/4094277.html"},{"jumpKind":"12","childId":"4092526","jumpId":"167369","image":{"imgHUrl":"http://0img.hitv.com/preview/sp_images/2017/yinle/129012/4092526/20170906102134334.jpg","pcImgUrl":"http://1img.hitv.com/preview/cms_icon/2017/09/20170906145345621.png","imgHVUrl":"http://2img.hitv.com/preview/sp_images/2017/yinle/129012/4092526/20170906102133995.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"《Power》","desc":"EXO","series":"","link":"http://www.mgtv.com/b/167369/4092526.html"},{"jumpKind":"12","childId":"4090988","jumpId":"291254","image":{"imgHUrl":"http://0img.hitv.com/preview/sp_images/2017/yinle/291254/4090988/20170905110910640.jpg","pcImgUrl":"","imgHVUrl":"http://2img.hitv.com/preview/sp_images/2017/yinle/291254/4090988/20170905110914329.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"《Fascination》","desc":"周笔畅","series":"","link":"http://www.mgtv.com/b/291254/4090988.html"},{"jumpKind":"12","childId":"4090986","jumpId":"295675","image":{"imgHUrl":"http://3img.hitv.com/preview/sp_images/2017/yinle/295675/4090986/20170905110525373.jpg","pcImgUrl":"","imgHVUrl":"http://1img.hitv.com/preview/sp_images/2017/yinle/295675/4090986/20170905110539070.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"《520》","desc":"薛凯琪","series":"","link":"http://www.mgtv.com/b/295675/4090986.html"},{"jumpKind":"12","childId":"4064185","jumpId":"166609","image":{"imgHUrl":"http://0img.mgtv.com/preview/cms_icon/2017/09/20170901172052223.jpg","pcImgUrl":"","imgHVUrl":"http://2img.mgtv.com/preview/sp_images/2017/yinle/128076/4064185/20170817140443277.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"《Wake Me Up》","desc":"BIGBANG 太阳","series":"","link":"http://www.mgtv.com/b/166609/4064185.html"},{"jumpKind":"12","childId":"4086141","jumpId":"317925","image":{"imgHUrl":"http://1img.mgtv.com/preview/sp_images/2017/yinle/317925/4086141/20170901154521016.jpg","pcImgUrl":"","imgHVUrl":"http://1img.mgtv.com/preview/sp_images/2017/yinle/317925/4086141/20170901154523342.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"《谁比我有范儿》","desc":"VaVa","series":"","link":"http://www.mgtv.com/b/317925/4086141.html"},{"jumpKind":"12","childId":"4079606","jumpId":"317823","image":{"imgHUrl":"http://1img.mgtv.com/preview/sp_images/2017/yinle/317823/4079606/20170828120202512.jpg","pcImgUrl":"","imgHVUrl":"http://0img.mgtv.com/preview/sp_images/2017/yinle/317823/4079606/20170828120200461.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"《Gashina》","desc":"宣美","series":"","link":"http://www.mgtv.com/b/317823/4079606.html"},{"jumpKind":"12","childId":"4089722","jumpId":"290333","image":{"imgHUrl":"http://1img.mgtv.com/preview/sp_images/2017/yinle/290333/4089722/20170904154942284.jpg","pcImgUrl":"","imgHVUrl":"http://0img.mgtv.com/preview/sp_images/2017/yinle/290333/4089722/20170904154944653.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"《完美坚持》","desc":"李健&快男战队","series":"","link":"http://www.mgtv.com/b/290333/4089722.html"}]
+}
+</script>
+</div>
+</div>
+        <div class="wp-main">
+    <!--
+ * 模板: m-list-single.hbs
+ * 样式: m-list-single.less
+ * 描述: 芒果TV首页 - 图文列表单行
+ * 归属: imgotv-channel库
+ * 创建: Dora - 2016.07.18
+ * 修改: Dora - 2016.07.18
+ -->
+<div class="m-list-single mt30 mg_module" mg-name="list-single" data-lazyload-fn="0">
+<textarea style="display:none" class="template hide">
+	<div class="m-title">
+            <p class="til"><a href="http://www.mgtv.com/news/" target="_blank">热点新闻</a></p>
+            <p class="more"><a href="http://www.mgtv.com/news/" target="_blank">更多>></a></p>
+        <p class="change"><a href="javascript:void(0);">换一换</a></p>
+    </div>
+
+	<!--图文-->
+	<div class="v-list-inner">
+		<ul class="v-list-unit">
+		{{#items}}
+			<li class="v-item" data-vid="{{videoId}}" data-jumpkind="{{jumpKind}}" data-jumpid="{{jumpId}}" data-childid="{{childId}}">
+				<p class="screenshot">
+					<a href="{{link}}" target="_blank"><img alt="{{title}}" class="lazy" data-original="{{image}}" src="{{image}}"></a>
+					{{#series}}<span class="rb duration">{{series}}</span>{{/series}}
+					{{#rightCorner}}<i class="icon-o" style="background-color:{{cornerType}}">{{rightCorner}}</i>{{/rightCorner}}
+				</p>
+				<p class="title"><a href="{{link}}" target="_blank">{{title}}</a></p>
+				<p class="des">{{desc}}</p>
+			</li>
+		{{/items}}
+		</ul>
+	</div>
+</textarea>
+
+<script type="text/template" class="template-data hide">
+{ 
+"moduleId": "id_1463_b51fbcb0",
+"moduleName": "热点新闻", 
+"moduleLink": "http://www.mgtv.com/news/", 
+"isExchange": 1,
+"data": [{"jumpKind":"13","childId":"4123427","jumpId":"99999286","image":{"imgHUrl":"http://0img.hitv.com/preview/cms_icon/2017/09/20170930102147327.jpg","pcImgUrl":"","imgHVUrl":"","squareImgUrl":""},"cornerType":"#07B85A","rightCorner":"特辑","title":"王者归来！一箭三星发射成功","desc":"头条来了！今日必看资讯","series":"","link":"http://www.mgtv.com/l/99999286/4123427.html"},{"jumpKind":"12","childId":"4122250","jumpId":"308821","image":{"imgHUrl":"http://1img.hitv.com/preview/cms_icon/2017/09/20170929113632928.jpg","pcImgUrl":"","imgHVUrl":"","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"最美的季节到了！","desc":"快来晒晒你的家乡美图吧","series":"","link":"http://www.mgtv.com/b/308821/4122250.html"},{"jumpKind":"12","childId":"4122245","jumpId":"308821","image":{"imgHUrl":"http://2img.hitv.com/preview/cms_icon/2017/09/20170929113958550.jpg","pcImgUrl":"","imgHVUrl":"","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"少林寺“智能厕纸系统”上线","desc":"扫码免费领！超十次列黑名单！","series":"","link":"http://www.mgtv.com/b/308821/4122245.html"},{"jumpKind":"13","childId":"4122057","jumpId":"100003161","image":{"imgHUrl":"http://2img.hitv.com/preview/cms_icon/2017/09/20170929113123284.jpg","pcImgUrl":"","imgHVUrl":"","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"“秀恩爱”的最高境界！","desc":"体贴女友换鞋穿 心疼丈夫手做枕","series":"","link":"http://www.mgtv.com/l/100003161/4122057.html"},{"jumpKind":"12","childId":"4122247","jumpId":"308821","image":{"imgHUrl":"http://0img.hitv.com/preview/cms_icon/2017/09/20170929113841213.jpg","pcImgUrl":"","imgHVUrl":"","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"从公路到车库要下5层楼","desc":"重庆“螺旋”停车场转晕司机 ","series":"","link":"http://www.mgtv.com/b/308821/4122247.html"},{"jumpKind":"12","childId":"4122246","jumpId":"308821","image":{"imgHUrl":"http://3img.hitv.com/preview/cms_icon/2017/09/20170929113913151.jpg","pcImgUrl":"","imgHVUrl":"","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"手术室的一天是怎样的？","desc":"90后美女护士用漫画告诉你","series":"","link":"http://www.mgtv.com/b/308821/4122246.html"},{"jumpKind":"12","childId":"4122241","jumpId":"308821","image":{"imgHUrl":"http://2img.hitv.com/preview/cms_icon/2017/09/20170929114116666.jpg","pcImgUrl":"","imgHVUrl":"","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"简约风秒变老干部复古风","desc":"“剁手党”婆婆改造儿媳出租房 ","series":"","link":"http://www.mgtv.com/b/308821/4122241.html"},{"jumpKind":"12","childId":"4122243","jumpId":"308821","image":{"imgHUrl":"http://4img.hitv.com/preview/cms_icon/2017/09/20170929114034941.jpg","pcImgUrl":"","imgHVUrl":"","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"每天用钱为妻子折爱心 ","desc":"坚持6年用爱的见证买了辆车","series":"","link":"http://www.mgtv.com/b/308821/4122243.html"},{"jumpKind":"12","childId":"4122248","jumpId":"308821","image":{"imgHUrl":"http://3img.hitv.com/preview/cms_icon/2017/09/20170929113720753.jpg","pcImgUrl":"","imgHVUrl":"","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"重庆九旬大爷擅长劈叉","desc":"三根手指可做108下俯卧撑","series":"","link":"http://www.mgtv.com/b/308821/4122248.html"},{"jumpKind":"12","childId":"4122242","jumpId":"308821","image":{"imgHUrl":"http://4img.hitv.com/preview/cms_icon/2017/09/20170929114056621.jpg","pcImgUrl":"","imgHVUrl":"","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"各就各位长假请闯5关","desc":"天气、拥堵、安全、人海、购物","series":"","link":"http://www.mgtv.com/b/308821/4122242.html"},{"jumpKind":"12","childId":"4122249","jumpId":"308821","image":{"imgHUrl":"http://1img.hitv.com/preview/cms_icon/2017/09/20170929113653260.jpg","pcImgUrl":"","imgHVUrl":"","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"转自己的圈让别人说去吧！","desc":"63岁大爷自信地踮起脚尖跳芭蕾","series":"","link":"http://www.mgtv.com/b/308821/4122249.html"},{"jumpKind":"12","childId":"4122244","jumpId":"308821","image":{"imgHUrl":"http://2img.hitv.com/preview/sp_images/2017/xinwen/308821/4122244/20170929112400495.jpg","pcImgUrl":"","imgHVUrl":"","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"奇葩食物拉郎配！","desc":"这部“吃货指北”请仔细学习","series":"","link":"http://www.mgtv.com/b/308821/4122244.html"}]
+}
+</script>
+</div>
+</div>
+        <div class="wp-main">
+    <!--
+ * 模板: m-list-single.hbs
+ * 样式: m-list-single.less
+ * 描述: 芒果TV首页 - 图文列表单行
+ * 归属: imgotv-channel库
+ * 创建: Dora - 2016.07.18
+ * 修改: Dora - 2016.07.18
+ -->
+<div class="m-list-single mt30 mg_module" mg-name="list-single" data-lazyload-fn="0">
+<textarea style="display:none" class="template hide">
+	<div class="m-title">
+            <p class="til"><a href="http://www.mgtv.com/ori/" target="_blank">原创</a></p>
+            <p class="more"><a href="http://www.mgtv.com/ori/" target="_blank">更多>></a></p>
+        
+    </div>
+
+	<!--图文-->
+	<div class="v-list-inner">
+		<ul class="v-list-unit">
+		{{#items}}
+			<li class="v-item" data-vid="{{videoId}}" data-jumpkind="{{jumpKind}}" data-jumpid="{{jumpId}}" data-childid="{{childId}}">
+				<p class="screenshot">
+					<a href="{{link}}" target="_blank"><img alt="{{title}}" class="lazy" data-original="{{image}}" src="{{image}}"></a>
+					{{#series}}<span class="rb duration">{{series}}</span>{{/series}}
+					{{#rightCorner}}<i class="icon-o" style="background-color:{{cornerType}}">{{rightCorner}}</i>{{/rightCorner}}
+				</p>
+				<p class="title"><a href="{{link}}" target="_blank">{{title}}</a></p>
+				<p class="des">{{desc}}</p>
+			</li>
+		{{/items}}
+		</ul>
+	</div>
+</textarea>
+
+<script type="text/template" class="template-data hide">
+{ 
+"moduleId": "id_716_95abf42f",
+"moduleName": "原创", 
+"moduleLink": "http://www.mgtv.com/ori/", 
+"isExchange": 0,
+"data": [{"jumpKind":"12","childId":"4124259","jumpId":"313042","image":{"imgHUrl":"http://2img.hitv.com/preview/cms_icon/2017/09/20170930220025701.jpg","pcImgUrl":"","imgHVUrl":"http://2img.hitv.com/preview/sp_images/2017/yuanchuang/313042/4124259/20170930210329344.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"快速纸锅月饼教程出炉！","desc":"【办公室小野】","series":"","link":"http://www.mgtv.com/b/313042/4124259.html"},{"jumpKind":"12","childId":"4125219","jumpId":"316162","image":{"imgHUrl":"http://4img.hitv.com/preview/cms_icon/2017/10/20171002154029512.jpg","pcImgUrl":"","imgHVUrl":"http://3img.hitv.com/preview/sp_images/2017/yuanchuang/316162/4125219/20171002145823159.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"放飞孔明灯为祖国庆生","desc":"【办公室小作】","series":"","link":"http://www.mgtv.com/b/316162/4125219.html"},{"jumpKind":"12","childId":"4125218","jumpId":"308657","image":{"imgHUrl":"http://3img.hitv.com/preview/cms_icon/2017/10/20171002160259780.jpg","pcImgUrl":"","imgHVUrl":"http://1img.hitv.com/preview/sp_images/2017/yuanchuang/308657/4125218/20171002145633085.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"杨幂十年前也美过路人","desc":"路人脸的女星真的路人吗？","series":"","link":"http://www.mgtv.com/b/308657/4125218.html"},{"jumpKind":"12","childId":"4122885","jumpId":"317903","image":{"imgHUrl":"http://0img.hitv.com/preview/cms_icon/2017/09/20170930220108367.jpg","pcImgUrl":"","imgHVUrl":"http://2img.hitv.com/preview/sp_images/2017/yuanchuang/317903/4122885/20170929180536670.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"和爷爷奶奶一起表白祖国","desc":"【爷爷等一下】","series":"","link":"http://www.mgtv.com/b/317903/4122885.html"},{"jumpKind":"12","childId":"4124249","jumpId":"308760","image":{"imgHUrl":"http://4img.hitv.com/preview/cms_icon/2017/09/20170930220144176.jpg","pcImgUrl":"","imgHVUrl":"http://1img.hitv.com/preview/sp_images/2017/yuanchuang/308760/4124249/20170930205230570.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"自制超美味出游零食","desc":"【微在涨姿势】","series":"","link":"http://www.mgtv.com/b/308760/4124249.html"},{"jumpKind":"2","childId":"3806437","jumpId":"100011281","image":{"imgHUrl":"http://4img.hitv.com/preview/internettv/sp_images/ott/2017/yuanchuang/100011281/20170921115311458-new.jpg","pcImgUrl":"","imgHVUrl":"http://1img.hitv.com/preview/internettv/sp_images/ott/2017/yuanchuang/100011281/20170921115252020-new.jpg","squareImgUrl":""},"cornerType":"#07B85A","rightCorner":"特辑","title":"谁还不是个小公主？！","desc":"萌宠360度撒娇求摸摸","series":"","link":"http://www.mgtv.com/l/100011281.html"}]
+}
+</script>
+</div>
+</div>
+        <!-- 左右分布单排图文合成模块 -->
+<div class="wp-main m-list-single-split">
+    <div class="left"><!--
+ * 模板: m-list-single.hbs
+ * 样式: m-list-single.less
+ * 描述: 芒果TV首页 - 图文列表单行
+ * 归属: imgotv-channel库
+ * 创建: Dora - 2016.07.18
+ * 修改: Dora - 2016.07.18
+ -->
+<div class="m-list-single mt30 mg_module" mg-name="list-single" data-lazyload-fn="0">
+<textarea style="display:none" class="template hide">
+	<div class="m-title">
+            <p class="til"><a href="http://www.mgtv.com/doc/" target="_blank">纪录片</a></p>
+            <p class="more"><a href="http://www.mgtv.com/doc/" target="_blank">更多>></a></p>
+        <p class="change"><a href="javascript:void(0);">换一换</a></p>
+    </div>
+
+	<!--图文-->
+	<div class="v-list-inner">
+		<ul class="v-list-unit">
+		{{#items}}
+			<li class="v-item" data-vid="{{videoId}}" data-jumpkind="{{jumpKind}}" data-jumpid="{{jumpId}}" data-childid="{{childId}}">
+				<p class="screenshot">
+					<a href="{{link}}" target="_blank"><img alt="{{title}}" class="lazy" data-original="{{image}}" src="{{image}}"></a>
+					{{#series}}<span class="rb duration">{{series}}</span>{{/series}}
+					{{#rightCorner}}<i class="icon-o" style="background-color:{{cornerType}}">{{rightCorner}}</i>{{/rightCorner}}
+				</p>
+				<p class="title"><a href="{{link}}" target="_blank">{{title}}</a></p>
+				<p class="des">{{desc}}</p>
+			</li>
+		{{/items}}
+		</ul>
+	</div>
+</textarea>
+
+<script type="text/template" class="template-data hide">
+{ 
+"moduleId": "id_1499_ce21fbfc",
+"moduleName": "纪录片", 
+"moduleLink": "http://www.mgtv.com/doc/", 
+"isExchange": 1,
+"data": [{"jumpKind":"12","childId":"4124332","jumpId":"318691","image":{"imgHUrl":"http://2img.hitv.com/preview/internettv/sp_images/ott/2017/jilupian/318691/20170929170653665-new.jpg","pcImgUrl":"","imgHVUrl":"http://3img.hitv.com/preview/internettv/sp_images/ott/2017/jilupian/318691/20170929171019766-new.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"威武！大国逐梦","desc":"习近平带领我们强军","series":"","link":"http://www.mgtv.com/b/318691/4124332.html"},{"jumpKind":"12","childId":"3857371","jumpId":"311609","image":{"imgHUrl":"http://3img.hitv.com/preview/cms_icon/2017/09/20170930172329758.jpg","pcImgUrl":"","imgHVUrl":"http://0img.hitv.com/preview/internettv/sp_images/ott/2017/jilupian/311609/20170207185129145-new.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"航拍中国 第一季","desc":"遇见前所未见的中国","series":"","link":"http://www.mgtv.com/b/311609/"},{"jumpKind":"1","childId":"4116381","jumpId":"318340","image":{"imgHUrl":"http://0img.hitv.com/preview/cms_icon/2017/09/20170925182221643.jpg","pcImgUrl":"","imgHVUrl":"http://3img.hitv.com/preview/internettv/sp_images/ott/2017/jilupian/318340/20170918110134449-new.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"辉煌中国","desc":"厉害了我的国！逆天的中国实力","series":"","link":"http://www.mgtv.com/b/318340/"},{"jumpKind":"12","childId":"4050182","jumpId":"317323","image":{"imgHUrl":"http://1img.hitv.com/preview/cms_icon/2017/09/20170930172958141.jpg","pcImgUrl":"","imgHVUrl":"http://1img.mgtv.com/preview/internettv/sp_images/ott/2017/jilupian/317323/20170808115921728-new.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"超级工程","desc":"震惊世界的中国超级工程","series":"","link":"http://www.mgtv.com/b/317323/"},{"jumpKind":"12","childId":"3896613","jumpId":"313807","image":{"imgHUrl":"http://1img.hitv.com/preview/cms_icon/2017/09/20170930172638399.jpg","pcImgUrl":"","imgHVUrl":"http://3img.hitv.com/preview/internettv/sp_images/ott/2017/jilupian/313807/20170327190610736-new.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"自然的力量","desc":"探寻中国万里好河山","series":"","link":"http://www.mgtv.com/b/313807/"},{"jumpKind":"12","childId":"4099889","jumpId":"317547","image":{"imgHUrl":"http://2img.hitv.com/preview/sp_images/2017/jilupian/317547/4099889/20170911164345543.jpg","pcImgUrl":"","imgHVUrl":"http://0img.hitv.com/preview/sp_images/2017/jilupian/317547/4099889/20170911164349641.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"了不起我的国","desc":"中国在长城下建地下高铁","series":"","link":"http://www.mgtv.com/b/317547/4099889.html"}]
+}
+</script>
+</div></div>
+    <div class="right"><!--
+ * 模板: m-list-single.hbs
+ * 样式: m-list-single.less
+ * 描述: 芒果TV首页 - 图文列表单行
+ * 归属: imgotv-channel库
+ * 创建: Dora - 2016.07.18
+ * 修改: Dora - 2016.07.18
+ -->
+<div class="m-list-single mt30 mg_module" mg-name="list-single" data-lazyload-fn="0">
+<textarea style="display:none" class="template hide">
+	<div class="m-title">
+            <p class="til"><a href="http://www.mgtv.com/life/" target="_blank">乐活</a></p>
+            <p class="more"><a href="http://www.mgtv.com/life/" target="_blank">更多>></a></p>
+        <p class="change"><a href="javascript:void(0);">换一换</a></p>
+    </div>
+
+	<!--图文-->
+	<div class="v-list-inner">
+		<ul class="v-list-unit">
+		{{#items}}
+			<li class="v-item" data-vid="{{videoId}}" data-jumpkind="{{jumpKind}}" data-jumpid="{{jumpId}}" data-childid="{{childId}}">
+				<p class="screenshot">
+					<a href="{{link}}" target="_blank"><img alt="{{title}}" class="lazy" data-original="{{image}}" src="{{image}}"></a>
+					{{#series}}<span class="rb duration">{{series}}</span>{{/series}}
+					{{#rightCorner}}<i class="icon-o" style="background-color:{{cornerType}}">{{rightCorner}}</i>{{/rightCorner}}
+				</p>
+				<p class="title"><a href="{{link}}" target="_blank">{{title}}</a></p>
+				<p class="des">{{desc}}</p>
+			</li>
+		{{/items}}
+		</ul>
+	</div>
+</textarea>
+
+<script type="text/template" class="template-data hide">
+{ 
+"moduleId": "id_717_c7b222d9",
+"moduleName": "乐活", 
+"moduleLink": "http://www.mgtv.com/life/", 
+"isExchange": 1,
+"data": [{"jumpKind":"12","childId":"4105196","jumpId":"317491","image":{"imgHUrl":"http://3img.hitv.com/preview/sp_images/2017/shenghuo/317491/4105196/20170915134614607.jpg","pcImgUrl":"","imgHVUrl":"http://3img.hitv.com/preview/sp_images/2017/shenghuo/317491/4105196/20170915133600764.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"懒癌晚期们的早餐该吃什么？","desc":"【曼食慢语】","series":"","link":"http://www.mgtv.com/b/317491/4105196.html"},{"jumpKind":"12","childId":"4108092","jumpId":"315172","image":{"imgHUrl":"http://2img.hitv.com/preview/sp_images/2017/shenghuo/315172/4108092/20170918113617549.jpg","pcImgUrl":"","imgHVUrl":"http://3img.hitv.com/preview/sp_images/2017/shenghuo/315172/4108092/20170918113626804.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"王子文新剧穿搭套路","desc":"小个子穿成大长腿就服她！","series":"","link":"http://www.mgtv.com/b/315172/4108092.html"},{"jumpKind":"12","childId":"4108334","jumpId":"318036","image":{"imgHUrl":"http://0img.hitv.com/preview/sp_images/2017/shenghuo/318036/4108334/20170918144943944.jpg","pcImgUrl":"","imgHVUrl":"http://2img.hitv.com/preview/sp_images/2017/shenghuo/318036/4108334/20170918144936729.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"大胃王朵一躲过山珍海味","desc":"却躲不过美味劲爽的凉皮","series":"","link":"http://www.mgtv.com/b/318036/4108334.html"},{"jumpKind":"12","childId":"4099285","jumpId":"315174","image":{"imgHUrl":"http://0img.hitv.com/preview/sp_images/2017/shenghuo/315174/4099285/20170911103342398.jpg","pcImgUrl":"","imgHVUrl":"http://1img.hitv.com/preview/sp_images/2017/shenghuo/315174/4099285/20170911103344209.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"维秘天使刘雯奚梦瑶竟然用大宝","desc":"揭秘超模护肤真相","series":"","link":"http://www.mgtv.com/b/315174/4099285.html"},{"jumpKind":"12","childId":"4096439","jumpId":"309503","image":{"imgHUrl":"http://2img.hitv.com/preview/sp_images/2017/shenghuo/309503/4096439/20170908174707860.jpg","pcImgUrl":"","imgHVUrl":"http://3img.hitv.com/preview/sp_images/2017/shenghuo/309503/4096439/20170908152419768.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"【日食记】锅巴洋芋","desc":"谁发明了这么好吃的土豆做法？","series":"","link":"http://www.mgtv.com/b/309503/4096439.html"},{"jumpKind":"12","childId":"4099289","jumpId":"315172","image":{"imgHUrl":"http://1img.hitv.com/preview/sp_images/2017/shenghuo/315172/4099289/20170911104952467.jpg","pcImgUrl":"","imgHVUrl":"http://1img.hitv.com/preview/sp_images/2017/shenghuo/315172/4099289/20170911104958689.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"陈妍希胡杏儿李小璐穿搭盘点","desc":"辣妈玩起时尚竟然也超厉害！","series":"","link":"http://www.mgtv.com/b/315172/4099289.html"},{"jumpKind":"12","childId":"4090200","jumpId":"315392","image":{"imgHUrl":"http://2img.mgtv.com/preview/sp_images/2017/shenghuo/315392/4090200/20170904191801808.jpg","pcImgUrl":"","imgHVUrl":"http://2img.mgtv.com/preview/sp_images/2017/shenghuo/315392/4090200/20170904191804950.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"A cup穿成C cup！","desc":"小胸女生的变形记","series":"","link":"http://www.mgtv.com/b/315392/4090200.html"},{"jumpKind":"12","childId":"4089706","jumpId":"317592","image":{"imgHUrl":"http://3img.mgtv.com/preview/sp_images/2017/shenghuo/317592/4089706/20170904153912995.jpg","pcImgUrl":"","imgHVUrl":"http://0img.mgtv.com/preview/sp_images/2017/shenghuo/317592/4089706/20170904153944539.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"这款高营养鸡蛋饼 包教包会！","desc":"【第一口美食】","series":"","link":"http://www.mgtv.com/b/317592/4089706.html"},{"jumpKind":"12","childId":"4092712","jumpId":"309733","image":{"imgHUrl":"http://1img.hitv.com/preview/sp_images/2017/shenghuo/309733/4092712/20170906115041583.jpg","pcImgUrl":"","imgHVUrl":"http://0img.hitv.com/preview/sp_images/2017/shenghuo/309733/4092712/20170906115044492.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"吴昕怎么从小透明变话题女星的","desc":"【理娱打挺疼】","series":"","link":"http://www.mgtv.com/b/309733/4092712.html"},{"jumpKind":"2","childId":"4060886","jumpId":"100009744","image":{"imgHUrl":"http://3img.mgtv.com/preview/cms_icon/2017/08/20170816152254460.jpg","pcImgUrl":"","imgHVUrl":"http://1img.mgtv.com/preview/internettv/sp_images/ott/2017/shenghuo/100009744/20170815163651587-new.jpg","squareImgUrl":""},"cornerType":"#07B85A","rightCorner":"特辑","title":"千玺张若昀谁是综艺一哥？","desc":"吴亦凡潘玮柏因此事爆红","series":"","link":"http://www.mgtv.com/l/100009744.html"},{"jumpKind":"12","childId":"4062119","jumpId":"313791","image":{"imgHUrl":"http://2img.mgtv.com/preview/sp_images/2017/shenghuo/313791/4062119/20170816100152199.jpg","pcImgUrl":"","imgHVUrl":"http://0img.mgtv.com/preview/sp_images/2017/shenghuo/313791/4062119/20170816100153865.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"学会做这道超美味的小吃","desc":"家里又多了一道每周必吃美食","series":"","link":"http://www.mgtv.com/b/313791/4062119.html"},{"jumpKind":"12","childId":"4062121","jumpId":"315856","image":{"imgHUrl":"http://0img.mgtv.com/preview/sp_images/2017/shenghuo/315856/4062121/20170816095236795.jpg","pcImgUrl":"","imgHVUrl":"http://2img.mgtv.com/preview/sp_images/2017/shenghuo/315856/4062121/20170816095433398.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"不用羡慕明星的素颜肌","desc":"Get√护肤手法轻松美颜！","series":"","link":"http://www.mgtv.com/b/315856/4062121.html"},{"jumpKind":"12","childId":"4052223","jumpId":"314599","image":{"imgHUrl":"http://0img.mgtv.com/preview/sp_images/2017/shenghuo/314599/4052223/20170809155556634.jpg","pcImgUrl":"","imgHVUrl":"http://0img.mgtv.com/preview/sp_images/2017/shenghuo/314599/4052223/20170809155556225.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"YSL气垫VS兰蔻气垫哪个值得买","desc":"11小时实测对比！","series":"","link":"http://www.mgtv.com/b/314599/4052223.html"},{"jumpKind":"12","childId":"4053293","jumpId":"317376","image":{"imgHUrl":"http://3img.mgtv.com/preview/sp_images/2017/shenghuo/317376/4053293/20170810111111736.jpg","pcImgUrl":"","imgHVUrl":"http://3img.mgtv.com/preview/sp_images/2017/shenghuo/317376/4053293/20170810111114677.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"小黄人，咖喱味","desc":"一口一个嘎嘣脆","series":"","link":"http://www.mgtv.com/b/317376/4053293.html"},{"jumpKind":"12","childId":"4053742","jumpId":"309474","image":{"imgHUrl":"http://2img.mgtv.com/preview/sp_images/2017/shenghuo/309474/4053742/20170810145013196.jpg","pcImgUrl":"","imgHVUrl":"http://3img.mgtv.com/preview/sp_images/2017/shenghuo/309474/4053742/20170810145015831.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"盘点当红小花古装气质","desc":"刘诗诗的古典美无人能及","series":"","link":"http://www.mgtv.com/b/309474/4053742.html"},{"jumpKind":"12","childId":"4047356","jumpId":"309498","image":{"imgHUrl":"http://1img.mgtv.com/preview/sp_images/2017/shenghuo/309498/4047356/20170807095215860.jpg","pcImgUrl":"","imgHVUrl":"http://2img.mgtv.com/preview/sp_images/2017/shenghuo/309498/4047356/20170807095218101.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"关晓彤将过去与未来交汇","desc":"【BOBOSNAP】大片","series":"","link":"http://www.mgtv.com/b/309498/4047356.html"},{"jumpKind":"12","childId":"4047760","jumpId":"309479","image":{"imgHUrl":"http://0img.mgtv.com/preview/sp_images/2017/shenghuo/309479/4047760/20170807131144522.jpg","pcImgUrl":"","imgHVUrl":"http://2img.mgtv.com/preview/sp_images/2017/shenghuo/309479/4047760/20170807131143906.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"扭一扭、舔一舔！","desc":"奥利奥还能做成冰淇淋","series":"","link":"http://www.mgtv.com/b/309479/4047760.html"},{"jumpKind":"12","childId":"4047652","jumpId":"314007","image":{"imgHUrl":"http://0img.mgtv.com/preview/sp_images/2017/shenghuo/314007/4047652/20170807111325179.jpg","pcImgUrl":"","imgHVUrl":"http://2img.mgtv.com/preview/sp_images/2017/shenghuo/314007/4047652/20170807111327740.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"你好明星×周冬雨","desc":"不完美水瓶的撩汉秘籍！","series":"","link":"http://www.mgtv.com/b/314007/4047652.html"},{"jumpKind":"12","childId":"4042353","jumpId":"309733","image":{"imgHUrl":"http://0img.mgtv.com/preview/sp_images/2017/shenghuo/309733/4042353/20170803113238917.jpg","pcImgUrl":"","imgHVUrl":"http://1img.mgtv.com/preview/sp_images/2017/shenghuo/309733/4042353/20170803113242552.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"TFBOYS全员演技问题大会诊","desc":"【理娱打挺疼】","series":"","link":"http://www.mgtv.com/b/309733/4042353.html"},{"jumpKind":"12","childId":"4042128","jumpId":"317131","image":{"imgHUrl":"http://2img.mgtv.com/preview/sp_images/2017/shenghuo/317131/4042128/20170803101302546.jpg","pcImgUrl":"","imgHVUrl":"http://3img.mgtv.com/preview/sp_images/2017/shenghuo/317131/4042128/20170803101306417.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"【海豹草莓大福】","desc":"小海豹与草莓的结合","series":"","link":"http://www.mgtv.com/b/317131/4042128.html"},{"jumpKind":"12","childId":"4042381","jumpId":"310242","image":{"imgHUrl":"http://2img.mgtv.com/preview/sp_images/2017/shenghuo/310242/4042381/20170803115344234.jpg","pcImgUrl":"","imgHVUrl":"http://3img.mgtv.com/preview/sp_images/2017/shenghuo/310242/4042381/20170803115347287.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"达康书记变《战狼2》铁血硬汉","desc":"没拿过枪的他如何做到的？","series":"","link":"http://www.mgtv.com/b/310242/4042381.html"},{"jumpKind":"12","childId":"4032286","jumpId":"314007","image":{"imgHUrl":"http://1img.mgtv.com/preview/sp_images/2017/shenghuo/314007/4032286/20170727150851306.jpg","pcImgUrl":"","imgHVUrl":"http://2img.mgtv.com/preview/sp_images/2017/shenghuo/314007/4032286/20170727150854532.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"你好明星对话冯建宇","desc":"处女座的字典里没有主动！","series":"","link":"http://www.mgtv.com/b/314007/4032286.html"},{"jumpKind":"12","childId":"4029218","jumpId":"309503","image":{"imgHUrl":"http://2img.mgtv.com/preview/sp_images/2017/shenghuo/309503/4029218/20170725150235249.jpg","pcImgUrl":"","imgHVUrl":"http://1img.mgtv.com/preview/sp_images/2017/shenghuo/309503/4029218/20170725150236796.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"蛋包饭是出锅定生死的一道饭","desc":"【日食记】","series":"","link":"http://www.mgtv.com/b/309503/4029218.html"},{"jumpKind":"12","childId":"4028915","jumpId":"316865","image":{"imgHUrl":"http://2img.mgtv.com/preview/sp_images/2017/shenghuo/316865/4028915/20170725122337557.jpg","pcImgUrl":"","imgHVUrl":"http://1img.mgtv.com/preview/sp_images/2017/shenghuo/316865/4028915/20170725122342936.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"美妆博主的良心推荐☟","desc":"好用不贵的平价化妆品都在这","series":"","link":"http://www.mgtv.com/b/316865/4028915.html"},{"jumpKind":"12","childId":"4027582","jumpId":"314007","image":{"imgHUrl":"http://3img.hitv.com/preview/sp_images/2017/shenghuo/314007/4027582/20170724154648138.jpg","pcImgUrl":"","imgHVUrl":"http://3img.hitv.com/preview/sp_images/2017/shenghuo/314007/4027582/20170724155006377.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"你好明星×大鹏乔杉","desc":"一言不合就失控的星座","series":"","link":"http://www.mgtv.com/b/314007/4027582.html"},{"jumpKind":"2","childId":"4014014","jumpId":"100008418","image":{"imgHUrl":"http://2img.mgtv.com/preview/internettv/sp_images/ott/2017/shenghuo/100008418/20170718114010388-new.jpg","pcImgUrl":"","imgHVUrl":"http://0img.mgtv.com/preview/internettv/sp_images/ott/2017/shenghuo/100008418/20170718114006895-new.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"你站秘果CP还是初恋CP呢？","desc":"刘昊然陈飞宇谁和娜比有CP感","series":"","link":"http://www.mgtv.com/l/100008418.html"},{"jumpKind":"12","childId":"4004661","jumpId":"314309","image":{"imgHUrl":"http://1img.mgtv.com/preview/sp_images/2017/shenghuo/314309/4004661/20170707180541892.jpg","pcImgUrl":"","imgHVUrl":"http://1img.mgtv.com/preview/sp_images/2017/shenghuo/314309/4004661/20170707180641795.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"关于撸串的热点都在这里","desc":"【玩转美食圈】","series":"","link":"http://www.mgtv.com/b/314309/4004661.html"},{"jumpKind":"12","childId":"4017050","jumpId":"309733","image":{"imgHUrl":"http://3img.mgtv.com/preview/sp_images/2017/shenghuo/309733/4017050/20170717113415120.jpg","pcImgUrl":"","imgHVUrl":"http://2img.mgtv.com/preview/sp_images/2017/shenghuo/309733/4017050/20170717113417389.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"“爆笑爱豆”评选大赛","desc":"鹿晗白敬亭谁是最有趣爱豆","series":"","link":"http://www.mgtv.com/b/309733/4017050.html"},{"jumpKind":"12","childId":"4010148","jumpId":"311030","image":{"imgHUrl":"http://1img.mgtv.com/preview/sp_images/2017/shenghuo/311030/4010148/20170712122738957.jpg","pcImgUrl":"","imgHVUrl":"http://0img.mgtv.com/preview/sp_images/2017/shenghuo/311030/4010148/20170712122741941.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"教你做超软萌猫爪棉花糖","desc":"【喵招】","series":"","link":"http://www.mgtv.com/b/311030/4010148.html"},{"jumpKind":"12","childId":"4009093","jumpId":"309503","image":{"imgHUrl":"http://2img.mgtv.com/preview/sp_images/2017/shenghuo/309503/4009093/20170711160330506.jpg","pcImgUrl":"","imgHVUrl":"http://3img.mgtv.com/preview/sp_images/2017/shenghuo/309503/4009093/20170711160332623.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"夫妻肺片连肺片都没有？","desc":"能干掉好几碗米饭的超强凉菜","series":"","link":"http://www.mgtv.com/b/309503/4009093.html"},{"jumpKind":"12","childId":"4002795","jumpId":"314599","image":{"imgHUrl":"http://2img.mgtv.com/preview/sp_images/2017/shenghuo/314599/4002795/20170706153840796.jpg","pcImgUrl":"","imgHVUrl":"http://3img.mgtv.com/preview/sp_images/2017/shenghuo/314599/4002795/20170706153844595.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"分享5款超简单短发造型","desc":"手残党的福音","series":"","link":"http://www.mgtv.com/b/314599/4002795.html"},{"jumpKind":"12","childId":"4001604","jumpId":"314007","image":{"imgHUrl":"http://0img.mgtv.com/preview/cms_icon/2017/07/20170706104321502.jpg","pcImgUrl":"","imgHVUrl":"http://0img.mgtv.com/preview/sp_images/2017/shenghuo/314007/4001604/20170705165852588.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"宋茜打王者荣耀最爱诸葛亮","desc":"她私下最想吐槽的星座是？ ","series":"","link":"http://www.mgtv.com/b/314007/4001604.html"},{"jumpKind":"12","childId":"4000410","jumpId":"309503","image":{"imgHUrl":"http://3img.mgtv.com/preview/sp_images/2017/shenghuo/309503/4000410/20170704161856600.jpg","pcImgUrl":"","imgHVUrl":"http://1img.mgtv.com/preview/sp_images/2017/shenghuo/309503/4000410/20170704161859347.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"冷吃兔怎么可以这么好吃！","desc":"【日食记】","series":"","link":"http://www.mgtv.com/b/309503/4000410.html"},{"jumpKind":"12","childId":"4000355","jumpId":"314089","image":{"imgHUrl":"http://3img.mgtv.com/preview/sp_images/2017/shenghuo/314089/4000355/20170704164104927.jpg","pcImgUrl":"","imgHVUrl":"http://2img.mgtv.com/preview/sp_images/2017/shenghuo/314089/4000355/20170704164109996.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"让郑爽重回颜值巅峰的是这个","desc":"一分钟就搞定减龄刘海儿","series":"","link":"http://www.mgtv.com/b/314089/4000355.html"},{"jumpKind":"12","childId":"3999451","jumpId":"309733","image":{"imgHUrl":"http://1img.mgtv.com/preview/sp_images/2017/shenghuo/309733/3999451/20170703181006359.jpg","pcImgUrl":"","imgHVUrl":"http://1img.mgtv.com/preview/sp_images/2017/shenghuo/309733/3999451/20170703181008171.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"迷茫期必看！","desc":"靳东王嘉尔教你度过迷茫期","series":"","link":"http://www.mgtv.com/b/309733/3999451.html"},{"jumpKind":"12","childId":"3995377","jumpId":"314599","image":{"imgHUrl":"http://3img.mgtv.com/preview/sp_images/2017/shenghuo/314599/3995377/20170629183740678.jpg","pcImgUrl":"","imgHVUrl":"http://0img.mgtv.com/preview/sp_images/2017/shenghuo/314599/3995377/20170629183743429.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"网红MK是怎么消水肿的？","desc":"好物分享贴","series":"","link":"http://www.mgtv.com/b/314599/3995377.html"}]
+}
+</script>
+</div></div>
+</div>
+        <!-- 左右分布单排图文合成模块 -->
+<div class="wp-main m-list-single-split">
+    <div class="left"><!--
+ * 模板: m-list-single.hbs
+ * 样式: m-list-single.less
+ * 描述: 芒果TV首页 - 图文列表单行
+ * 归属: imgotv-channel库
+ * 创建: Dora - 2016.07.18
+ * 修改: Dora - 2016.07.18
+ -->
+<div class="m-list-single mt30 mg_module" mg-name="list-single" data-lazyload-fn="0">
+<textarea style="display:none" class="template hide">
+	<div class="m-title">
+            <p class="til"><a href="http://www.mgtv.com/edu/" target="_blank">教育</a></p>
+            <p class="more"><a href="http://www.mgtv.com/edu/" target="_blank">更多>></a></p>
+        <p class="change"><a href="javascript:void(0);">换一换</a></p>
+    </div>
+
+	<!--图文-->
+	<div class="v-list-inner">
+		<ul class="v-list-unit">
+		{{#items}}
+			<li class="v-item" data-vid="{{videoId}}" data-jumpkind="{{jumpKind}}" data-jumpid="{{jumpId}}" data-childid="{{childId}}">
+				<p class="screenshot">
+					<a href="{{link}}" target="_blank"><img alt="{{title}}" class="lazy" data-original="{{image}}" src="{{image}}"></a>
+					{{#series}}<span class="rb duration">{{series}}</span>{{/series}}
+					{{#rightCorner}}<i class="icon-o" style="background-color:{{cornerType}}">{{rightCorner}}</i>{{/rightCorner}}
+				</p>
+				<p class="title"><a href="{{link}}" target="_blank">{{title}}</a></p>
+				<p class="des">{{desc}}</p>
+			</li>
+		{{/items}}
+		</ul>
+	</div>
+</textarea>
+
+<script type="text/template" class="template-data hide">
+{ 
+"moduleId": "id_1461_fdfb813e",
+"moduleName": "教育", 
+"moduleLink": "http://www.mgtv.com/edu/", 
+"isExchange": 1,
+"data": [{"jumpKind":"12","childId":"4123732","jumpId":"317549","image":{"imgHUrl":"http://2img.hitv.com/preview/sp_images/2017/jiaoyu/317549/4123732/20170930144747842.jpg","pcImgUrl":"","imgHVUrl":"http://3img.hitv.com/preview/sp_images/2017/jiaoyu/317549/4123732/20170930144749770.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"嘟嘟熊吃货日记","desc":"世上最抵不住的一碗阳春面","series":"","link":"http://www.mgtv.com/b/317549/4123732.html"},{"jumpKind":"12","childId":"4122511","jumpId":"310166","image":{"imgHUrl":"http://0img.hitv.com/preview/sp_images/2017/jiaoyu/310166/4122511/20170929141400665.jpg","pcImgUrl":"","imgHVUrl":"http://0img.hitv.com/preview/sp_images/2017/jiaoyu/310166/4122511/20170929141402266.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"视知百科","desc":"水果月饼大部分都是冬瓜做的","series":"","link":"http://www.mgtv.com/b/310166/4122511.html"},{"jumpKind":"12","childId":"4122488","jumpId":"317486","image":{"imgHUrl":"http://0img.hitv.com/preview/sp_images/2017/jiaoyu/317486/4122488/20170929135208524.jpg","pcImgUrl":"","imgHVUrl":"http://3img.hitv.com/preview/sp_images/2017/jiaoyu/317486/4122488/20170929135208309.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"樱桃来了之魔发教室","desc":"旋转的芭蕾","series":"","link":"http://www.mgtv.com/b/317486/4122488.html"},{"jumpKind":"1","childId":"3921621","jumpId":"314881","image":{"imgHUrl":"http://0img.mgtv.com/preview/internettv/sp_images/ott/2017/jiaoyu/314881/20170429171629653-new.jpg","pcImgUrl":"","imgHVUrl":"http://2img.mgtv.com/preview/internettv/sp_images/ott/2017/jiaoyu/314881/20170429171619894-new.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"Sikana游泳课堂","desc":"快速学会蛙泳","series":"","link":"http://www.mgtv.com/b/314881/"},{"jumpKind":"1","childId":"3934074","jumpId":"313326","image":{"imgHUrl":"http://4img.mgtv.com/preview/internettv/sp_images/ott/2017/jiaoyu/313326/20170315185047431-new.jpg","pcImgUrl":"","imgHVUrl":"http://2img.mgtv.com/preview/internettv/sp_images/ott/2017/jiaoyu/313326/20170315185040722-new.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"Sikana跑步教程","desc":"健康跑步课程","series":"","link":"http://www.mgtv.com/b/313326/"},{"jumpKind":"1","childId":"3867860","jumpId":"313394","image":{"imgHUrl":"http://4img.mgtv.com/preview/internettv/sp_images/ott/2017/jiaoyu/313394/20170316174654892-new.jpg","pcImgUrl":"","imgHVUrl":"http://1img.mgtv.com/preview/internettv/sp_images/ott/2017/jiaoyu/313394/20170316174648050-new.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"Sikana成人学习自行车","desc":"成年人学骑单车教程","series":"","link":"http://www.mgtv.com/b/313394/"}]
+}
+</script>
+</div></div>
+    <div class="right"><!--
+ * 模板: m-list-single.hbs
+ * 样式: m-list-single.less
+ * 描述: 芒果TV首页 - 图文列表单行
+ * 归属: imgotv-channel库
+ * 创建: Dora - 2016.07.18
+ * 修改: Dora - 2016.07.18
+ -->
+<div class="m-list-single mt30 mg_module" mg-name="list-single" data-lazyload-fn="0">
+<textarea style="display:none" class="template hide">
+	<div class="m-title">
+            <p class="til"><a href="http://www.mgtv.com/game/" target="_blank">趣玩</a></p>
+            <p class="more"><a href="http://www.mgtv.com/game/" target="_blank">更多>></a></p>
+        <p class="change"><a href="javascript:void(0);">换一换</a></p>
+    </div>
+
+	<!--图文-->
+	<div class="v-list-inner">
+		<ul class="v-list-unit">
+		{{#items}}
+			<li class="v-item" data-vid="{{videoId}}" data-jumpkind="{{jumpKind}}" data-jumpid="{{jumpId}}" data-childid="{{childId}}">
+				<p class="screenshot">
+					<a href="{{link}}" target="_blank"><img alt="{{title}}" class="lazy" data-original="{{image}}" src="{{image}}"></a>
+					{{#series}}<span class="rb duration">{{series}}</span>{{/series}}
+					{{#rightCorner}}<i class="icon-o" style="background-color:{{cornerType}}">{{rightCorner}}</i>{{/rightCorner}}
+				</p>
+				<p class="title"><a href="{{link}}" target="_blank">{{title}}</a></p>
+				<p class="des">{{desc}}</p>
+			</li>
+		{{/items}}
+		</ul>
+	</div>
+</textarea>
+
+<script type="text/template" class="template-data hide">
+{ 
+"moduleId": "id_1491_6a51a913",
+"moduleName": "趣玩", 
+"moduleLink": "http://www.mgtv.com/game/", 
+"isExchange": 1,
+"data": [{"jumpKind":"2","childId":"3690255","jumpId":"100011629","image":{"imgHUrl":"http://3img.hitv.com/preview/cms_icon/2017/09/20170930212015492.jpg","pcImgUrl":"","imgHVUrl":"http://4img.hitv.com/preview/internettv/sp_images/ott/2017/tiyu/100011629/20170930104008737-new.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"TFBOYS趣味运动会","desc":"长假跟着爱豆玩点不一样的！","series":"","link":"http://www.mgtv.com/l/100011629.html"},{"jumpKind":"2","childId":"4054794","jumpId":"100005125","image":{"imgHUrl":"http://1img.hitv.com/preview/cms_icon/2017/09/20170930211915292.jpg","pcImgUrl":"","imgHVUrl":"http://1img.mgtv.com/preview/internettv/sp_images/ott/2017/tiyu/100005125/20170427143019669-new.jpg","squareImgUrl":""},"cornerType":"#07B85A","rightCorner":"特辑","title":"瘦身真的不难","desc":"每天几分钟长假在家就能瘦！","series":"","link":"http://www.mgtv.com/l/100005125.html"},{"jumpKind":"13","childId":"4120178","jumpId":"100010522","image":{"imgHUrl":"http://2img.hitv.com/preview/sp_images/2017/tiyu/309034/4120178/20170927170428337.jpg","pcImgUrl":"http://4img.hitv.com/preview/cms_icon/2017/09/20170927173613060.gif","imgHVUrl":"http://3img.hitv.com/preview/sp_images/2017/tiyu/309034/4120178/20170927170428047.jpg","squareImgUrl":""},"cornerType":"#07B85A","rightCorner":"特辑","title":"炫技失败 宝宝不想起来","desc":"外国人爆笑失误集锦","series":"","link":"http://www.mgtv.com/l/100010522/4120178.html"},{"jumpKind":"2","childId":"3990496","jumpId":"100011446","image":{"imgHUrl":"http://2img.hitv.com/preview/internettv/sp_images/ott/2017/tiyu/100011446/20170926113553518-new.jpg","pcImgUrl":"","imgHVUrl":"http://3img.hitv.com/preview/internettv/sp_images/ott/2017/tiyu/100011446/20170926113549873-new.jpg","squareImgUrl":""},"cornerType":"#07B85A","rightCorner":"特辑","title":"胆小慎入！","desc":"另类过山车挑战你的肾上腺素","series":"","link":"http://www.mgtv.com/l/100011446.html"},{"jumpKind":"12","childId":"4109747","jumpId":"317186","image":{"imgHUrl":"http://3img.hitv.com/preview/sp_images/2017/tiyu/317186/4109747/20170919113446417.jpg","pcImgUrl":"http://1img.hitv.com/preview/cms_icon/2017/09/20170925182417473.gif","imgHVUrl":"http://0img.hitv.com/preview/sp_images/2017/tiyu/317186/4109747/20170919113444875.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"众汪星人跳绳破世界纪录","desc":"【最萌运动侠】","series":"","link":"http://www.mgtv.com/b/317186/4109747.html"},{"jumpKind":"2","childId":"4048451","jumpId":"100011406","image":{"imgHUrl":"http://0img.hitv.com/preview/internettv/sp_images/ott/2017/tiyu/100011406/20170925103408475-new.jpg","pcImgUrl":"","imgHVUrl":"http://0img.hitv.com/preview/internettv/sp_images/ott/2017/tiyu/100011406/20170925103405114-new.jpg","squareImgUrl":""},"cornerType":"#07B85A","rightCorner":"特辑","title":"五分钟掌握一套拉伸操","desc":"不仅元气满满还能长高！","series":"","link":"http://www.mgtv.com/l/100011406.html"}]
+}
+</script>
+</div></div>
+</div>
+        <!-- 
+ * 模板: extensbar.hbs
+ * 样式: extensbar.less
+-->
+<div class="m-extensbar">
+	<!-- 广告底部横栏 -->
+	<div class="showbar">
+		<div class="box">
+			<a href="javascript:void(0);" class="close"><i class="s">x</i></a>
+			<a href="javascript:void(0);" class="picbtn" style="background-image:url(http://1img.hitv.com/preview/cms_icon/2017/09/20170911100259130.png)"></a>
+		</div>
+		<div class="bg-box"></div>
+	</div>
+	
+	<!-- =左侧显示按钮=  -->
+	<div class="showbtn">
+		<a class="smpic" href="javascript:void(0);"><img src="http://0img.hitv.com/preview/cms_icon/2017/09/20170911110116804.png" width="55" height="110"></a>
+		<a class="bigpic" href="javascript:void(0);"><img src="http://3img.hitv.com/preview/cms_icon/2017/09/20170911110116898.png" width="110" height="110"></a>
+	</div>
+</div>
+
+
+
+        <!-- 内容区 广告专区 -->
+<div class="wp-main made-main gg-main">
+    <div class="m-theatre-carousel mt30 mg_module" mg-name="theatre-carousel" data-lazyload-fn="0">
+        <textarea style="display:none" class="template hide">
+            <div class="m-title">
+                <p class="til">
+                    <a href="javascript:void(0);">广告</a>
+                </p>
+            </div>
+            <div class="theatre-container">
+                <div class="theatre-carousel-wrapper">
+                    <div class="theatre-carousel-box">
+                    {{#data}}
+                        <a class="theatre-item" href="{{link}}" target="_blank">
+                            <div class="theatre-expand">
+                                <div class="theatre-left">
+                                    <img class="theatre-poster" src="{{image}}">
+                                    {{^adTag}}{{#rightCorner}}<i class="icon-o" style="background-color:{{cornerType}}">{{rightCorner}}</i>{{/rightCorner}}{{/adTag}}    
+                                    {{#adTag}}<i class="ico-gg">广告</i>{{/adTag}}
+                                </div>
+                                <div class="theatre-right">
+                                    <img class="theatre-banner" src="{{bigImage}}">
+                                </div>
+                            </div>
+                        </a>
+                     {{/data}}
+                    </div>
+                </div>
+                <div class="theatre-arrow-right theatre-arrow">
+                </div>
+                <div class="theatre-arrow-left theatre-arrow">
+                </div>
+            </div>
+        </textarea>
+
+        <script type="text/template" class="template-data hide">
+        { 
+            "moduleId": "id_715_fe844cdb", 
+            "moduleName": "广告", 
+            "moduleLink": "", 
+            "data": [{"jumpKind":"12","childId":"4092618","jumpId":"55617","image":{"imgHUrl":"http://1img.hitv.com/preview/cms_icon/2017/09/20170911103014662.jpg","pcImgUrl":"http://0img.hitv.com/preview/cms_icon/2017/09/20170907111531554.jpg","imgHVUrl":"http://4img.hitv.com/preview/cms_icon/2017/09/20170911103014792.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"三星S8专属管家VIP热线","link":"http://www.mgtv.com/b/55617/4092618.html"},{"jumpKind":"4","childId":"0","jumpId":"","image":{"imgHUrl":"http://0img.hitv.com/preview/cms_icon/2017/09/20170926100638503.jpg","pcImgUrl":"http://3img.hitv.com/preview/cms_icon/2017/09/20170926100638388.jpg","imgHVUrl":"http://1img.hitv.com/preview/cms_icon/2017/09/20170926100638609.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"诺优能","link":"https://nutrilon.tmall.com/"},{"jumpKind":"4","childId":"0","jumpId":"","image":{"imgHUrl":"http://3img.hitv.com/preview/sp_images/2017/shenghuo/55617/4092524/20170906101937247.jpg","pcImgUrl":"http://2img.hitv.com/preview/cms_icon/2017/09/20170907093433817.png","imgHVUrl":"http://4img.hitv.com/preview/cms_icon/2017/09/20170907093433900.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"宝洁","link":"https://sale.jd.com/act/2Ht4wKRTOE.html"},{"jumpKind":"4","childId":"0","jumpId":"","image":{"imgHUrl":"","pcImgUrl":"http://0img.mgtv.com/preview/cms_icon/2017/08/20170825095321368.jpg","imgHVUrl":"http://4img.mgtv.com/preview/cms_icon/2017/08/20170825095321514.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"中国联通","link":"http://www.10010.com/bj/"},{"jumpKind":"4","childId":"0","jumpId":"","image":{"imgHUrl":"","pcImgUrl":"http://0img.hitv.com/preview/cms_icon/2017/09/20170925181330978.jpg","imgHVUrl":"http://2img.hitv.com/preview/cms_icon/2017/09/20170925181331091.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"妙卡","link":"http://milkachina.im20.com.cn/pcdiary/"},{"jumpKind":"4","childId":"0","jumpId":"","image":{"imgHUrl":"http://0img.mgtv.com/preview/cms_icon/2016/10/20161017180315009.jpg","pcImgUrl":"http://1img.mgtv.com/preview/cms_icon/2016/10/20161017180314879.jpg","imgHVUrl":"http://3img.mgtv.com/preview/cms_icon/2016/10/20161017180315126.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"广告","title":"芒果游戏","link":"http://wan.mgtv.com/?frm=mg-ggzq&referer=mgtv"},{"jumpKind":"12","childId":"4112593","jumpId":"55617","image":{"imgHUrl":"http://2img.hitv.com/preview/cms_icon/2017/09/20170926154859979.jpg","pcImgUrl":"http://4img.hitv.com/preview/cms_icon/2017/09/20170926154859898.jpg","imgHVUrl":"http://1img.hitv.com/preview/cms_icon/2017/09/20170926154900071.jpg","squareImgUrl":""},"cornerType":"","rightCorner":"","title":"兰蔻小黑瓶安瓶精华","link":"http://www.mgtv.com/b/55617/4112593.html"}]
+        }
+        </script>
+    </div>
+</div>
+
+    <!-- 内容区 更多 -->
+    <div class="wp-main morebg"><p><span>去</span><a href="http://list.mgtv.com/1/-------------.html" target="_blank">发现</a><span>更多精彩视频吧~</span></p></div>
+
+    <!-- 底部区 -->
+    <!-- 
+ * 模板: c-footer-lv1.hbs
+ * 样式: c-footer.less
+ * 描述: PC首页底部
+ * 归属: imgotv-pub / component / footer
+ * 创建：Dora - 2015.3.30
+ * 修改：iRuxu - 2015.5.10
+-->
+
+
+<div class="c-footer c-footer-lv1">
+	<!-- 底部模块元素：友情链接 -->
+<div class="c-footer-links">
+	<ul>
+		<li><a class="logo iptv" href="javascript:;">湖南IPTV</a></li>
+		<li><a class="logo hiq" href="javascript:;">芒果互联网电视</a></li>
+		<li><a class="logo jy" target="_blank" href="http://news.hunantv.com/">金鹰网</a></li>
+		<li><a class="logo hntv" target="_blank" href="http://zixun.hunantv.com/">湖南卫视</a></li>
+		<li><a target="_blank" href="http://www.eemedia.cn/">天娱传媒</a></li>
+		<li><a target="_blank" href="http://www.vfund.org/html/index.html">芒果V基金</a></li>
+		<li><a target="_blank" href="http://www.mgtv.com/zq/hnetv/">湖南经视</a></li>
+		<li><a target="_blank" href="http://www.happigo.com/">快乐购</a></li>
+		<li><a target="_blank" href="http://www.mgtv.com/gba/">湖南广播电视协会</a></li>
+		<li><a target="_blank" href="http://www.mgtv.com/v/klcd/">快乐垂钓</a></li>
+		<li><a target="_blank" href="http://shangbiao.hunantv.com/">芒果商标</a></li>
+		<li><a target="_blank" href="http://www.mgtv.com/pmb/">重点工程</a></li>
+		<li><a target="_blank" href="http://www.mgstudios.cn/">芒果影视</a></li>
+	</ul>
+</div>
+	<!-- 底部模块元素：列表链接 -->
+<div class="c-footer-list">
+	<ul>
+		<li><a target="_blank" href="http://corp.mgtv.com/">公司介绍</a></li>
+		<li><a target="_blank" href="http://corp.mgtv.com/about/">关于我们</a></li>
+		<li><a target="_blank" href="http://corp.mgtv.com/news/dynamics/">公司动态</a></li>
+		<li><a target="_blank" href="http://www.mgtv.com/market/">广告服务</a></li>
+		<li><a target="_blank" href="http://corp.mgtv.com/others/join/">招聘信息</a></li>
+		<li><a target="_blank" href="http://corp.mgtv.com/news/notice/">法律声明</a></li>
+		<li><a target="_blank" href="http://corp.mgtv.com/others/contact/">联系我们</a></li>
+		<li><a target="_blank" href="http://corp.mgtv.com/product/">业务构成</a></li>
+		<li><a target="_blank" href="http://www.mgtv.com/v/2017/antipiracydeclaration/">反盗版盗链声明</a></li>
+	</ul>
+</div>
+
+    <!-- 底部模块元素：版权声明（英文） -->
+<p class="c-footer-cpen">
+	Copyright 2006-2017 mgtv.com Corporation,All Rights Reserved
+</p>
+    <!-- 底部模块元素：版权声明（中文） -->
+<p class="c-footer-cpcn">
+	湖南快乐阳光互动娱乐传媒有限公司 版权所有
+</p>
+    <!-- 底部模块元素：牌照资质 -->
+<div class="c-footer-credit">
+	<p>
+        <a href="http://i1.hunantv.com/ui/2016/images/xkz.jpg" target="_blank">湘网文[2015]1490-016号</a> 
+        <span>信息网络传播视听节目许可证号：1805107</span> 
+        <span>互联网新闻信息服务许可证号：4312006005</span> 
+        <span>湘B2-20090004-6</span>
+        <span>互联网出版许可证：新出网证（湘）字08号</span>
+        <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=43010502000010"><img src="http://img.hunantv.com/imgotv-channel/fe09aea6/pcweb-footer/safety/beian.png" alt="">湘公网安备 43010502000010号</a>
+    </p>
+</div>
+    <!-- 底部模块元素：信息安全 -->
+<div class="c-footer-safety">
+    <!-- 安全信息 -->
+    <p class="police">
+        <a target="_blank" href="javascript:;" style="cursor:default">
+            <img src="http://img.hunantv.com/imgotv-channel/fe09aea6/pcweb-footer/safety/safety.png" alt="举报专区">
+        </a>
+    	<a target="_blank" href="http://jubao.12377.cn:13225/reportinputcommon.do">
+    		<img src="http://img.hunantv.com/imgotv-channel/fe09aea6/pcweb-footer/safety/report.png" alt="不良信息举报中心">
+    	</a>
+    	<a>
+    		<img border="0" src="http://img.hunantv.com/imgotv-channel/fe09aea6/pcweb-footer/safety/hngawj.png" alt="">
+    	</a>
+    	<a target="_blank" href="http://www.hnains.net.cn/">
+    		<img border="0" src="http://img.hunantv.com/imgotv-channel/fe09aea6/pcweb-footer/safety/hnains.png" alt="">
+    	</a>
+        <a target="_blank" href="http://wfblxx.rednet.cn/Column.aspx?ColId=10">
+       		<img border="0" src="http://img.hunantv.com/imgotv-channel/fe09aea6/pcweb-footer/safety/rednet.png" alt="">
+       	</a> 
+        <a target="_blank" href="http://pypt.rednet.cn/">
+        	<img border="0" src="http://img.hunantv.com/imgotv-channel/fe09aea6/pcweb-footer/safety/wfblxx.png" alt="">
+        </a>
+        <a target="_blank" href="https://credit.szfw.org/CX20170814035562060366.html">
+            <img src="http://icon.szfw.org/sf.png" border="0">
+        </a>
+        <a target="_blank" href="https://credit.szfw.org/CX20170814035562810968.html">
+            <img src="http://icon.szfw.org/silver.jpg" border="0">
+        </a>
+    </p>
+    <!-- 联系方式 -->
+    <p class="contact">
+    	<span>举报电话 : 0731－82871680 </span> 
+    	<span>举报邮箱 : web@mgtv.com </span>
+    </p>
+    <p class="statement">杜绝虚假报道 欢迎社会监督</p>
+</div>
+</div>
+
+</div>
+
+<script>var isPad=/(iPad|Android)/.test(navigator.userAgent);isPad||honey.go("lib:jquery,mod:feedback, mod:gototop",function(){H.gotoTop()})</script>
+<script>honey.go("lib:jquery, widget_focus-new",function(){new honey.focuspic({box:".m-focus-new",thumbs:"#honey-focus-list li",focusBox:"#honey-focus-big",duration:5e3,animationDuaration:200})})</script>
+
+
+ 
+<script>honey.go("widget_timer, mod_home-live-listener",function(){})</script> 
+
+<!-- 数据统计 START-->
+<script>honey.go("plugin:stk",function(){var t={act:"pv",soplid:"",cid:"",plid:"",sovid:"",vid:"",ext1:0,suuid:"",ext2:"",ext3:"",ext4:"",fpa:"",ftl:"",ctl:""};(new STK.start).pageStart(t)})</script>
+
+
+<!--统计代码 START-->
+<!-- START 前端监控 -->
+<script>honey.go("lib:jquery,plugin:monitor",function(){H.monitor({pageName:"首页",resources:[],first_view_bg:null,version:"1.0.2",delay:1e3})})</script>
+<!-- END 前端监控 -->
+
+<!-- START 艾瑞IWT -->
+<script>!function(t,i,n,e,a){e={UA:"UA-hunantv-000001",NO_FLS:0,WITH_REF:1,URL:"http://i1.hunantv.com/ui/js/iwt/iwt-min.js"},t._iwt?t._iwt.track(e,a):(t._iwtTQ=t._iwtTQ||[]).push([e,a]),!t._iwtLoading&&function(a){t._iwtLoading=1,(n=i.createElement("script")).src=e.URL,(a=(a=i.getElementsByTagName("script"))[a.length-1]).parentNode.insertBefore(n,a)}()}(this,document)</script>
+<!-- END 艾瑞IWT -->
+
+<!-- START Baidu By 20140420 -->
+<script type="text/javascript">!function(){var e=document.createElement("script"),t=document.getElementsByTagName("script")[0];e.async=!0,e.src="https://hm.baidu.com/h.js?7ed5b39fd087844c0268537a47e35211",t.parentNode.insertBefore(e,t)}()</script>
+<!-- END Baidu By 20140420 -->
+
+<!-- Begin comScore Tag -->
+<script>var _comscore=_comscore||[];_comscore.push({c1:"2",c2:"18400293",c3:"",options:{url_append:"comscorekw="+("undefined"==typeof VIDEOINFO?"":void 0===VIDEOINFO.type?"":VIDEOINFO.type)}}),function(){var e=document.createElement("script"),c=document.getElementsByTagName("script")[0];e.async=!0,e.src=("https:"==document.location.protocol?"https://sb":"http://b")+".scorecardresearch.com/beacon.js",c.parentNode.insertBefore(e,c)}()</script>
+<noscript>
+    <img src="http://b.scorecardresearch.com/p?c1=2&c2=18400293&c3=&c4=&c5=&c6=&c15=&cv=2.0&cj=1&;comscorekw=">
+</noscript>
+<!-- End comScore Tag -->
+
+<!--统计代码 END-->
+<!-- 数据统计 END-->
+
+    <script type="text/javascript">honey.go("lib:jquery, lib:mustache, plugin:Iris, plugin:stk, tpl:anuncio, widget:anuncio, lib_home.index.v5.bundle,widget_header-gg",function(){(function(){extensbarBox=$(".m-extensbar"),extensbarBar=$(".showbar"),extensbarBtn=$(".showbtn"),extensbarClose=$(".m-extensbar .showbar .close"),extensbarBar.hide(),extensbarBtn.click(function(){extensbarBtn.animate({left:"-100%"},300),setTimeout(function(){extensbarBar.show().css("left","-50%"),extensbarBar.animate({left:"0%"},400)},400)}),extensbarClose.click(function(){extensbarBar.animate({left:"-100%"},500,function(){extensbarBar.hide()}),setTimeout(function(){extensbarBtn.animate({left:"0"},500)},550)})}).call(this),function(){$("body").lazyload({type:"fn",selector:".mg_module",onchange:function(e){var a=$(e);switch($(e).attr("mg-name")){case"list-tags":a.listTags&&a.listTags({});break;case"list-single":a.listSingle&&a.listSingle({changeBtn:".change > a",unit:224,gap:15});break;case"list-star":a.listStar&&a.listStar({changeBtn:".change > a",unit:90,gap:30});break;case"list-upgc":a.listUpgc&&a.listUpgc({changeBtn:".change > a",unit:224,gap:15});break;case"list-single-circle":a.listSingle&&a.listSingle({type:"circle",changeBtn:".change > a",unit:90,gap:30});break;case"list-portrait":a.listSingle&&a.listSingle({type:"portrait",changeBtn:".change > a",unit:224,gap:15});break;case"list-double":a.listDouble&&a.listDouble({box:".m-list-double",changeBtn:".change > a",unit:224,gap:15});break;case"list-top":a.listTop&&a.listTop({unit:224,gap:15});break;case"list-double-img":a.listDoubleImg&&a.listDoubleImg({changeBtn:".change > a",unit:224,gap:15});break;case"like-landscape":a.likeLandscape&&a.likeLandscape({changeBtn:".change > a",unit:224,gap:15});break;case"list-text":a.listText&&a.listText({});break;case"theatre-carousel":a.theatreCarousel&&a.theatreCarousel({wrapper:".theatre-carousel-wrapper",unit:220,gap:20})}a.parents(".wp-main").addClass("lazy-loaded")}})}.call(this)})</script>
+  </body>
+</html>
